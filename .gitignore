@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Raw and external data
+data/raw/*
+!data/raw/.gitkeep
+
+data/external/*
+!data/external/.gitkeep
+
+# IDE / operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
