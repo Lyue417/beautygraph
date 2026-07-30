@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: beautygraph-db
+    environment:
+      POSTGRES_USER: beautygraph
+      POSTGRES_PASSWORD: dev_local_pw
+      POSTGRES_DB: beautygraph
+    ports:
+      - "5432:5432"
+    volumes:
+      - beautygraph_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  beautygraph_pgdata:
