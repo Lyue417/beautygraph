@@ -65,3 +65,10 @@ def test_numeric_comma_is_preserved():
         "1,2-hexanediol",
         "case_whitespace",
     )
+
+
+def test_disodium_edta_broken_hyphen_alias():
+    assert normalize_ingredient("Diso- Dium Edta") == (
+        "disodium edta",
+        "alias",
+    )

@@ -16,6 +16,7 @@ ALIASES = {
     "fragrance (parfum)": "fragrance",
     "parfum / fragrance": "fragrance",
     "parfum/fragrance": "fragrance",
+    "diso- dium edta": "disodium edta",
 }
 
 
