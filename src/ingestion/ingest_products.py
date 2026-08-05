@@ -32,7 +32,7 @@ products = pd.read_excel(
 )
 
 with ENGINE.begin() as connection:
-    connection.execute(text("TRUNCATE TABLE raw.products_raw"))
+    connection.execute(text("DELETE FROM raw.products_raw"))
 
     products.to_sql(
         "products_raw",
