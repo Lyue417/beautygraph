@@ -1,7 +1,7 @@
 import re
 
 
-NORMALIZER_VERSION = "v2"
+NORMALIZER_VERSION = "v3"
 
 ALIASES = {
     "water": "water",
@@ -19,7 +19,34 @@ ALIASES = {
     "fragrance/parfum": "fragrance",
     "diso- dium edta": "disodium edta",
     "homarine hci": "homarine hcl",
-    "hordeum vulgare (barley) extract\\extrait d'orge": "hordeum vulgare (barley) extract",
+    "hordeum vulgare (barley) extract\\extrait d'orge":
+    "hordeum vulgare (barley) extract",
+    "butyrospermum parkii (shea) butter":
+    "butyrospermum parkii butter",
+    "butyrospermum parkii butter / shea butter":
+    "butyrospermum parkii butter",
+    "cera microcristallina / microcrystalline wax":
+    "microcrystalline wax",
+    "microcrystalline wax\\cera microcristallina\\cire microcristalline":
+    "microcrystalline wax",
+    "helianthus annuus seed oil/sunflower seed oil":
+    "helianthus annuus seed oil",
+    "helianthus annuus (sunflower) seed oil":
+    "helianthus annuus seed oil",
+    "mineral oil\\paraffinum liquidum\\huile minerale":
+    "mineral oil",
+    "glycine soja oil/soybean oil":
+    "glycine soja oil",
+    "chamomilla recutita flower extract/matricaria flower extract":
+    "chamomilla recutita flower extract",
+    "medicago sativa extract/alfalfa extract":
+    "medicago sativa extract",
+    "spinacia oleracea/spinach leaf extract":
+    "spinacia oleracea leaf extract",
+    "zea mays starch / corn starch":
+    "zea mays starch",
+    "eucalyptus globulus (eucalyptus) leaf oil":
+    "eucalyptus globulus leaf oil",
 }
 
 

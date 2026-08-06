@@ -86,3 +86,39 @@ def test_second_batch_aliases():
             expected_name,
             "alias",
         )
+
+def test_common_name_and_multilingual_aliases():
+    cases = {
+        "Butyrospermum Parkii (Shea) Butter":
+            "butyrospermum parkii butter",
+        "BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER":
+            "butyrospermum parkii butter",
+        "CERA MICROCRISTALLINA / MICROCRYSTALLINE WAX":
+            "microcrystalline wax",
+        "Microcrystalline Wax\\Cera Microcristallina\\Cire Microcristalline":
+            "microcrystalline wax",
+        "HELIANTHUS ANNUUS SEED OIL/SUNFLOWER SEED OIL":
+            "helianthus annuus seed oil",
+        "Helianthus Annuus (Sunflower) Seed Oil":
+            "helianthus annuus seed oil",
+        "Mineral Oil\\Paraffinum Liquidum\\Huile Minerale":
+            "mineral oil",
+        "Glycine Soja Oil/Soybean Oil":
+            "glycine soja oil",
+        "Chamomilla Recutita Flower Extract/Matricaria Flower Extract":
+            "chamomilla recutita flower extract",
+        "Medicago Sativa Extract/Alfalfa Extract":
+            "medicago sativa extract",
+        "Spinacia Oleracea/Spinach Leaf Extract":
+            "spinacia oleracea leaf extract",
+        "Zea Mays Starch / Corn Starch":
+            "zea mays starch",
+        "Eucalyptus Globulus (Eucalyptus) Leaf Oil":
+            "eucalyptus globulus leaf oil",
+    }
+
+    for raw_token, expected_name in cases.items():
+        assert normalize_ingredient(raw_token) == (
+            expected_name,
+            "alias",
+        )
