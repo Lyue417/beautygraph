@@ -72,3 +72,17 @@ def test_disodium_edta_broken_hyphen_alias():
         "disodium edta",
         "alias",
     )
+
+def test_second_batch_aliases():
+    cases = {
+        "Homarine HCI": "homarine hcl",
+        "Hordeum Vulgare (Barley) Extract\\Extrait D'Orge":
+            "hordeum vulgare (barley) extract",
+        "Fragrance/Parfum": "fragrance",
+    }
+
+    for raw_token, expected_name in cases.items():
+        assert normalize_ingredient(raw_token) == (
+            expected_name,
+            "alias",
+        )

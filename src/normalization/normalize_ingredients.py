@@ -1,7 +1,7 @@
 import re
 
 
-NORMALIZER_VERSION = "v1"
+NORMALIZER_VERSION = "v2"
 
 ALIASES = {
     "water": "water",
@@ -16,7 +16,10 @@ ALIASES = {
     "fragrance (parfum)": "fragrance",
     "parfum / fragrance": "fragrance",
     "parfum/fragrance": "fragrance",
+    "fragrance/parfum": "fragrance",
     "diso- dium edta": "disodium edta",
+    "homarine hci": "homarine hcl",
+    "hordeum vulgare (barley) extract\\extrait d'orge": "hordeum vulgare (barley) extract",
 }
 
 
