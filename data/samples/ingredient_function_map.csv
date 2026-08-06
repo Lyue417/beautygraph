@@ -1,0 +1,166 @@
+normalized_name,function_name,source,confidence,notes
+glycerin,humectant,https://cosmileeurope.eu/inci/,high,Direct cosmetic functions support humectant and viscosity-controlling roles.
+glycerin,texture_viscosity,https://cosmileeurope.eu/inci/,high,Direct cosmetic functions support humectant and viscosity-controlling roles.
+dimethicone,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+squalane,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+caprylic/capric triglyceride,emollient,https://cosmileeurope.eu/inci/,medium,Project-level mapping based on its established emollient role; official labels may use broader skin-conditioning terminology.
+sodium hyaluronate,humectant,https://pubmed.ncbi.nlm.nih.gov/36200921/,high,Hyaluronic-acid salt is mapped to humectant based on its hygroscopic hydration role.
+cetearyl alcohol,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+cetearyl alcohol,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+phenoxyethanol,preservative,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+butylene glycol,humectant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+butylene glycol,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+tocopherol,antioxidant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+ceramide np,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Ceramide-specific evidence supports a role in stratum-corneum barrier structure and repair.
+niacinamide,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/38722460/,medium,Ingredient-specific review supports barrier protection and treatment-oriented cosmetic benefits.
+niacinamide,active_treatment,https://pubmed.ncbi.nlm.nih.gov/38722460/,medium,Ingredient-specific review supports barrier protection and treatment-oriented cosmetic benefits.
+caprylyl glycol,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+carbomer,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+butyrospermum parkii butter,emollient,https://cosmileeurope.eu/inci/,medium,Mapped as a lipid-rich emollient with surface barrier and viscosity contributions; occlusive classification is project-level.
+butyrospermum parkii butter,occlusive,https://cosmileeurope.eu/inci/,medium,Mapped as a lipid-rich emollient with surface barrier and viscosity contributions; occlusive classification is project-level.
+butyrospermum parkii butter,texture_viscosity,https://cosmileeurope.eu/inci/,medium,Mapped as a lipid-rich emollient with surface barrier and viscosity contributions; occlusive classification is project-level.
+cetearyl olivate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+dicaprylyl carbonate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+panthenol,humectant,https://pubmed.ncbi.nlm.nih.gov/28503966/,medium,"Topical dexpanthenol evidence supports moisturization, barrier enhancement, and irritation reduction."
+panthenol,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/28503966/,medium,"Topical dexpanthenol evidence supports moisturization, barrier enhancement, and irritation reduction."
+panthenol,soothing,https://pubmed.ncbi.nlm.nih.gov/28503966/,medium,"Topical dexpanthenol evidence supports moisturization, barrier enhancement, and irritation reduction."
+cetyl alcohol,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+cetyl alcohol,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+glyceryl stearate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+glyceryl stearate,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sorbitan olivate,emollient,https://cosmileeurope.eu/inci/,medium,Mapped to emollient as a project-level interpretation of its skin-conditioning lipid role; emulsifying function is not represented.
+propanediol,humectant,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+"1,2-hexanediol",humectant,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+betaine,humectant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+xanthan gum,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sodium pca,humectant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+ceramide ap,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Ceramide-specific evidence supports a role in stratum-corneum barrier structure and repair.
+ceramide eop,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Ceramide-specific evidence supports a role in stratum-corneum barrier structure and repair.
+isohexadecane,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sodium lactate,humectant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+arginine,humectant,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+stearyl alcohol,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+stearyl alcohol,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sodium benzoate,preservative,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+trehalose,humectant,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+cholesterol,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Cholesterol is one of the major intercellular barrier lipids used with ceramides and fatty acids.
+glycine,humectant,https://cosmileeurope.eu/inci/,medium,Amino-acid/NMF role supports a conservative humectant mapping.
+sodium polyacrylate,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+cyclopentasiloxane,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+pentaerythrityl tetraethylhexanoate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+polyglyceryl-3 methylglucose distearate,emollient,https://cosmileeurope.eu/inci/,medium,Project-level emollient mapping retained; its emulsifying function is outside the current taxonomy.
+chlorphenesin,preservative,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+fragrance,fragrance_related,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+hydrogenated lecithin,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+hydroxyacetophenone,antioxidant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+palmitic acid,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+palmitic acid,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sodium chloride,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+urea,humectant,https://cosmileeurope.eu/inci/,high,Mapped only to humectant because treatment/keratolytic behavior depends strongly on concentration.
+alanine,humectant,https://cosmileeurope.eu/inci/,medium,Amino-acid/NMF role supports a conservative humectant mapping.
+camellia sinensis leaf extract,antioxidant,https://pubmed.ncbi.nlm.nih.gov/11351267/,medium,Green-tea polyphenol evidence supports antioxidant and anti-inflammatory/soothing roles.
+camellia sinensis leaf extract,soothing,https://pubmed.ncbi.nlm.nih.gov/11351267/,medium,Green-tea polyphenol evidence supports antioxidant and anti-inflammatory/soothing roles.
+serine,humectant,https://cosmileeurope.eu/inci/,medium,Amino-acid/NMF role supports a conservative humectant mapping.
+stearic acid,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+stearic acid,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+threonine,humectant,https://cosmileeurope.eu/inci/,medium,Amino-acid/NMF role supports a conservative humectant mapping.
+behenyl alcohol,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+behenyl alcohol,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+cetyl palmitate,emollient,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+cetyl palmitate,texture_viscosity,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+petrolatum,emollient,https://pubmed.ncbi.nlm.nih.gov/1564142/,high,Petrolatum is a classic emollient/occlusive material that reduces water loss and supports barrier recovery.
+petrolatum,occlusive,https://pubmed.ncbi.nlm.nih.gov/1564142/,high,Petrolatum is a classic emollient/occlusive material that reduces water loss and supports barrier recovery.
+simmondsia chinensis (jojoba) seed oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+acrylates/c10-30 alkyl acrylate crosspolymer,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+hexylene glycol,humectant,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+limonene,fragrance_related,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+linalool,fragrance_related,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+linoleic acid,emollient,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Mapped as a fatty emollient and essential barrier-lipid precursor; barrier classification is project-level.
+linoleic acid,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Mapped as a fatty emollient and essential barrier-lipid precursor; barrier classification is project-level.
+palmitoyl tetrapeptide-7,active_treatment,https://pubmed.ncbi.nlm.nih.gov/19570099/,medium,Peptide-specific cosmetic literature supports treatment-oriented signaling or rejuvenation use; efficacy is formulation-dependent.
+palmitoyl tripeptide-1,active_treatment,https://pubmed.ncbi.nlm.nih.gov/19570099/,medium,Peptide-specific cosmetic literature supports treatment-oriented signaling or rejuvenation use; efficacy is formulation-dependent.
+pca,humectant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+proline,humectant,https://cosmileeurope.eu/inci/,medium,Amino-acid/NMF role supports a conservative humectant mapping.
+ceramide as,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Ceramide-specific evidence supports a role in stratum-corneum barrier structure and repair.
+ceramide ns,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Ceramide-specific evidence supports a role in stratum-corneum barrier structure and repair.
+palmitoyl tripeptide-5,active_treatment,https://pubmed.ncbi.nlm.nih.gov/19570099/,medium,Peptide-specific cosmetic literature supports treatment-oriented signaling or rejuvenation use; efficacy is formulation-dependent.
+phytosphingosine,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Sphingoid-base relationship to ceramide barrier lipids supports a conservative barrier mapping.
+coconut alkanes,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+jojoba esters,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+myristyl myristate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+propylene glycol,humectant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+adenosine,active_treatment,https://cosmileeurope.eu/inci/,medium,Mapped as a treatment-oriented cosmetic active rather than a structural base ingredient.
+allantoin,soothing,https://cosmileeurope.eu/inci/,medium,Skin-protecting and irritation-relief use supports a conservative soothing mapping.
+ammonium acryloyldimethyltaurate/vp copolymer,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+glucose,humectant,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+glyceryl caprylate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+lecithin,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+oleic acid,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+potassium sorbate,preservative,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sorbitan isostearate,emollient,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+tocopheryl acetate,antioxidant,https://cosmileeurope.eu/inci/,medium,Mapped conservatively to antioxidant; activity differs from free tocopherol and is formulation-dependent.
+aspartic acid,humectant,https://cosmileeurope.eu/inci/,medium,Amino-acid/NMF role supports a conservative humectant mapping.
+ceramide ng,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Ceramide-specific evidence supports a role in stratum-corneum barrier structure and repair.
+ethylhexyl palmitate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+mineral oil,emollient,https://pubmed.ncbi.nlm.nih.gov/1564142/,high,Mineral oil is mapped as a classic emollient and occlusive hydrocarbon material.
+mineral oil,occlusive,https://pubmed.ncbi.nlm.nih.gov/1564142/,high,Mineral oil is mapped as a classic emollient and occlusive hydrocarbon material.
+ethylhexyl stearate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+hydroxyethyl urea,humectant,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+caprylic/ capric/myristic/stearic triglyceride,emollient,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+isodecyl neopentanoate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+isopropyl myristate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+limnanthes alba (meadowfoam) seed oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+avena sativa (oat) kernel flour,humectant,https://pubmed.ncbi.nlm.nih.gov/17373175/,medium,"Colloidal-oat literature supports water holding, barrier protection, and soothing/anti-inflammatory effects."
+avena sativa (oat) kernel flour,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/17373175/,medium,"Colloidal-oat literature supports water holding, barrier protection, and soothing/anti-inflammatory effects."
+avena sativa (oat) kernel flour,soothing,https://pubmed.ncbi.nlm.nih.gov/17373175/,medium,"Colloidal-oat literature supports water holding, barrier protection, and soothing/anti-inflammatory effects."
+bis-peg-18 methyl ether dimethyl silane,humectant,https://cosmileeurope.eu/inci/,medium,Moisturising function supports a conservative humectant mapping.
+cocoglycerides,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+ethylhexyl olivate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+polyglyceryl-2 stearate,emollient,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+synthetic wax,texture_viscosity,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+synthetic wax,occlusive,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+zea mays starch,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+microcrystalline wax,texture_viscosity,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+microcrystalline wax,occlusive,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+hydrolyzed hyaluronic acid,humectant,https://pubmed.ncbi.nlm.nih.gov/36200921/,high,Hyaluronic-acid derivative is mapped to humectant based on hygroscopic hydration behavior.
+synthetic beeswax,texture_viscosity,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+synthetic beeswax,occlusive,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+cyclohexasiloxane,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+diisostearyl malate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+meadowfoam estolide,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+methyl palmitate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+rosa mosqueta (rose) hip oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+xylitylglucoside,humectant,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+ammonium polyacryloyldimethyl taurate,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+beeswax,texture_viscosity,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+beeswax,occlusive,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+hippophae rhamnoides (sea buckthorn) seed oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+lanolin alcohol,emollient,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+lanolin alcohol,occlusive,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+polyacrylamide,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sclerocarya birrea seed oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+vegetable oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+citrus aurantifolia (lime) peel extract,fragrance_related,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+helianthus annuus seed oil,emollient,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Sunflower oil is mapped as an emollient; linoleic-rich lipid composition supports a conservative barrier role.
+helianthus annuus seed oil,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Sunflower oil is mapped as an emollient; linoleic-rich lipid composition supports a conservative barrier role.
+hippophae rhamnoides (sea buckthorn) fruit oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+hyaluronic acid,humectant,https://pubmed.ncbi.nlm.nih.gov/36200921/,high,Topical hyaluronic acid is mapped to humectant based on hygroscopic hydration behavior.
+polygonum cuspidatum root extract,antioxidant,https://cosmileeurope.eu/inci/,medium,Mapped conservatively to antioxidant based on ingredient-specific cosmetic function evidence.
+solanum lycopersicum (tomato) seed oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+aloe barbadensis leaf juice powder,humectant,https://cosmileeurope.eu/inci/,medium,Mapped conservatively to hydration and soothing; efficacy depends on extract quality and formulation.
+aloe barbadensis leaf juice powder,soothing,https://cosmileeurope.eu/inci/,medium,Mapped conservatively to hydration and soothing; efficacy depends on extract quality and formulation.
+cetyl esters,emollient,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+cetyl esters,texture_viscosity,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+dipentaerythrityl hexahydroxystearate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sesamum indicum (sesame) seed oil,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sodium acrylates copolymer,texture_viscosity,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+acetyl tetrapeptide-2,active_treatment,https://pubmed.ncbi.nlm.nih.gov/19570099/,medium,Peptide-specific cosmetic literature supports treatment-oriented signaling or rejuvenation use; efficacy is formulation-dependent.
+bis-diglyceryl polyacyladipate-2,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+c12-15 alkyl benzoate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+c13-14 isoparaffin,emollient,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+ceramide eos,barrier_supporting,https://pubmed.ncbi.nlm.nih.gov/39113291/,medium,Ceramide-specific evidence supports a role in stratum-corneum barrier structure and repair.
+cucumis sativus (cucumber) fruit extract,soothing,https://cosmileeurope.eu/inci/,medium,Function mapping is supported by the cited cosmetic ingredient function source.
+eucalyptus globulus leaf oil,fragrance_related,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+octyldodecyl neopentanoate,emollient,https://cosmileeurope.eu/inci/,high,Function mapping is supported by the cited cosmetic ingredient function source.
+sh-oligopeptide-1,active_treatment,https://pubmed.ncbi.nlm.nih.gov/19570099/,medium,Peptide-specific cosmetic literature supports treatment-oriented signaling or rejuvenation use; efficacy is formulation-dependent.
