@@ -122,3 +122,68 @@ def test_common_name_and_multilingual_aliases():
             expected_name,
             "alias",
         )
+
+
+def test_additional_water_aliases():
+    variants = [
+        "water/aqua",
+        "Water/Eau",
+        "WATER(AQUA/EAU)",
+        "Water (Aqua) (Eau)",
+        "Water (Aqua / Eau)",
+        "AQUA (WATER, EAU)",
+        "Purified Water",
+    ]
+
+    for variant in variants:
+        assert normalize_ingredient(variant) == (
+            "water",
+            "alias",
+        )
+
+
+def test_additional_fragrance_alias():
+    assert normalize_ingredient("PARFUM (FRAGRANCE)") == (
+        "fragrance",
+        "alias",
+    )
+
+
+def test_confirmed_spelling_aliases():
+    assert normalize_ingredient("Cetearylalcohol") == (
+        "cetearyl alcohol",
+        "alias",
+    )
+
+    assert normalize_ingredient("Xanthamgum") == (
+        "xanthan gum",
+        "alias",
+    )
+
+
+def test_soybean_oil_alias():
+    assert normalize_ingredient("GLYCINE SOJA (SOYBEAN) OIL") == (
+        "glycine soja oil",
+        "alias",
+    )
+
+
+def test_repeated_rosemary_extract_alias():
+    raw = (
+        "ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT "
+        "(ROSMARINUS OFFICINALIS LEAF EXTRACT)"
+    )
+
+    assert normalize_ingredient(raw) == (
+        "rosmarinus officinalis (rosemary) leaf extract",
+        "alias",
+    )
+
+
+def test_accented_mineral_oil_alias():
+    assert normalize_ingredient(
+        "Mineral Oil\\Paraffinum Liquidum\\Huile Minérale"
+    ) == (
+        "mineral oil",
+        "alias",
+    )

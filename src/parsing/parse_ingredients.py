@@ -6,22 +6,50 @@ from sqlalchemy import text
 from src.db import ENGINE
 
 
-PARSER_VERSION = "v1"
+PARSER_VERSION = "v2"
 
 
 def parse_ingredient_list(raw_text: str) -> list[str]:
-    text = raw_text.replace("\r", "•").replace("\n", "•")
+    text = raw_text.replace("\r", "\n")
+
+    # Protect commas inside parentheses, e.g. AQUA (WATER, EAU).
+    text = re.sub(
+        r"\([^()]*\)",
+        lambda match: match.group(0).replace(",", "<PROTECTED_COMMA>"),
+        text,
+    )
+
+    # Protect numeric commas, e.g. 1,2-Hexanediol.
+    text = re.sub(
+        r"(?<=\d),(?=\d)",
+        "<PROTECTED_COMMA>",
+        text,
+    )
+
+    # If another explicit delimiter exists, treat newlines as formatting wraps.
+    has_explicit_separator = (
+        "•" in text
+        or "･" in text
+        or re.search(r"\s+-\s+", text) is not None
+        or "," in text
+        or ". " in text
+    )
+
+    text = text.replace(
+        "\n",
+        " " if has_explicit_separator else "•",
+    )
     text = re.sub(r"\s+", " ", text)
 
-    # Protect commas inside names such as 1,2-Hexanediol.
-    text = re.sub(r"(?<=\d),(?=\d)", "<DECIMAL_COMMA>", text)
-
-    tokens = re.split(r"[•,]+", text)
+    tokens = re.split(
+        r"[•･,]+|\s+-\s+|\.\s+",
+        text,
+    )
 
     return [
-        token.replace("<DECIMAL_COMMA>", ",").strip().rstrip(".")
+        token.replace("<PROTECTED_COMMA>", ",").strip().rstrip(".")
         for token in tokens
-        if token.replace("<DECIMAL_COMMA>", ",").strip().rstrip(".")
+        if token.replace("<PROTECTED_COMMA>", ",").strip().rstrip(".")
     ]
 
 

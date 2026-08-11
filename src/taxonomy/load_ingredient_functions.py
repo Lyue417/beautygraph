@@ -5,7 +5,7 @@ from src.db import ENGINE
 
 
 MAPPING_PATH = "data/samples/ingredient_function_map.csv"
-MAPPING_VERSION = "v1"
+MAPPING_VERSION = "v2"
 
 
 def main() -> None:

@@ -1,7 +1,7 @@
 import re
 
 
-NORMALIZER_VERSION = "v3"
+NORMALIZER_VERSION = "v5"
 
 ALIASES = {
     "water": "water",
@@ -13,10 +13,19 @@ ALIASES = {
     "aqua/water/eau": "water",
     "water/aqua/eau": "water",
     "water\\aqua\\eau": "water",
+    "water/aqua": "water",
+    "water/eau": "water",
+    "water(aqua/eau)": "water",
+    "water (aqua) (eau)": "water",
+    "water (aqua / eau)": "water",
+    "aqua (water, eau)": "water",
+    "purified water": "water",
     "fragrance (parfum)": "fragrance",
     "parfum / fragrance": "fragrance",
     "parfum/fragrance": "fragrance",
+    "parfum (fragrance)": "fragrance",
     "fragrance/parfum": "fragrance",
+    "cetearylalcohol": "cetearyl alcohol",
     "diso- dium edta": "disodium edta",
     "homarine hci": "homarine hcl",
     "hordeum vulgare (barley) extract\\extrait d'orge":
@@ -33,10 +42,11 @@ ALIASES = {
     "helianthus annuus seed oil",
     "helianthus annuus (sunflower) seed oil":
     "helianthus annuus seed oil",
-    "mineral oil\\paraffinum liquidum\\huile minerale":
-    "mineral oil",
+    "mineral oil\\paraffinum liquidum\\huile minerale": "mineral oil",
+    "mineral oil\\paraffinum liquidum\\huile minérale": "mineral oil",
     "glycine soja oil/soybean oil":
     "glycine soja oil",
+    "glycine soja (soybean) oil": "glycine soja oil",
     "chamomilla recutita flower extract/matricaria flower extract":
     "chamomilla recutita flower extract",
     "medicago sativa extract/alfalfa extract":
@@ -47,6 +57,10 @@ ALIASES = {
     "zea mays starch",
     "eucalyptus globulus (eucalyptus) leaf oil":
     "eucalyptus globulus leaf oil",
+    "xanthamgum": "xanthan gum",
+    "rosmarinus officinalis (rosemary) leaf extract (rosmarinus officinalis leaf extract)":
+    "rosmarinus officinalis (rosemary) leaf extract",
+
 }
 
 

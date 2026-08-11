@@ -75,3 +75,37 @@ def test_extra_spaces_and_final_period_are_removed():
         "Glycerin",
         "Phenoxyethanol",
     ]
+
+
+def test_middle_dot_separated_list():
+    raw = "WATER(AQUA/EAU)･DIMETHICONE･GLYCERIN"
+
+    assert parse_ingredient_list(raw) == [
+        "WATER(AQUA/EAU)",
+        "DIMETHICONE",
+        "GLYCERIN",
+    ]
+
+
+def test_dash_separated_list_preserves_parenthetical_comma_and_wrapped_line():
+    raw = (
+        "AQUA (WATER, EAU) - SQUALANE - 1,2-HEXANEDIOL - "
+        "ACRYLATES/C10-30 ALKYL\nACRYLATE CROSSPOLYMER"
+    )
+
+    assert parse_ingredient_list(raw) == [
+        "AQUA (WATER, EAU)",
+        "SQUALANE",
+        "1,2-HEXANEDIOL",
+        "ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER",
+    ]
+
+
+def test_period_separated_list():
+    raw = "AQUA (WATER). GLYCERIN. CETEARYL ALCOHOL"
+
+    assert parse_ingredient_list(raw) == [
+        "AQUA (WATER)",
+        "GLYCERIN",
+        "CETEARYL ALCOHOL",
+    ]
