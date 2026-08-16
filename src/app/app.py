@@ -11,7 +11,10 @@ if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
 
-from src.similarity.engine import load_similarity_inputs
+from src.similarity.engine import (
+    get_top_similar_products,
+    load_similarity_inputs,
+)
 from src.similarity.comparison import build_product_comparison
 
 
@@ -1042,6 +1045,192 @@ st.html(
         line-height: 1.6;
     }
 
+    .bg-query-card {
+        position: relative;
+        overflow: hidden;
+
+        padding: 1.7rem 1.9rem;
+        margin: 1.3rem 0 2.6rem;
+
+        background:
+            linear-gradient(
+                135deg,
+                rgba(216, 224, 210, 0.67),
+                rgba(250, 248, 242, 0.84)
+            );
+
+        border: 1px solid var(--line);
+        border-radius: 23px;
+    }
+
+    .bg-query-brand {
+        margin-bottom: 0.35rem;
+
+        color: var(--sage-600);
+
+        font-size: 0.67rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
+    .bg-query-name {
+        font-family: "Cormorant Garamond", Georgia, serif;
+
+        color: var(--ink);
+
+        font-size: 2.2rem;
+        line-height: 1.05;
+    }
+
+    .bg-results {
+        display: grid;
+        gap: 0.85rem;
+
+        margin-top: 1rem;
+    }
+
+    .bg-similar-card {
+        display: grid;
+        grid-template-columns: 55px 1fr 150px;
+        gap: 1.3rem;
+        align-items: start;
+
+        padding: 1.55rem 1.65rem;
+
+        background: rgba(255, 255, 255, 0.38);
+
+        border: 1px solid var(--line);
+        border-radius: 22px;
+    }
+
+    .bg-rank {
+        padding-top: 0.15rem;
+
+        font-family: "Cormorant Garamond", Georgia, serif;
+
+        color: var(--sage-400);
+
+        font-size: 1.85rem;
+        line-height: 1;
+    }
+
+    .bg-result-brand {
+        margin-bottom: 0.25rem;
+
+        color: var(--sage-600);
+
+        font-size: 0.64rem;
+        font-weight: 600;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+    }
+
+    .bg-result-name {
+        margin-bottom: 0.65rem;
+
+        font-family: "Cormorant Garamond", Georgia, serif;
+
+        color: var(--ink);
+
+        font-size: 1.65rem;
+        line-height: 1.05;
+    }
+
+    .bg-result-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.42rem;
+
+        margin-bottom: 0.85rem;
+    }
+
+    .bg-result-pill {
+        display: inline-flex;
+
+        padding: 0.33rem 0.58rem;
+
+        background: var(--sage-050);
+
+        border: 1px solid rgba(79, 98, 81, 0.08);
+        border-radius: 999px;
+
+        color: var(--sage-700);
+
+        font-size: 0.63rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+
+    .bg-result-reason {
+        max-width: 800px;
+
+        color: var(--ink);
+
+        font-size: 0.84rem;
+        line-height: 1.7;
+    }
+
+    .bg-result-reason-line + .bg-result-reason-line {
+        margin-top: 0.75rem;
+    }
+
+    .bg-result-score {
+        text-align: right;
+    }
+
+    .bg-result-score-label {
+        margin-bottom: 0.25rem;
+
+        color: var(--muted);
+
+        font-size: 0.61rem;
+        line-height: 1.3;
+    }
+
+    .bg-result-score-value {
+        font-family: "Cormorant Garamond", Georgia, serif;
+
+        color: var(--sage-700);
+
+        font-size: 2.3rem;
+        line-height: 1;
+    }
+
+    .bg-mini-track {
+        height: 5px;
+
+        margin-top: 0.65rem;
+        overflow: hidden;
+
+        background: var(--sage-100);
+        border-radius: 999px;
+    }
+
+    .bg-mini-fill {
+        height: 100%;
+
+        background:
+            linear-gradient(
+                90deg,
+                var(--sage-300),
+                var(--sage-500)
+            );
+
+        border-radius: 999px;
+    }
+
+    .bg-component-line {
+        margin-top: 0.55rem;
+
+        color: var(--muted);
+
+        font-size: 0.62rem;
+        line-height: 1.55;
+    }
+
+
     .bg-placeholder {
         min-height: 360px;
         display: flex;
@@ -1846,32 +2035,228 @@ def render_compare():
 # Temporary pages
 # ---------------------------------------------------------
 
-def render_similar_placeholder():
+def render_similar():
     render_section_header(
         "Product relationships",
         "Similar Products",
         (
-            "Top-five formula relationships will be connected "
-            "in the next prototype step."
+            "Select a moisturizer to explore its five closest "
+            "formula relationships in the current BeautyGraph dataset."
         ),
     )
 
-    st.html(
-        """
-        <div class="bg-placeholder">
-            <div>
-                <div class="bg-section-title">
-                    Similar Products is next.
-                </div>
+    product_ids = sorted(
+        products,
+        key=lambda product_id: (
+            products[product_id]["brand"].lower(),
+            products[product_id]["product_name"].lower(),
+        ),
+    )
 
-                <div class="bg-section-description">
-                    This page will use BeautyGraph's existing
-                    top-k similarity engine.
-                </div>
+    selected_id = st.selectbox(
+        "Choose a moisturizer",
+        options=product_ids,
+        format_func=lambda product_id: product_label(
+            products[product_id]
+        ),
+        key="similar_product",
+    )
+
+    selected_product = products[selected_id]
+
+    st.html(
+        f"""
+        <div class="bg-query-card">
+            <div class="bg-query-brand">
+                {escape(selected_product["brand"])}
+            </div>
+
+            <div class="bg-query-name">
+                {escape(selected_product["product_name"])}
+            </div>
+
+            <div class="bg-result-meta">
+                <span class="bg-result-pill">
+                    {escape(format_product_form(selected_product))}
+                </span>
+
+                <span class="bg-result-pill">
+                    {len(selected_product["positions"])}
+                    ingredients
+                </span>
             </div>
         </div>
         """
     )
+
+    render_section_header(
+        "Top relationships",
+        "Five closest formulas",
+        (
+            "Results are ranked by position-weighted ingredient "
+            "similarity. Ingredient overlap and mapped function "
+            "similarity are shown as supporting signals. "
+            "Results are relative to the current 50-product prototype "
+            "dataset and do not imply equivalent clinical performance "
+            "or exact formulation."
+        ),
+    )
+
+    results = get_top_similar_products(
+        products,
+        selected_id,
+        top_k=5,
+    )
+
+    cards_html = ""
+
+    for rank, result in enumerate(results, start=1):
+        comparison = build_product_comparison(
+            products,
+            selected_id,
+            result["product_id"],
+        )
+
+        shared_high = comparison[
+            "ingredients"
+        ]["shared_high_position"]
+
+        shared_functions = comparison[
+            "functions"
+        ]["shared"][:3]
+
+        if shared_high:
+            ingredient_text = ", ".join(
+                row["name"]
+                for row in shared_high[:4]
+            )
+
+            ingredient_reason = (
+                "Shared high-position ingredients: "
+                + ingredient_text
+                + "."
+            )
+
+        else:
+            shared_count = len(
+                comparison["ingredients"]["shared"]
+            )
+
+            ingredient_reason = (
+                f"{shared_count} normalized ingredients are "
+                "shared, but none appear within the first 10 "
+                "positions of both formulas."
+            )
+
+        if shared_functions:
+            function_text = ", ".join(
+                FUNCTION_LABELS.get(
+                    row["function_name"],
+                    row["function_name"]
+                    .replace("_", " ")
+                    .title(),
+                )
+                for row in shared_functions
+            )
+
+            function_reason = (
+                " Strongest shared mapped function groups: "
+                + function_text
+                + "."
+            )
+
+        else:
+            function_reason = (
+                " No shared mapped function groups were found."
+            )
+
+        ingredient_reason_html = escape(
+            ingredient_reason
+        )
+
+        function_reason_html = escape(
+            function_reason.strip()
+        )
+
+        formula_score = result["formula_similarity"]
+        ingredient_score = result["ingredient_similarity"]
+        function_score = result["function_similarity"]
+
+        cards_html += f"""
+            <div class="bg-similar-card">
+
+                <div class="bg-rank">
+                    {rank:02d}
+                </div>
+
+                <div>
+                    <div class="bg-result-brand">
+                        {escape(result["brand"])}
+                    </div>
+
+                    <div class="bg-result-name">
+                        {escape(result["product_name"])}
+                    </div>
+
+                    <div class="bg-result-meta">
+                        <span class="bg-result-pill">
+                            {escape(
+                                result["product_form"]
+                                .replace("_", " ")
+                                .replace("-", " ")
+                                .title()
+                            )}
+                        </span>
+                    </div>
+
+                    <div class="bg-result-reason">
+                        <div class="bg-result-reason-line">
+                            {ingredient_reason_html}
+                        </div>
+
+                        <div class="bg-result-reason-line">
+                            {function_reason_html}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-result-score">                    <div class="bg-result-score-value">
+                        {formula_score:.0%}
+                    </div>
+
+                    <div class="bg-mini-track">
+                        <div
+                            class="bg-mini-fill"
+                            style="
+                                width:
+                                {min(formula_score * 100, 100):.2f}%;
+                            ">
+                        </div>
+                    </div>
+
+                    <div class="bg-component-line">
+                        Ingredient overlap:
+                        {ingredient_score:.0%}
+                        <br>
+                        Function similarity:
+                        {function_score:.0%}
+                    </div>
+                </div>
+
+            </div>
+        """
+
+    st.html(
+        f"""
+        <div class="bg-results">
+            {cards_html}
+        </div>
+        """
+    )
+
+
+    render_footer()
+
 
 
 def render_about():
@@ -1916,7 +2301,7 @@ elif page == "compare":
     render_compare()
 
 elif page == "similar":
-    render_similar_placeholder()
+    render_similar()
 
 else:
     render_about()
