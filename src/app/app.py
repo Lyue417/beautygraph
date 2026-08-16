@@ -1,3 +1,4 @@
+import base64
 from html import escape
 from pathlib import Path
 import sys
@@ -56,6 +57,49 @@ def load_products():
 
 def product_label(product: dict) -> str:
     return f"{product['brand']} — {product['product_name']}"
+
+
+def image_data_uri(path: Path) -> str:
+    data = base64.b64encode(
+        path.read_bytes()
+    ).decode("ascii")
+
+    return f"data:image/png;base64,{data}"
+
+
+def product_form_image(product_form: str):
+    normalized = (
+        product_form
+        .lower()
+        .strip()
+        .replace("-", "_")
+        .replace(" ", "_")
+    )
+
+    mapping = {
+        "cream": "cream.png",
+        "rich_cream": "cream.png",
+        "lotion": "lotion.png",
+        "gel": "gel_cream.png",
+        "gel_cream": "gel_cream.png",
+        "water_cream": "gel_cream.png",
+        "balm": "balm.png",
+        "ointment": "balm.png",
+        "fluid": "fluid.png",
+        "milk": "milk.png",
+    }
+
+    filename = mapping.get(normalized)
+
+    if filename is None:
+        return None
+
+    asset = ASSET_DIR / "product_forms" / filename
+
+    if not asset.exists():
+        return None
+
+    return image_data_uri(asset)
 
 
 products = load_products()
@@ -323,6 +367,68 @@ st.html(
 
         transform: rotate(13deg);
     }
+
+    .bg-hero-art {
+        position: absolute;
+        z-index: 3;
+
+        width: min(92%, 470px);
+        right: 0;
+        bottom: -4%;
+
+        object-fit: contain;
+
+        filter:
+            drop-shadow(
+                0 16px 24px
+                rgba(79, 98, 81, 0.08)
+            );
+    }
+
+    .bg-product-layout {
+        position: relative;
+        z-index: 2;
+
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 260px;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .bg-product-copy {
+        position: relative;
+        z-index: 3;
+    }
+
+    .bg-product-art-wrap {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        min-height: 235px;
+    }
+
+    .bg-product-art {
+        position: relative;
+        z-index: 3;
+
+        display: block;
+
+        width: auto;
+        max-width: 230px;
+        max-height: 235px;
+
+        object-fit: contain;
+
+        filter:
+            drop-shadow(
+                0 15px 20px
+                rgba(79, 98, 81, 0.08)
+            );
+    }
+
 
     .bg-wash-three {
         width: 42%;
@@ -662,7 +768,25 @@ st.html(
         }
 
         .bg-wash-area {
-            min-height: 150px;
+            min-height: 190px;
+        }
+
+        .bg-hero-art {
+            width: min(78%, 330px);
+            right: 8%;
+        }
+
+        .bg-product-layout {
+            grid-template-columns: 1fr;
+        }
+
+        .bg-product-art-wrap {
+            min-height: 180px;
+        }
+
+        .bg-product-art {
+            max-width: 180px;
+            max-height: 180px;
         }
 
         .bg-profile-row {
@@ -777,6 +901,37 @@ st.html(
         line-height: 1;
         letter-spacing: -0.035em;
     }
+
+    .bg-compare-card-copy {
+        position: relative;
+        z-index: 3;
+
+        max-width: calc(100% - 135px);
+    }
+
+    .bg-compare-art {
+        position: absolute;
+
+        z-index: 2;
+
+        width: auto;
+        max-width: 125px;
+        max-height: 125px;
+
+        right: 1.1rem;
+        bottom: 0.9rem;
+
+        object-fit: contain;
+
+        opacity: 0.94;
+
+        filter:
+            drop-shadow(
+                0 10px 14px
+                rgba(79, 98, 81, 0.07)
+            );
+    }
+
 
     .bg-compare-form {
         display: inline-flex;
@@ -1250,6 +1405,15 @@ st.html(
             grid-template-columns: 1fr;
         }
 
+        .bg-compare-card-copy {
+            max-width: calc(100% - 95px);
+        }
+
+        .bg-compare-art {
+            max-width: 90px;
+            max-height: 90px;
+        }
+
         .bg-diff-row {
             grid-template-columns: 1fr;
             gap: 0.25rem;
@@ -1361,8 +1525,16 @@ def render_footer():
 # ---------------------------------------------------------
 
 def render_profile():
+    hero_asset = ASSET_DIR / "hero" / "hero_skincare.png"
+
+    hero_image = (
+        image_data_uri(hero_asset)
+        if hero_asset.exists()
+        else ""
+    )
+
     st.html(
-        """
+        f"""
         <section class="bg-hero">
             <div class="bg-hero-copy">
                 <div class="bg-eyebrow">
@@ -1385,6 +1557,12 @@ def render_profile():
                 <div class="bg-wash bg-wash-one"></div>
                 <div class="bg-wash bg-wash-two"></div>
                 <div class="bg-wash bg-wash-three"></div>
+
+                <img
+                    class="bg-hero-art"
+                    src="{hero_image}"
+                    alt="Watercolor skincare containers"
+                >
             </div>
         </section>
         """
@@ -1425,31 +1603,54 @@ def render_profile():
     ingredient_count = len(product["positions"])
     coverage = product["function_mapping_coverage"]
 
+    product_image = product_form_image(
+        product["product_form"]
+    )
+
+    product_art_html = ""
+
+    if product_image:
+        product_art_html = f"""
+            <div class="bg-product-art-wrap">
+                <img
+                    class="bg-product-art"
+                    src="{product_image}"
+                    alt="{product_form} watercolor illustration"
+                >
+            </div>
+        """
+
     st.html(
         f"""
         <section class="bg-product-card">
             <div class="bg-card-wash"></div>
 
-            <div class="bg-product-brand">
-                {brand}
-            </div>
+            <div class="bg-product-layout">
+                <div class="bg-product-copy">
+                    <div class="bg-product-brand">
+                        {brand}
+                    </div>
 
-            <div class="bg-product-name">
-                {product_name}
-            </div>
+                    <div class="bg-product-name">
+                        {product_name}
+                    </div>
 
-            <div class="bg-badges">
-                <span class="bg-badge">
-                    {product_form}
-                </span>
+                    <div class="bg-badges">
+                        <span class="bg-badge">
+                            {product_form}
+                        </span>
 
-                <span class="bg-badge">
-                    {ingredient_count} ingredients
-                </span>
+                        <span class="bg-badge">
+                            {ingredient_count} ingredients
+                        </span>
 
-                <span class="bg-badge">
-                    {coverage:.0%} data coverage
-                </span>
+                        <span class="bg-badge">
+                            {coverage:.0%} data coverage
+                        </span>
+                    </div>
+                </div>
+
+                {product_art_html}
             </div>
         </section>
         """
@@ -1626,44 +1827,86 @@ def render_compare():
     product_a = comparison["product_a"]
     product_b = comparison["product_b"]
 
+    product_a_image = product_form_image(
+        product_a["product_form"]
+    )
+
+    product_b_image = product_form_image(
+        product_b["product_form"]
+    )
+
+    product_a_art = ""
+
+    if product_a_image:
+        product_a_art = f"""
+            <img
+                class="bg-compare-art"
+                src="{product_a_image}"
+                alt="{escape(format_product_form(product_a))}
+                     watercolor illustration"
+            >
+        """
+
+    product_b_art = ""
+
+    if product_b_image:
+        product_b_art = f"""
+            <img
+                class="bg-compare-art"
+                src="{product_b_image}"
+                alt="{escape(format_product_form(product_b))}
+                     watercolor illustration"
+            >
+        """
+
     st.html(
         f"""
         <div class="bg-compare-product-grid">
+
             <div class="bg-compare-card bg-compare-card-a">
-                <div class="bg-compare-label">
-                    Product A
+                <div class="bg-compare-card-copy">
+                    <div class="bg-compare-label">
+                        Product A
+                    </div>
+
+                    <div class="bg-compare-brand">
+                        {escape(product_a["brand"])}
+                    </div>
+
+                    <div class="bg-compare-name">
+                        {escape(product_a["product_name"])}
+                    </div>
+
+                    <div class="bg-compare-form">
+                        {escape(format_product_form(product_a))}
+                    </div>
                 </div>
 
-                <div class="bg-compare-brand">
-                    {escape(product_a["brand"])}
-                </div>
-
-                <div class="bg-compare-name">
-                    {escape(product_a["product_name"])}
-                </div>
-
-                <div class="bg-compare-form">
-                    {escape(format_product_form(product_a))}
-                </div>
+                {product_a_art}
             </div>
 
             <div class="bg-compare-card bg-compare-card-b">
-                <div class="bg-compare-label">
-                    Product B
+                <div class="bg-compare-card-copy">
+                    <div class="bg-compare-label">
+                        Product B
+                    </div>
+
+                    <div class="bg-compare-brand">
+                        {escape(product_b["brand"])}
+                    </div>
+
+                    <div class="bg-compare-name">
+                        {escape(product_b["product_name"])}
+                    </div>
+
+                    <div class="bg-compare-form">
+                        {escape(format_product_form(product_b))}
+                    </div>
                 </div>
 
-                <div class="bg-compare-brand">
-                    {escape(product_b["brand"])}
-                </div>
-
-                <div class="bg-compare-name">
-                    {escape(product_b["product_name"])}
-                </div>
-
-                <div class="bg-compare-form">
-                    {escape(format_product_form(product_b))}
-                </div>
+                {product_b_art}
             </div>
+
         </div>
         """
     )
