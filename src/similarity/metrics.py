@@ -79,6 +79,40 @@ def build_function_profile(
     return profile
 
 
+def normalize_function_profile(
+    profile: dict[str, float],
+) -> dict[str, float]:
+    total = sum(profile.values())
+
+    if total == 0:
+        return {
+            function_name: 0.0
+            for function_name in FUNCTION_NAMES
+        }
+
+    return {
+        function_name: profile[function_name] / total
+        for function_name in FUNCTION_NAMES
+    }
+
+
+def function_mapping_coverage(
+    ingredient_positions: dict[int, int],
+    function_profile: dict[str, float],
+) -> float:
+    total_ingredient_weight = sum(
+        position_weight(position)
+        for position in ingredient_positions.values()
+    )
+
+    if total_ingredient_weight == 0:
+        return 0.0
+
+    mapped_weight = sum(function_profile.values())
+
+    return mapped_weight / total_ingredient_weight
+
+
 def cosine_similarity(
     profile_a: dict[str, float],
     profile_b: dict[str, float],

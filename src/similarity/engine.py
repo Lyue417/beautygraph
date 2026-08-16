@@ -6,7 +6,9 @@ from src.db import ENGINE
 from src.similarity.metrics import (
     build_function_profile,
     cosine_similarity,
+    function_mapping_coverage,
     jaccard_similarity,
+    normalize_function_profile,
     weighted_jaccard_similarity,
 )
 
@@ -31,11 +33,14 @@ def load_similarity_inputs() -> dict[str, dict]:
             text(
                 """
                 SELECT
-                    product_id,
-                    ingredient_id,
-                    ingredient_position
-                FROM normalized.product_ingredients
-                ORDER BY product_id, ingredient_position
+                    pi.product_id,
+                    pi.ingredient_id,
+                    pi.ingredient_position,
+                    i.normalized_name
+                FROM normalized.product_ingredients pi
+                JOIN normalized.ingredients i
+                    ON pi.ingredient_id = i.ingredient_id
+                ORDER BY pi.product_id, pi.ingredient_position
                 """
             )
         ).mappings().all()
@@ -68,6 +73,7 @@ def load_similarity_inputs() -> dict[str, dict]:
             "product_name": row["product_name_raw"],
             "product_form": row["product_form"],
             "positions": {},
+            "ingredient_names": {},
         }
         for row in product_rows
     }
@@ -86,14 +92,31 @@ def load_similarity_inputs() -> dict[str, dict]:
 
         positions[ingredient_id] = row["ingredient_position"]
 
+        products[product_id]["ingredient_names"][ingredient_id] = (
+        row["normalized_name"]
+        )
+
     for product in products.values():
         positions = product["positions"]
 
         product["ingredient_set"] = set(positions)
 
-        product["function_profile"] = build_function_profile(
+        function_profile = build_function_profile(
             positions,
             ingredient_functions,
+        )
+
+        product["function_profile"] = function_profile
+
+        product["formula_profile"] = normalize_function_profile(
+        function_profile
+        )
+
+        product["function_mapping_coverage"] = (
+            function_mapping_coverage(
+                positions,
+                function_profile,
+            )
         )
 
     return products

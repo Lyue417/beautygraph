@@ -3,11 +3,14 @@ from math import sqrt
 import pytest
 
 from src.similarity.metrics import (
+    FUNCTION_NAMES,
     build_function_profile,
     cosine_similarity,
     jaccard_similarity,
     position_weight,
     weighted_jaccard_similarity,
+    normalize_function_profile,
+    function_mapping_coverage,
 )
 
 
@@ -110,3 +113,42 @@ def test_cosine_similarity_is_one_for_same_profile_shape():
         profile_a,
         profile_b,
     ) == pytest.approx(1.0)
+
+
+def test_normalize_function_profile_sums_to_one():
+    profile = {
+        function_name: 0.0
+        for function_name in FUNCTION_NAMES
+    }
+
+    profile["humectant"] = 2.0
+    profile["emollient"] = 1.0
+    profile["occlusive"] = 1.0
+
+    normalized = normalize_function_profile(profile)
+
+    assert normalized["humectant"] == 0.5
+    assert normalized["emollient"] == 0.25
+    assert normalized["occlusive"] == 0.25
+    assert sum(normalized.values()) == 1.0
+
+
+def test_function_mapping_coverage_uses_position_weight():
+    ingredient_positions = {
+        1: 1,
+        2: 4,
+    }
+
+    function_profile = {
+        function_name: 0.0
+        for function_name in FUNCTION_NAMES
+    }
+
+    function_profile["humectant"] = 1.0
+
+    coverage = function_mapping_coverage(
+        ingredient_positions,
+        function_profile,
+    )
+
+    assert coverage == 2 / 3
