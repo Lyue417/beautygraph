@@ -12,6 +12,7 @@ if str(ROOT_DIR) not in sys.path:
 
 
 from src.similarity.engine import load_similarity_inputs
+from src.similarity.comparison import build_product_comparison
 
 
 st.set_page_config(
@@ -679,268 +680,1243 @@ st.html(
 # Navigation
 # ---------------------------------------------------------
 
-st.html(
-    """
-    <div class="bg-nav">
-        <div class="bg-brand">BeautyGraph</div>
-
-        <div class="bg-nav-links">
-            <span class="bg-nav-active">Product Profile</span>
-            <span>Compare Products</span>
-            <span>Similar Products</span>
-            <span>About</span>
-        </div>
-    </div>
-    """,
-)
-
-
 # ---------------------------------------------------------
-# Hero
+# Additional UI styles
 # ---------------------------------------------------------
 
 st.html(
     """
-    <section class="bg-hero">
-        <div class="bg-hero-copy">
-            <div class="bg-eyebrow">
-                Explainable skincare relationships
-            </div>
+    <style>
+    .bg-nav-links a {
+        color: var(--muted);
+        text-decoration: none;
+        transition: color 0.18s ease;
+    }
 
-            <div class="bg-hero-title">
-                Understand formulas<br>
-                beyond the label.
-            </div>
+    .bg-nav-links a:hover {
+        color: var(--sage-700);
+    }
 
-            <p class="bg-hero-text">
-                Explore ingredients, formula functions,
-                and product relationships through transparent,
-                explainable comparisons.
-            </p>
-        </div>
+    .bg-nav-links a.bg-nav-active {
+        color: var(--sage-700);
+        font-weight: 600;
+    }
 
-        <div class="bg-wash-area">
-            <div class="bg-wash bg-wash-one"></div>
-            <div class="bg-wash bg-wash-two"></div>
-            <div class="bg-wash bg-wash-three"></div>
-        </div>
-    </section>
-    """,
-)
+    .bg-compare-heading {
+        max-width: 760px;
+        margin-bottom: 2rem;
+    }
 
+    .bg-compare-product-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1.2rem 0 2rem;
+    }
 
-# ---------------------------------------------------------
-# Product selector
-# ---------------------------------------------------------
+    .bg-compare-card {
+        position: relative;
+        overflow: hidden;
+        min-height: 220px;
+        padding: 1.8rem;
+        border-radius: 24px;
+        border: 1px solid var(--line);
+    }
 
-st.html(
+    .bg-compare-card-a {
+        background:
+            linear-gradient(
+                135deg,
+                rgba(216, 224, 210, 0.76),
+                rgba(250, 248, 242, 0.84)
+            );
+    }
+
+    .bg-compare-card-b {
+        background:
+            linear-gradient(
+                135deg,
+                rgba(243, 228, 222, 0.68),
+                rgba(250, 248, 242, 0.88)
+            );
+    }
+
+    .bg-compare-label {
+        margin-bottom: 0.65rem;
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+    }
+
+    .bg-compare-card-a .bg-compare-label {
+        color: var(--sage-600);
+    }
+
+    .bg-compare-card-b .bg-compare-label {
+        color: #9A746A;
+    }
+
+    .bg-compare-brand {
+        margin-bottom: 0.35rem;
+        color: var(--muted);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+
+    .bg-compare-name {
+        max-width: 520px;
+        font-family: "Cormorant Garamond", Georgia, serif;
+        color: var(--ink);
+        font-size: clamp(2rem, 3vw, 3.2rem);
+        line-height: 1;
+        letter-spacing: -0.035em;
+    }
+
+    .bg-compare-form {
+        display: inline-flex;
+        margin-top: 1.2rem;
+        padding: 0.42rem 0.72rem;
+        border: 1px solid rgba(79, 98, 81, 0.11);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.45);
+        color: var(--sage-700);
+        font-size: 0.67rem;
+        font-weight: 600;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+    }
+
+    .bg-score-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.85rem;
+        margin: 1.2rem 0 3rem;
+    }
+
+    .bg-score-card {
+        padding: 1.4rem 1.45rem;
+        background: rgba(255, 255, 255, 0.40);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+    }
+
+    .bg-score-card-primary {
+        background:
+            linear-gradient(
+                135deg,
+                rgba(216, 224, 210, 0.65),
+                rgba(255, 255, 255, 0.38)
+            );
+    }
+
+    .bg-score-label {
+        min-height: 2.2rem;
+        margin-bottom: 0.5rem;
+        color: var(--muted);
+        font-size: 0.71rem;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+
+    .bg-score-value {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        color: var(--sage-700);
+        font-size: 2.6rem;
+        line-height: 1;
+    }
+
+    .bg-score-track {
+        height: 6px;
+        margin-top: 1rem;
+        overflow: hidden;
+        background: var(--sage-100);
+        border-radius: 999px;
+    }
+
+    .bg-score-fill {
+        height: 100%;
+        border-radius: 999px;
+        background:
+            linear-gradient(
+                90deg,
+                var(--sage-300),
+                var(--sage-500)
+            );
+    }
+
+    .bg-compare-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem 0 3rem;
+    }
+
+    .bg-detail-card {
+        padding: 1.45rem 1.5rem;
+        background: rgba(255, 255, 255, 0.36);
+        border: 1px solid var(--line);
+        border-radius: 21px;
+    }
+
+    .bg-detail-card-a {
+        border-top: 3px solid rgba(127, 146, 120, 0.50);
+    }
+
+    .bg-detail-card-b {
+        border-top: 3px solid rgba(210, 166, 153, 0.42);
+    }
+
+    .bg-detail-title {
+        margin-bottom: 1rem;
+        font-family: "Cormorant Garamond", Georgia, serif;
+        color: var(--ink);
+        font-size: 1.55rem;
+        line-height: 1.1;
+    }
+
+    .bg-chip-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+    }
+
+    .bg-chip {
+        display: inline-flex;
+        padding: 0.38rem 0.65rem;
+        background: var(--sage-050);
+        border: 1px solid rgba(79, 98, 81, 0.09);
+        border-radius: 999px;
+        color: var(--ink);
+        font-size: 0.7rem;
+        line-height: 1.2;
+    }
+
+    .bg-chip-blush {
+        background: var(--blush-soft);
+        border-color: rgba(154, 116, 106, 0.10);
+    }
+
+    .bg-shared-card {
+        padding: 1.5rem;
+        margin-bottom: 3rem;
+        background:
+            linear-gradient(
+                135deg,
+                rgba(233, 238, 229, 0.62),
+                rgba(255, 255, 255, 0.34)
+            );
+        border: 1px solid var(--line);
+        border-radius: 22px;
+    }
+
+    .bg-shared-summary {
+        margin-bottom: 1rem;
+        color: var(--muted);
+        font-size: 0.79rem;
+    }
+
+    .bg-diff-row {
+        display: grid;
+        grid-template-columns: 170px 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+        padding: 0.9rem 0;
+        border-bottom: 1px solid var(--line);
+    }
+
+    .bg-diff-row:last-child {
+        border-bottom: none;
+    }
+
+    .bg-diff-function {
+        color: var(--ink);
+        font-size: 0.77rem;
+        font-weight: 500;
+    }
+
+    .bg-diff-value-a,
+    .bg-diff-value-b {
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+
+    .bg-diff-value-a {
+        color: var(--sage-600);
+    }
+
+    .bg-diff-value-b {
+        color: #9A746A;
+    }
+
+    .bg-explanation {
+        position: relative;
+        overflow: hidden;
+
+        padding: 2.3rem 2.4rem;
+        margin: 1rem 0 3rem;
+
+        background:
+            linear-gradient(
+                135deg,
+                rgba(216, 224, 210, 0.62),
+                rgba(243, 228, 222, 0.25),
+                rgba(250, 248, 242, 0.78)
+            );
+
+        border: 1px solid var(--line);
+        border-radius: 26px;
+    }
+
+    .bg-explanation-lead {
+        position: relative;
+        z-index: 2;
+
+        max-width: 920px;
+        margin-bottom: 1.8rem;
+
+        font-family: "Cormorant Garamond", Georgia, serif;
+
+        color: var(--ink);
+
+        font-size: clamp(1.55rem, 2.2vw, 2.15rem);
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+    }
+
+    .bg-explanation-lead strong {
+        color: var(--sage-700);
+        font-weight: 600;
+    }
+
+    .bg-explanation-grid {
+        position: relative;
+        z-index: 2;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
+    }
+
+    .bg-explanation-point {
+        padding: 1.15rem 1.2rem;
+
+        background: rgba(255, 255, 255, 0.38);
+
+        border: 1px solid rgba(79, 98, 81, 0.09);
+        border-radius: 18px;
+    }
+
+    .bg-explanation-point-label {
+        margin-bottom: 0.55rem;
+
+        color: var(--sage-600);
+
+        font-size: 0.65rem;
+        font-weight: 600;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+    }
+
+    .bg-explanation-point-text {
+        color: var(--ink);
+
+        font-size: 0.82rem;
+        line-height: 1.65;
+    }
+
+    .bg-explanation-note {
+        position: relative;
+        z-index: 2;
+
+        margin-top: 1.3rem;
+        padding-top: 1rem;
+
+        border-top: 1px solid var(--line);
+
+        color: var(--muted);
+
+        font-size: 0.72rem;
+        line-height: 1.6;
+    }
+
+    .bg-placeholder {
+        min-height: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.30);
+        border: 1px solid var(--line);
+        border-radius: 26px;
+    }
+
+    @media (max-width: 760px) {
+        .bg-compare-product-grid,
+        .bg-score-grid,
+        .bg-compare-columns {
+            grid-template-columns: 1fr;
+        }
+
+        .bg-diff-row {
+            grid-template-columns: 1fr;
+            gap: 0.25rem;
+        }
+
+        .bg-explanation-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    </style>
     """
-    <div class="bg-section-kicker">Explore</div>
-    <div class="bg-section-title">Product Profile</div>
-    <div class="bg-section-description">
-        Select a moisturizer to explore its normalized ingredient
-        list and mapped formula-function profile.
-    </div>
-    """,
-)
-
-product_ids = sorted(
-    products,
-    key=lambda product_id: (
-        products[product_id]["brand"].lower(),
-        products[product_id]["product_name"].lower(),
-    ),
-)
-
-selected_id = st.selectbox(
-    "Choose a moisturizer",
-    options=product_ids,
-    format_func=lambda product_id: product_label(
-        products[product_id]
-    ),
-)
-
-product = products[selected_id]
-
-
-# ---------------------------------------------------------
-# Product summary
-# ---------------------------------------------------------
-
-brand = escape(product["brand"])
-product_name = escape(product["product_name"])
-product_form = escape(
-    product["product_form"]
-    .replace("_", " ")
-    .replace("-", " ")
-    .title()
-)
-
-ingredient_count = len(product["positions"])
-coverage = product["function_mapping_coverage"]
-
-st.html(
-    f"""
-    <section class="bg-product-card">
-        <div class="bg-card-wash"></div>
-
-        <div class="bg-product-brand">
-            {brand}
-        </div>
-
-        <div class="bg-product-name">
-            {product_name}
-        </div>
-
-        <div class="bg-badges">
-            <span class="bg-badge">
-                {product_form}
-            </span>
-
-            <span class="bg-badge">
-                {ingredient_count} ingredients
-            </span>
-
-            <span class="bg-badge">
-                {coverage:.0%} data coverage
-            </span>
-        </div>
-    </section>
-    """,
 )
 
 
 # ---------------------------------------------------------
-# Formula profile
+# Helpers
 # ---------------------------------------------------------
 
-st.html(
-    """
-    <div class="bg-section-kicker">Formula structure</div>
-    <div class="bg-section-title">Function Profile</div>
-    <div class="bg-section-description">
-        A position-weighted view of the ingredient functions
-        currently mapped by BeautyGraph.
-    </div>
-    """,
-)
+VALID_PAGES = {
+    "profile",
+    "compare",
+    "similar",
+    "about",
+}
 
-profile_rows = sorted(
-    product["formula_profile"].items(),
-    key=lambda item: item[1],
-    reverse=True,
-)
+page = st.query_params.get("page", "profile")
 
-profile_html = ""
+if page not in VALID_PAGES:
+    page = "profile"
 
-for function_name, share in profile_rows:
-    if share <= 0:
-        continue
 
-    label = FUNCTION_LABELS.get(
-        function_name,
-        function_name.replace("_", " ").title(),
+def nav_link(
+    target: str,
+    label: str,
+) -> str:
+    active = " bg-nav-active" if page == target else ""
+
+    return (
+        f'<a class="{active.strip()}" '
+        f'href="?page={target}" target="_self">'
+        f'{escape(label)}</a>'
     )
 
-    width = min(share * 100, 100)
 
-    profile_html += f"""
-        <div class="bg-profile-row">
-            <div class="bg-function-label">
-                {escape(label)}
+def render_navigation():
+    st.html(
+        f"""
+        <div class="bg-nav">
+            <div class="bg-brand">BeautyGraph</div>
+
+            <div class="bg-nav-links">
+                {nav_link("profile", "Product Profile")}
+                {nav_link("compare", "Compare Products")}
+                {nav_link("similar", "Similar Products")}
+                {nav_link("about", "About")}
+            </div>
+        </div>
+        """
+    )
+
+
+def render_section_header(
+    kicker: str,
+    title: str,
+    description: str,
+):
+    st.html(
+        f"""
+        <div class="bg-section-kicker">
+            {escape(kicker)}
+        </div>
+
+        <div class="bg-section-title">
+            {escape(title)}
+        </div>
+
+        <div class="bg-section-description">
+            {escape(description)}
+        </div>
+        """
+    )
+
+
+def format_product_form(product: dict) -> str:
+    return (
+        product["product_form"]
+        .replace("_", " ")
+        .replace("-", " ")
+        .title()
+    )
+
+
+def render_footer():
+    st.html(
+        """
+        <div class="bg-footer-note">
+            BeautyGraph is an information-system prototype for
+            explainable skincare formula comparison. Similarity and
+            function profiles describe structured ingredient-list
+            relationships and should not be interpreted as clinical
+            efficacy or medical advice.
+        </div>
+        """
+    )
+
+
+# ---------------------------------------------------------
+# Product Profile
+# ---------------------------------------------------------
+
+def render_profile():
+    st.html(
+        """
+        <section class="bg-hero">
+            <div class="bg-hero-copy">
+                <div class="bg-eyebrow">
+                    Explainable skincare relationships
+                </div>
+
+                <div class="bg-hero-title">
+                    Understand formulas<br>
+                    beyond the label.
+                </div>
+
+                <p class="bg-hero-text">
+                    Explore ingredients, formula functions,
+                    and product relationships through transparent,
+                    explainable comparisons.
+                </p>
             </div>
 
-            <div class="bg-function-track">
-                <div
-                    class="bg-function-fill"
-                    style="width: {width:.2f}%;">
+            <div class="bg-wash-area">
+                <div class="bg-wash bg-wash-one"></div>
+                <div class="bg-wash bg-wash-two"></div>
+                <div class="bg-wash bg-wash-three"></div>
+            </div>
+        </section>
+        """
+    )
+
+    render_section_header(
+        "Explore",
+        "Product Profile",
+        (
+            "Select a moisturizer to explore its normalized ingredient "
+            "list and mapped formula-function profile."
+        ),
+    )
+
+    product_ids = sorted(
+        products,
+        key=lambda product_id: (
+            products[product_id]["brand"].lower(),
+            products[product_id]["product_name"].lower(),
+        ),
+    )
+
+    selected_id = st.selectbox(
+        "Choose a moisturizer",
+        options=product_ids,
+        format_func=lambda product_id: product_label(
+            products[product_id]
+        ),
+        key="profile_product",
+    )
+
+    product = products[selected_id]
+
+    brand = escape(product["brand"])
+    product_name = escape(product["product_name"])
+    product_form = escape(format_product_form(product))
+
+    ingredient_count = len(product["positions"])
+    coverage = product["function_mapping_coverage"]
+
+    st.html(
+        f"""
+        <section class="bg-product-card">
+            <div class="bg-card-wash"></div>
+
+            <div class="bg-product-brand">
+                {brand}
+            </div>
+
+            <div class="bg-product-name">
+                {product_name}
+            </div>
+
+            <div class="bg-badges">
+                <span class="bg-badge">
+                    {product_form}
+                </span>
+
+                <span class="bg-badge">
+                    {ingredient_count} ingredients
+                </span>
+
+                <span class="bg-badge">
+                    {coverage:.0%} data coverage
+                </span>
+            </div>
+        </section>
+        """
+    )
+
+    render_section_header(
+        "Formula structure",
+        "Function Profile",
+        (
+            "A position-weighted view of the ingredient functions "
+            "currently mapped by BeautyGraph."
+        ),
+    )
+
+    profile_rows = sorted(
+        product["formula_profile"].items(),
+        key=lambda item: item[1],
+        reverse=True,
+    )
+
+    profile_html = ""
+
+    for function_name, share in profile_rows:
+        if share <= 0:
+            continue
+
+        label = FUNCTION_LABELS.get(
+            function_name,
+            function_name.replace("_", " ").title(),
+        )
+
+        width = min(share * 100, 100)
+
+        profile_html += f"""
+            <div class="bg-profile-row">
+                <div class="bg-function-label">
+                    {escape(label)}
+                </div>
+
+                <div class="bg-function-track">
+                    <div
+                        class="bg-function-fill"
+                        style="width: {width:.2f}%;">
+                    </div>
+                </div>
+
+                <div class="bg-function-value">
+                    {share:.1%}
+                </div>
+            </div>
+        """
+
+    st.html(
+        f"""
+        <div class="bg-profile-wrap">
+            {profile_html}
+
+            <div class="bg-method-note">
+                Function profiles reflect only ingredients currently
+                covered by BeautyGraph's ingredient-function mapping.
+                This prototype does not infer ingredient concentration
+                from the published ingredient list.
+            </div>
+        </div>
+        """
+    )
+
+    st.html('<div style="height: 3rem;"></div>')
+
+    render_section_header(
+        "Formula detail",
+        "Ingredients",
+        (
+            "Normalized ingredients are shown in their original "
+            "published order."
+        ),
+    )
+
+    ingredient_rows = sorted(
+        product["positions"].items(),
+        key=lambda item: item[1],
+    )
+
+    ingredients_html = ""
+
+    for ingredient_id, position in ingredient_rows:
+        ingredient_name = escape(
+            product["ingredient_names"][ingredient_id]
+        )
+
+        ingredients_html += f"""
+            <div class="bg-ingredient">
+                <div class="bg-ingredient-number">
+                    {position:02d}
+                </div>
+
+                <div class="bg-ingredient-name">
+                    {ingredient_name}
+                </div>
+            </div>
+        """
+
+    st.html(
+        f"""
+        <div class="bg-ingredient-grid">
+            {ingredients_html}
+        </div>
+        """
+    )
+
+    render_footer()
+
+
+# ---------------------------------------------------------
+# Compare Products
+# ---------------------------------------------------------
+
+def render_compare():
+    render_section_header(
+        "Formula comparison",
+        "Compare Products",
+        (
+            "Choose two moisturizers to compare ingredient overlap, "
+            "position-weighted formula structure, mapped functions, "
+            "and the features that explain their relationship."
+        ),
+    )
+
+    product_ids = sorted(
+        products,
+        key=lambda product_id: (
+            products[product_id]["brand"].lower(),
+            products[product_id]["product_name"].lower(),
+        ),
+    )
+
+    col_a, col_b = st.columns(2)
+
+    with col_a:
+        product_a_id = st.selectbox(
+            "Product A",
+            options=product_ids,
+            format_func=lambda product_id: product_label(
+                products[product_id]
+            ),
+            key="compare_product_a",
+        )
+
+    with col_b:
+        default_b = 1 if len(product_ids) > 1 else 0
+
+        product_b_id = st.selectbox(
+            "Product B",
+            options=product_ids,
+            index=default_b,
+            format_func=lambda product_id: product_label(
+                products[product_id]
+            ),
+            key="compare_product_b",
+        )
+
+    if product_a_id == product_b_id:
+        st.info(
+            "Choose two different products to view a comparison."
+        )
+        return
+
+    comparison = build_product_comparison(
+        products,
+        product_a_id,
+        product_b_id,
+    )
+
+    product_a = comparison["product_a"]
+    product_b = comparison["product_b"]
+
+    st.html(
+        f"""
+        <div class="bg-compare-product-grid">
+            <div class="bg-compare-card bg-compare-card-a">
+                <div class="bg-compare-label">
+                    Product A
+                </div>
+
+                <div class="bg-compare-brand">
+                    {escape(product_a["brand"])}
+                </div>
+
+                <div class="bg-compare-name">
+                    {escape(product_a["product_name"])}
+                </div>
+
+                <div class="bg-compare-form">
+                    {escape(format_product_form(product_a))}
                 </div>
             </div>
 
-            <div class="bg-function-value">
-                {share:.1%}
+            <div class="bg-compare-card bg-compare-card-b">
+                <div class="bg-compare-label">
+                    Product B
+                </div>
+
+                <div class="bg-compare-brand">
+                    {escape(product_b["brand"])}
+                </div>
+
+                <div class="bg-compare-name">
+                    {escape(product_b["product_name"])}
+                </div>
+
+                <div class="bg-compare-form">
+                    {escape(format_product_form(product_b))}
+                </div>
             </div>
         </div>
-    """
-
-st.html(
-    f"""
-    <div class="bg-profile-wrap">
-        {profile_html}
-
-        <div class="bg-method-note">
-            Function profiles reflect only ingredients currently
-            covered by BeautyGraph's ingredient-function mapping.
-            This prototype does not infer ingredient concentration
-            from the published ingredient list.
-        </div>
-    </div>
-    """,
-)
-
-
-# ---------------------------------------------------------
-# Ingredients
-# ---------------------------------------------------------
-
-st.html(
-    """
-    <div style="height: 3rem;"></div>
-
-    <div class="bg-section-kicker">Formula detail</div>
-    <div class="bg-section-title">Ingredients</div>
-    <div class="bg-section-description">
-        Normalized ingredients are shown in their original
-        published order.
-    </div>
-    """,
-)
-
-ingredient_rows = sorted(
-    product["positions"].items(),
-    key=lambda item: item[1],
-)
-
-ingredients_html = ""
-
-for ingredient_id, position in ingredient_rows:
-    ingredient_name = escape(
-        product["ingredient_names"][ingredient_id]
+        """
     )
 
-    ingredients_html += f"""
-        <div class="bg-ingredient">
-            <div class="bg-ingredient-number">
-                {position:02d}
+    similarity = comparison["similarity"]
+
+    ingredient_data = comparison["ingredients"]
+    function_data = comparison["functions"]
+
+    shared = ingredient_data["shared"]
+    shared_high = ingredient_data["shared_high_position"]
+
+    if shared_high:
+        high_position_text = ", ".join(
+            row["name"]
+            for row in shared_high[:4]
+        )
+    else:
+        high_position_text = (
+            "No ingredient appears within the first 10 "
+            "positions of both formulas."
+        )
+
+    shared_function_rows = function_data["shared"][:3]
+
+    if shared_function_rows:
+        shared_function_text = ", ".join(
+            FUNCTION_LABELS.get(
+                row["function_name"],
+                row["function_name"]
+                .replace("_", " ")
+                .title(),
+            )
+            for row in shared_function_rows
+        )
+    else:
+        shared_function_text = (
+            "No shared mapped function groups."
+        )
+
+    meaningful_differences = [
+        row
+        for row in function_data["differences"]
+        if row["absolute_difference"] > 1e-12
+    ][:2]
+
+    if meaningful_differences:
+        difference_parts = []
+
+        for row in meaningful_differences:
+            label = FUNCTION_LABELS.get(
+                row["function_name"],
+                row["function_name"]
+                .replace("_", " ")
+                .title(),
+            )
+
+            difference_parts.append(
+                f"{label}: "
+                f"A {row['share_a']:.1%} vs "
+                f"B {row['share_b']:.1%}"
+            )
+
+        difference_text = "<br><br>".join(difference_parts) + "."
+    else:
+        difference_text = (
+            "The mapped function profiles have the same "
+            "distribution across current function groups."
+        )
+
+    st.html(
+        f"""
+        <div class="bg-section-kicker">
+            BeautyGraph explanation
+        </div>
+
+        <div class="bg-section-title">
+            Why these formulas relate
+        </div>
+
+        <div class="bg-section-description">
+            Start with the relationship, then explore the
+            ingredient-level evidence below.
+        </div>
+
+        <div class="bg-explanation">
+            <div class="bg-explanation-lead">
+                These formulas have
+                <strong>
+                    {similarity["ingredient_similarity"]:.0%}
+                    ingredient overlap
+                </strong>
+                and
+                <strong>
+                    {similarity["formula_similarity"]:.0%}
+                    position-weighted similarity
+                </strong>,
+                while their mapped function profiles are
+                <strong>
+                    {similarity["function_similarity"]:.0%}
+                    similar
+                </strong>.
             </div>
 
-            <div class="bg-ingredient-name">
-                {ingredient_name}
+            <div class="bg-explanation-grid">
+
+                <div class="bg-explanation-point">
+                    <div class="bg-explanation-point-label">
+                        Ingredient relationship
+                    </div>
+
+                    <div class="bg-explanation-point-text">
+                        {len(shared)} normalized ingredients are shared.
+                        <br><br>
+                        High-position overlap:
+                        {escape(high_position_text)}
+                    </div>
+                </div>
+
+                <div class="bg-explanation-point">
+                    <div class="bg-explanation-point-label">
+                        Shared function pattern
+                    </div>
+
+                    <div class="bg-explanation-point-text">
+                        Their strongest shared mapped function
+                        groups are
+                        {escape(shared_function_text)}.
+                    </div>
+                </div>
+
+                <div class="bg-explanation-point">
+                    <div class="bg-explanation-point-label">
+                        Key differences
+                    </div>
+
+                    <div class="bg-explanation-point-text">
+                        {difference_text}
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bg-explanation-note">
+                Function comparison uses mapped ingredient
+                coverage of
+                {product_a["function_mapping_coverage"]:.0%}
+                for Product A and
+                {product_b["function_mapping_coverage"]:.0%}
+                for Product B. Ingredient-list order provides
+                approximate formula structure and does not reveal
+                exact concentrations.
             </div>
         </div>
-    """
 
-st.html(
-    f"""
-    <div class="bg-ingredient-grid">
-        {ingredients_html}
-    </div>
-    """,
-)
+        <div class="bg-section-kicker">
+            Similarity signals
+        </div>
+
+        <div class="bg-section-title">
+            Comparison metrics
+        </div>
+        """
+    )
+
+
+    scores = [
+        (
+            "Position-weighted formula similarity",
+            similarity["formula_similarity"],
+            True,
+        ),
+        (
+            "Normalized ingredient overlap",
+            similarity["ingredient_similarity"],
+            False,
+        ),
+        (
+            "Function-profile similarity",
+            similarity["function_similarity"],
+            False,
+        ),
+    ]
+
+    score_html = ""
+
+    for label, value, primary in scores:
+        card_class = (
+            "bg-score-card bg-score-card-primary"
+            if primary
+            else "bg-score-card"
+        )
+
+        score_html += f"""
+            <div class="{card_class}">
+                <div class="bg-score-label">
+                    {escape(label)}
+                </div>
+
+                <div class="bg-score-value">
+                    {value:.0%}
+                </div>
+
+                <div class="bg-score-track">
+                    <div
+                        class="bg-score-fill"
+                        style="width: {min(value * 100, 100):.2f}%;">
+                    </div>
+                </div>
+            </div>
+        """
+
+    st.html(
+        f"""
+        <div class="bg-score-grid">
+            {score_html}
+        </div>
+        """
+    )
+
+    ingredients = comparison["ingredients"]
+
+    shared = ingredients["shared"]
+    shared_high = ingredients["shared_high_position"]
+
+    shared_chip_html = "".join(
+        f'<span class="bg-chip">{escape(row["name"])}</span>'
+        for row in shared
+    )
+
+    high_chip_html = "".join(
+        f'<span class="bg-chip">{escape(row["name"])}</span>'
+        for row in shared_high
+    )
+
+    st.html(
+        f"""
+        <div class="bg-section-kicker">
+            Ingredient relationship
+        </div>
+
+        <div class="bg-section-title">
+            What they share
+        </div>
+
+        <div class="bg-shared-card">
+            <div class="bg-shared-summary">
+                {len(shared)} normalized ingredients are shared.
+                {len(shared_high)} appear within the first 10 positions
+                of both formulas.
+            </div>
+
+            <div class="bg-detail-title">
+                Shared high-position ingredients
+            </div>
+
+            <div class="bg-chip-wrap">
+                {high_chip_html if high_chip_html else
+                 '<span class="bg-chip">None in both top 10</span>'}
+            </div>
+
+            <div style="height: 1.4rem;"></div>
+
+            <div class="bg-detail-title">
+                All shared ingredients
+            </div>
+
+            <div class="bg-chip-wrap">
+                {shared_chip_html if shared_chip_html else
+                 '<span class="bg-chip">No shared ingredients</span>'}
+            </div>
+        </div>
+        """
+    )
+
+    only_a_html = "".join(
+        f'<span class="bg-chip">{escape(row["name"])}</span>'
+        for row in ingredients["only_a"]
+    )
+
+    only_b_html = "".join(
+        f'<span class="bg-chip bg-chip-blush">'
+        f'{escape(row["name"])}</span>'
+        for row in ingredients["only_b"]
+    )
+
+    st.html(
+        f"""
+        <div class="bg-section-kicker">
+            Formula detail
+        </div>
+
+        <div class="bg-section-title">
+            Where they differ
+        </div>
+
+        <div class="bg-compare-columns">
+            <div class="bg-detail-card bg-detail-card-a">
+                <div class="bg-detail-title">
+                    Unique to {escape(product_a["product_name"])}
+                </div>
+
+                <div class="bg-chip-wrap">
+                    {only_a_html if only_a_html else
+                     '<span class="bg-chip">None</span>'}
+                </div>
+            </div>
+
+            <div class="bg-detail-card bg-detail-card-b">
+                <div class="bg-detail-title">
+                    Unique to {escape(product_b["product_name"])}
+                </div>
+
+                <div class="bg-chip-wrap">
+                    {only_b_html if only_b_html else
+                     '<span class="bg-chip bg-chip-blush">None</span>'}
+                </div>
+            </div>
+        </div>
+        """
+    )
+
+    function_rows = comparison["functions"]["differences"][:5]
+
+    function_html = ""
+
+    for row in function_rows:
+        label = FUNCTION_LABELS.get(
+            row["function_name"],
+            row["function_name"].replace("_", " ").title(),
+        )
+
+        function_html += f"""
+            <div class="bg-diff-row">
+                <div class="bg-diff-function">
+                    {escape(label)}
+                </div>
+
+                <div class="bg-diff-value-a">
+                    A · {row["share_a"]:.1%}
+                </div>
+
+                <div class="bg-diff-value-b">
+                    B · {row["share_b"]:.1%}
+                </div>
+            </div>
+        """
+
+    st.html(
+        f"""
+        <div class="bg-section-kicker">
+            Function structure
+        </div>
+
+        <div class="bg-section-title">
+            Largest profile differences
+        </div>
+
+        <div class="bg-profile-wrap">
+            {function_html}
+        </div>
+        """
+    )
+
+    render_footer()
 
 
 # ---------------------------------------------------------
-# Footer
+# Temporary pages
 # ---------------------------------------------------------
 
-st.html(
-    """
-    <div class="bg-footer-note">
-        BeautyGraph is an information-system prototype for
-        explainable skincare formula comparison. Similarity and
-        function profiles describe structured ingredient-list
-        relationships and should not be interpreted as clinical
-        efficacy or medical advice.
-    </div>
-    """,
-)
+def render_similar_placeholder():
+    render_section_header(
+        "Product relationships",
+        "Similar Products",
+        (
+            "Top-five formula relationships will be connected "
+            "in the next prototype step."
+        ),
+    )
+
+    st.html(
+        """
+        <div class="bg-placeholder">
+            <div>
+                <div class="bg-section-title">
+                    Similar Products is next.
+                </div>
+
+                <div class="bg-section-description">
+                    This page will use BeautyGraph's existing
+                    top-k similarity engine.
+                </div>
+            </div>
+        </div>
+        """
+    )
+
+
+def render_about():
+    render_section_header(
+        "Methodology",
+        "About BeautyGraph",
+        (
+            "BeautyGraph is a practicum prototype for transparent, "
+            "explainable skincare formula relationships."
+        ),
+    )
+
+    st.html(
+        """
+        <div class="bg-placeholder">
+            <div>
+                <div class="bg-section-title">
+                    Product → Ingredient → Function → Relationship
+                </div>
+
+                <div class="bg-section-description">
+                    The current prototype focuses on leave-on facial
+                    moisturizers and uses normalized ingredients,
+                    ingredient position, and mapped function groups.
+                </div>
+            </div>
+        </div>
+        """
+    )
+
+
+# ---------------------------------------------------------
+# Application
+# ---------------------------------------------------------
+
+render_navigation()
+
+if page == "profile":
+    render_profile()
+
+elif page == "compare":
+    render_compare()
+
+elif page == "similar":
+    render_similar_placeholder()
+
+else:
+    render_about()
