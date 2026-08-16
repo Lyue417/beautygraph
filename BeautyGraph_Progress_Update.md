@@ -120,3 +120,49 @@ The data foundation is ready for dataset expansion and ingredient-function mappi
 3. **Implement the first similarity baseline after sufficient product coverage.**
     
     The initial model will use normalized ingredient overlap, position-weighted ingredient similarity, and ingredient-function similarity. The output will be reviewed through top-k product comparisons before interface development.
+
+# 08/16 Updates
+
+## Comparison and Explanation Layer
+
+Completed the comparison and explanation layer for the 50-product dataset.
+
+### Completed
+- Added normalized ingredient names to similarity inputs for explanation use.
+- Added normalized Formula Function Profiles based on the existing position-weighted function vectors.
+- Added position-weighted function mapping coverage.
+- Added pair-level comparison features:
+  - shared ingredients
+  - shared high-position ingredients
+  - product-specific high-position ingredients
+  - shared function groups
+  - largest function-profile differences
+- Added deterministic user-facing explanations.
+- Added a reusable product comparison data object for the prototype.
+- Added edge-case handling for explanation generation.
+
+### Validation
+- 42 automated tests passed.
+- Successfully generated explanations for all 1,225 product pairs with no errors.
+- Manually reviewed the comparison between CeraVe Moisturizing Cream and CeraVe PM Facial Moisturizing Lotion.
+- Similarity scores and explanation features were consistent with the underlying ingredient and function data.
+
+### Current Data Flow
+Product
+→ Ingredients
+→ Functions
+→ Similarity
+→ Formula Function Profile
+→ Comparison Features
+→ Explanation
+
+### Notes
+Formula Function Profile percentages represent the relative distribution of position-weighted mapped function signals, not ingredient concentrations or efficacy scores.
+
+Function mapping coverage is retained alongside the profile to indicate how much of the weighted ingredient information is represented.
+
+### Next
+Integrate the existing data and comparison layers into the first working prototype with three core user flows:
+- Product Profile
+- Compare Products
+- Similar Products
