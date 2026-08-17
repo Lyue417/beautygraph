@@ -2,8 +2,9 @@
 
 BeautyGraph is a practicum prototype for explainable skincare product comparison.
 
-The project focuses on building a product–ingredient–function data model and a formula similarity engine for facial moisturizers.
+**[Live Demo](https://lyue417.github.io/beautygraph/)**
 
+The project connects products, normalized ingredients, ingredient functions, and transparent formula-similarity signals to support explainable product comparison.
 ## Current Scope
 
 - Product data ingestion
