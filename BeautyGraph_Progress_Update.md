@@ -121,7 +121,7 @@ The data foundation is ready for dataset expansion and ingredient-function mappi
     
     The initial model will use normalized ingredient overlap, position-weighted ingredient similarity, and ingredient-function similarity. The output will be reviewed through top-k product comparisons before interface development.
 
-# 08/16 Updates
+# 08/14 Updates
 
 ## Comparison and Explanation Layer
 
@@ -166,3 +166,98 @@ Integrate the existing data and comparison layers into the first working prototy
 - Product Profile
 - Compare Products
 - Similar Products
+
+# 08/16 Updates
+
+## Prototype and Public Demo
+
+Completed the first end-to-end BeautyGraph prototype for the frozen 50-product facial moisturizer dataset.
+
+The prototype now connects:
+
+```text
+Product
+→ Ingredient
+→ Function
+→ Similarity
+→ Explanation
+→ UI
+```
+
+### Product Profile
+
+Implemented an interactive Product Profile view that allows users to:
+
+- select any product in the dataset;
+- view product form, ingredient count, and function-mapping coverage;
+- inspect the position-weighted Formula Function Profile;
+- review normalized ingredients in published ingredient-list order.
+
+### Product Comparison
+
+Implemented an interactive comparison view for any two products.
+
+The comparison includes:
+
+- normalized ingredient overlap;
+- position-weighted formula similarity;
+- function-profile similarity;
+- shared ingredients;
+- shared high-position ingredients;
+- product-specific ingredients;
+- largest mapped function-profile differences;
+- structured deterministic explanations of why the two formulas relate.
+
+The explanation is presented before detailed ingredient evidence so users can understand the main relationship first and then inspect the underlying data.
+
+### Similar Products
+
+Implemented Top-5 similar-product exploration.
+
+For any selected product, the prototype:
+
+- ranks the five closest formulas by position-weighted ingredient similarity;
+- displays normalized ingredient overlap and function-profile similarity as supporting signals;
+- shows shared high-position ingredients;
+- shows the strongest shared mapped function groups.
+
+### Interface
+
+Built a lightweight skincare-oriented interface using warm ivory, sage green, and restrained blush colors.
+
+Added generic watercolor skincare illustrations to represent product forms such as cream, gel cream, lotion, balm, fluid, and milk.
+
+The illustrations are visual representations of product form only and are not images of the actual branded products.
+
+### Public Demo
+
+Created a static browser-based version of the working prototype for public demonstration.
+
+The public version uses data and comparison results exported from the existing Python processing pipeline into a browser-readable dataset. This allows the frozen prototype to run without requiring a live PostgreSQL database or Python server.
+
+Public demo:
+
+https://lyue417.github.io/beautygraph/
+
+PostgreSQL and Python remain the primary processing and analysis layers of the project. The static HTML/JavaScript layer is used only to serve the frozen public prototype.
+
+### Current Status
+
+The core end-to-end prototype is now operational and publicly accessible.
+
+Current working flow:
+
+```text
+Product dataset
+→ PostgreSQL
+→ Ingredient parsing
+→ Ingredient normalization
+→ Ingredient-function mapping
+→ Formula similarity
+→ Comparison features
+→ Deterministic explanation
+→ Interactive prototype
+→ Public demo
+```
+
+The next phase will focus on evaluation, similarity-model review, and final project documentation.
