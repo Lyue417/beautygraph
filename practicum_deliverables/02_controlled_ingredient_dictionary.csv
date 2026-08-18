@@ -1,0 +1,556 @@
+ingredient_id,canonical_name,observed_raw_variants,normalization_methods,normalizer_version
+1,"1,2-hexanediol","1,2-HEXANEDIOL | 1,2-Hexanediol | 1,2-hexanediol",case_whitespace,v5
+2,1-methylhydantoin-2-imide,1-Methylhydantoin-2-Imide,case_whitespace,v5
+3,"2,3-butanediol","2,3-Butanediol",case_whitespace,v5
+4,2-o-ethyl ascorbic acid,2-O-ETHYL ASCORBIC ACID,case_whitespace,v5
+5,3-o-ethyl ascorbic acid,3-O-ETHYL ASCORBIC ACID | 3-O-Ethyl Ascorbic Acid,case_whitespace,v5
+6,4-t-butylcyclohexanol (trans-isomer),4-t-Butylcyclohexanol (Trans-Isomer),case_whitespace,v5
+7,4-terpineol,4-Terpineol,case_whitespace,v5
+8,abies sibirica oil,Abies Sibirica Oil,case_whitespace,v5
+9,acetyl glutamine,Acetyl Glutamine,case_whitespace,v5
+10,acetyl tetrapeptide-2,Acetyl Tetrapeptide-2,case_whitespace,v5
+11,acetylated glycol stearate,ACETYLATED GLYCOL STEARATE,case_whitespace,v5
+12,acrylamide/sodium acryloyldimethyltaurate copolymer,Acrylamide/Sodium Acryloyldimethyltaurate Copolymer,case_whitespace,v5
+13,acrylates/c10-30 alkyl acrylate crosspolymer,ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER | Acrylates/C10-30 Alkyl Acrylate Crosspolymer | Acrylates/c10-30 Alkyl Acrylate Crosspolymer,case_whitespace,v5
+14,adenosine,ADENOSINE | Adenosine,case_whitespace,v5
+15,agar,agar,case_whitespace,v5
+16,alanine,Alanine,case_whitespace,v5
+17,alchemilla vulgaris leaf extract,Alchemilla Vulgaris Leaf Extract,case_whitespace,v5
+18,alcohol,ALCOHOL,case_whitespace,v5
+19,alcohol denat,ALCOHOL DENAT | Alcohol Denat,case_whitespace,v5
+20,algae extract,Algae Extract,case_whitespace,v5
+21,allantoin,Allantoin | allantoin,case_whitespace,v5
+22,aloe barbadensis leaf juice,Aloe Barbadensis Leaf Juice,case_whitespace,v5
+23,aloe barbadensis leaf juice powder,ALOE BARBADENSIS LEAF JUICE POWDER | aloe barbadensis leaf juice powder,case_whitespace,v5
+24,alpha-glucan,alpha-glucan,case_whitespace,v5
+25,alpha-glucan oligosaccharide,ALPHA-GLUCAN OLIGOSACCHARIDE,case_whitespace,v5
+26,alpinia speciosa leaf extract,ALPINIA SPECIOSA LEAF EXTRACT,case_whitespace,v5
+27,aluminum distearate,Aluminum Distearate,case_whitespace,v5
+28,aluminum hydroxide,ALUMINUM HYDROXIDE,case_whitespace,v5
+29,aluminum starch octenylsuccinate,ALUMINUM STARCH OCTENYLSUCCINATE | Aluminum Starch Octenylsuccinate,case_whitespace,v5
+30,aminopropyl dimethicone,AMINOPROPYL DIMETHICONE,case_whitespace,v5
+31,ammonium acryloyldimethyltaurate/vp copolymer,Ammonium Acryloyldimethyltaurate/VP Copolymer | Ammonium Acryloyldimethyltaurate/Vp Copolymer | Ammonium Acryloyldimethyltaurate/vp Copolymer | ammonium acryloyldimethyltaurate/VP copolymer,case_whitespace,v5
+32,ammonium polyacryloyldimethyl taurate,AMMONIUM POLYACRYLOYLDIMETHYL TAURATE,case_whitespace,v5
+33,angelica keiskei leaf/stem extract,ANGELICA KEISKEI LEAF/STEM EXTRACT,case_whitespace,v5
+34,anhydroxylitol,Anhydroxylitol,case_whitespace,v5
+35,aniba rosodora (rosewood) wood oil,Aniba Rosodora (Rosewood) Wood Oil,case_whitespace,v5
+36,aquaphilus dolomiae extract filtrate,AQUAPHILUS DOLOMIAE EXTRACT FILTRATE,case_whitespace,v5
+37,arachidyl alcohol,Arachidyl Alcohol,case_whitespace,v5
+38,arachidyl glucoside,Arachidyl Glucoside,case_whitespace,v5
+39,arginine,ARGININE | Arginine | arginine,case_whitespace,v5
+40,arginine/lysine polypeptide,Arginine/Lysine Polypeptide,case_whitespace,v5
+41,ascorbic acid,Ascorbic Acid,case_whitespace,v5
+42,ascorbyl palmitate,Ascorbyl Palmitate,case_whitespace,v5
+43,aspartic acid,Aspartic Acid,case_whitespace,v5
+44,aureobasidium pullulans ferment,Aureobasidium Pullulans Ferment,case_whitespace,v5
+45,avena sativa (oat) kernel extract,Avena Sativa (Oat) Kernel Extract,case_whitespace,v5
+46,avena sativa (oat) kernel flour,Avena Sativa (Oat) Kernel Flour,case_whitespace,v5
+47,avène thermal spring water,AVÈNE THERMAL SPRING WATER,case_whitespace,v5
+48,bacillus/folic acid ferment extract,Bacillus/Folic Acid Ferment Extract,case_whitespace,v5
+49,baptisia tinctoria root extract,Baptisia Tinctoria Root Extract,case_whitespace,v5
+50,beeswax,BEESWAX,case_whitespace,v5
+51,behenic acid,Behenic Acid,case_whitespace,v5
+52,behentrimonium methosulfate,BEHENTRIMONIUM METHOSULFATE,case_whitespace,v5
+53,behenyl alcohol,BEHENYL ALCOHOL | Behenyl Alcohol,case_whitespace,v5
+54,benzotriazolyl dodecyl p-cresol,Benzotriazolyl Dodecyl P-Cresol,case_whitespace,v5
+55,benzyl alcohol,benzyl alcohol,case_whitespace,v5
+56,benzyl benzoate,Benzyl Benzoate,case_whitespace,v5
+57,benzyl salicylate,Benzyl Salicylate,case_whitespace,v5
+58,beta-carotene,Beta-Carotene,case_whitespace,v5
+59,betaine,BETAINE | Betaine,case_whitespace,v5
+60,betula platyphylla japonica juice,Betula Platyphylla Japonica Juice,case_whitespace,v5
+61,bis-diglyceryl polyacyladipate-2,Bis-diglyceryl Polyacyladipate-2,case_whitespace,v5
+62,bis-methoxypropylamido isodocosane,bis-methoxypropylamido isodocosane,case_whitespace,v5
+63,bis-peg-18 methyl ether dimethyl silane,Bis-Peg-18 Methyl Ether Dimethyl Silane,case_whitespace,v5
+64,bisabolol,Bisabolol,case_whitespace,v5
+65,blue 1,Blue 1,case_whitespace,v5
+66,borago officinalis seed oil,Borago Officinalis Seed Oil,case_whitespace,v5
+67,boron nitride,Boron Nitride,case_whitespace,v5
+68,brassica oleracea acephala leaf extract,BRASSICA OLERACEA ACEPHALA LEAF EXTRACT,case_whitespace,v5
+69,butylene glycol,BUTYLENE GLYCOL | Butylene Glycol | butylene glycol,case_whitespace,v5
+70,butyrospermum parkii butter,BUTYROSPERMUM PARKII (SHEA) BUTTER | BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER | Butyrospermum Parkii (Shea) Butter | Butyrospermum Parkii Butter,alias | case_whitespace,v5
+71,c10-18 triglycerides,C10-18 Triglycerides,case_whitespace,v5
+72,c12-14 pareth-12,C12-14 Pareth-12,case_whitespace,v5
+73,c12-15 alkyl benzoate,C12-15 Alkyl Benzoate | c12-15 alkyl benzoate,case_whitespace,v5
+74,c12-16 alcohols,C12-16 Alcohols,case_whitespace,v5
+75,c13-14 isoalkane,C13-14 Isoalkane,case_whitespace,v5
+76,c13-14 isoparaffin,C13-14 Isoparaffin,case_whitespace,v5
+77,c14-22 alcohols,C14-22 Alcohols,case_whitespace,v5
+78,c15-19 alkane,C15-19 Alkane,case_whitespace,v5
+79,c9-12 alkane,c9-12 alkane,case_whitespace,v5
+80,caffeine,CAFFEINE | Caffeine,case_whitespace,v5
+81,calcium gluconate,Calcium Gluconate,case_whitespace,v5
+82,calendula officinalis flower extract,Calendula Officinalis Flower Extract,case_whitespace,v5
+83,camellia sinensis leaf extract,CAMELLIA SINENSIS LEAF EXTRACT | Camellia Sinensis Leaf Extract,case_whitespace,v5
+84,caprooyl phytosphingosine,Caprooyl Phytosphingosine,case_whitespace,v5
+85,caprooyl sphingosine,Caprooyl Sphingosine,case_whitespace,v5
+86,caprylhydroxamic acid,Caprylhydroxamic Acid,case_whitespace,v5
+87,caprylic/ capric/myristic/stearic triglyceride,Caprylic/ Capric/Myristic/Stearic Triglyceride,case_whitespace,v5
+88,caprylic/capric triglyceride,CAPRYLIC/CAPRIC TRIGLYCERIDE | Caprylic/Capric Triglyceride | caprylic/capric triglyceride,case_whitespace,v5
+89,capryloyl glycine,CAPRYLOYL GLYCINE,case_whitespace,v5
+90,caprylyl caprylate/caprate,Caprylyl Caprylate/Caprate,case_whitespace,v5
+91,caprylyl glycol,CAPRYLYL GLYCOL | Caprylyl Glycol | caprylyl glycol,case_whitespace,v5
+92,caramel,CARAMEL,case_whitespace,v5
+93,carbomer,CARBOMER | Carbomer | carbomer,case_whitespace,v5
+94,carnosine,carnosine,case_whitespace,v5
+95,caryodendron orinocense seed oil,Caryodendron Orinocense Seed Oil,case_whitespace,v5
+96,castor oil/ipdi copolymer,castor oil/ipdi copolymer,case_whitespace,v5
+97,cedrus atlantica bark oil,Cedrus Atlantica Bark Oil,case_whitespace,v5
+98,cellulose gum,Cellulose Gum | cellulose gum,case_whitespace,v5
+99,centella asiatica extract,Centella Asiatica Extract,case_whitespace,v5
+100,centella asiatica leaf extract,CENTELLA ASIATICA LEAF EXTRACT,case_whitespace,v5
+101,cera alba (beeswax),CERA ALBA (BEESWAX),case_whitespace,v5
+102,ceramide ap,CERAMIDE AP | Ceramide AP | Ceramide Ap | ceramide AP,case_whitespace,v5
+103,ceramide as,Ceramide AS | ceramide AS,case_whitespace,v5
+104,ceramide eop,CERAMIDE EOP | Ceramide EOP | Ceramide Eop | ceramide EOP,case_whitespace,v5
+105,ceramide eos,Ceramide Eos,case_whitespace,v5
+106,ceramide ng,ceramide NG | ceramide ng,case_whitespace,v5
+107,ceramide np,CERAMIDE NP | Ceramide NP | Ceramide Np | ceramide NP,case_whitespace,v5
+108,ceramide ns,Ceramide NS | Ceramide Ns,case_whitespace,v5
+109,ceteareth-20,CETEARETH-20,case_whitespace,v5
+110,ceteareth-25,Ceteareth-25,case_whitespace,v5
+111,cetearyl alcohol,CETEARYL ALCOHOL | Cetearyl Alcohol | Cetearylalcohol | cetearyl alcohol,alias | case_whitespace,v5
+112,cetearyl glucoside,CETEARYL GLUCOSIDE | Cetearyl Glucoside,case_whitespace,v5
+113,cetearyl olivate,CETEARYL OLIVATE | Cetearyl Olivate,case_whitespace,v5
+114,cetyl alcohol,CETYL ALCOHOL | Cetyl Alcohol | cetyl alcohol,case_whitespace,v5
+115,cetyl dimethicone,Cetyl Dimethicone,case_whitespace,v5
+116,cetyl esters,CETYL ESTERS,case_whitespace,v5
+117,cetyl ethylhexanoate,Cetyl Ethylhexanoate,case_whitespace,v5
+118,cetyl lactate,Cetyl Lactate,case_whitespace,v5
+119,cetyl palmitate,Cetyl Palmitate,case_whitespace,v5
+120,cetyl peg/ppg-10/1 dimethicone,CETYL PEG/PPG-10/1 DIMETHICONE,case_whitespace,v5
+121,cetyl-pg hydroxyethyl palmitamide,cetyl-pg hydroxyethyl palmitamide,case_whitespace,v5
+122,chamomilla recutita flower extract,CHAMOMILLA RECUTITA FLOWER EXTRACT/MATRICARIA FLOWER EXTRACT,alias,v5
+123,chlorphenesin,CHLORPHENESIN | Chlorphenesin,case_whitespace,v5
+124,cholesterol,CHOLESTEROL | Cholesterol | cholesterol,case_whitespace,v5
+125,cholesteryl isostearate,cholesteryl isostearate,case_whitespace,v5
+126,chondrus crispus extract,Chondrus Crispus Extract,case_whitespace,v5
+127,chrysanthemum parthenium (feverfew) extract,Chrysanthemum Parthenium (Feverfew) Extract,case_whitespace,v5
+128,chrysanthemum parthenium (feverfew) flower/leaf/stem juice,Chrysanthemum Parthenium (Feverfew) Flower/Leaf/Stem Juice,case_whitespace,v5
+129,citral,CITRAL | Citral,case_whitespace,v5
+130,citric acid,CITRIC ACID | Citric Acid | citric acid,case_whitespace,v5
+131,citronellol,Citronellol,case_whitespace,v5
+132,citrullus lanatus (watermelon) seed oil,Citrullus Lanatus (Watermelon) Seed Oil,case_whitespace,v5
+133,citrus aurantifolia (lime) oil,Citrus Aurantifolia (Lime) Oil,case_whitespace,v5
+134,citrus aurantifolia (lime) peel extract,Citrus Aurantifolia (Lime) Peel Extract,case_whitespace,v5
+135,citrus aurantium bergamia peel oil,Citrus Aurantium Bergamia Peel Oil,case_whitespace,v5
+136,citrus aurantium dulcis (orange) peel oil,Citrus Aurantium Dulcis (Orange) Peel Oil,case_whitespace,v5
+137,citrus limon peel oil,Citrus Limon Peel Oil,case_whitespace,v5
+138,citrus unshiu peel extract,CITRUS UNSHIU PEEL EXTRACT,case_whitespace,v5
+139,cladosiphon okamuranus extract,Cladosiphon Okamuranus Extract,case_whitespace,v5
+140,coco-caprylate/caprate,Coco-Caprylate/Caprate | coco-caprylate/caprate,case_whitespace,v5
+141,cocoglycerides,Cocoglycerides,case_whitespace,v5
+142,coconut alkanes,Coconut Alkanes | coconut alkanes,case_whitespace,v5
+143,cocos nucifera (coconut) fruit water,Cocos Nucifera (Coconut) Fruit Water,case_whitespace,v5
+144,cocos nucifera (coconut) oil,Cocos Nucifera (Coconut) Oil,case_whitespace,v5
+145,colloidal oatmeal,COLLOIDAL OATMEAL | Colloidal Oatmeal,case_whitespace,v5
+146,copper gluconate,COPPER GLUCONATE | Copper Gluconate,case_whitespace,v5
+147,copper palmitoyl heptapeptide-14,Copper Palmitoyl Heptapeptide-14,case_whitespace,v5
+148,copper pca,COPPER PCA,case_whitespace,v5
+149,corn starch modified,Corn Starch Modified,case_whitespace,v5
+150,cucumis sativus (cucumber) fruit extract,Cucumis Sativus (Cucumber) Fruit Extract,case_whitespace,v5
+151,cupressus sempervirens leaf/stem extract,Cupressus Sempervirens Leaf/Stem Extract,case_whitespace,v5
+152,cyanocobalamin,Cyanocobalamin,case_whitespace,v5
+153,cyclohexasiloxane,Cyclohexasiloxane,case_whitespace,v5
+154,cyclopentasiloxane,Cyclopentasiloxane,case_whitespace,v5
+155,decyl oleate,Decyl Oleate,case_whitespace,v5
+156,dehydroacetic acid,dehydroacetic acid,case_whitespace,v5
+157,dicaprylyl carbonate,DICAPRYLYL CARBONATE | Dicaprylyl Carbonate,case_whitespace,v5
+158,dicaprylyl ether,DICAPRYLYL ETHER,case_whitespace,v5
+159,diglycerin,DIGLYCERIN,case_whitespace,v5
+160,diisostearyl malate,Diisostearyl Malate,case_whitespace,v5
+161,dilinoleic acid/butanediol copolymer,dilinoleic acid/butanediol copolymer,case_whitespace,v5
+162,dilinoleic acid/propanediol copolymer,Dilinoleic Acid/Propanediol Copolymer,case_whitespace,v5
+163,dimethicone,DIMETHICONE | Dimethicone | dimethicone,case_whitespace,v5
+164,dimethicone crosspolymer,Dimethicone Crosspolymer,case_whitespace,v5
+165,dimethicone/peg-10/15 crosspolymer,DIMETHICONE/PEG-10/15 CROSSPOLYMER | Dimethicone/Peg-10/15 Crosspolymer,case_whitespace,v5
+166,dimethicone/vinyl dimethicone crosspolymer,Dimethicone/Vinyl Dimethicone Crosspolymer | Dimethicone/vinyl Dimethicone Crosspolymer,case_whitespace,v5
+167,dimethiconol,Dimethiconol,case_whitespace,v5
+168,dimethylacrylamide/sodium acryloyldimethyltaurate crosspolymer,DIMETHYLACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE CROSSPOLYMER,case_whitespace,v5
+169,dipalmitoyl hydroxyproline,dipalmitoyl hydroxyproline,case_whitespace,v5
+170,dipentaerythrityl hexahydroxystearate,Dipentaerythrityl Hexahydroxystearate,case_whitespace,v5
+171,dipotassium phosphate,DIPOTASSIUM PHOSPHATE,case_whitespace,v5
+172,dipropylene glycol,DIPROPYLENE GLYCOL | Dipropylene Glycol | dipropylene glycol,case_whitespace,v5
+173,disodium edta,DISODIUM EDTA | Diso- Dium Edta | Disodium EDTA | Disodium Edta | disodium EDTA,alias | case_whitespace,v5
+174,distarch phosphate,Distarch Phosphate,case_whitespace,v5
+175,disteardimonium hectorite,Disteardimonium Hectorite,case_whitespace,v5
+176,dunaliella salina extract,Dunaliella Salina Extract,case_whitespace,v5
+177,epigallocatechin gallatyl glucoside,Epigallocatechin Gallatyl Glucoside,case_whitespace,v5
+178,equisetum arvense leaf extract,Equisetum Arvense Leaf Extract,case_whitespace,v5
+179,erythritol,ERYTHRITOL | Erythritol,case_whitespace,v5
+180,ethoxydiglycol,Ethoxydiglycol,case_whitespace,v5
+181,ethyl hexanediol,Ethyl Hexanediol,case_whitespace,v5
+182,ethylhexyl olivate,Ethylhexyl Olivate,case_whitespace,v5
+183,ethylhexyl palmitate,ETHYLHEXYL PALMITATE | Ethylhexyl Palmitate,case_whitespace,v5
+184,ethylhexyl stearate,Ethylhexyl Stearate,case_whitespace,v5
+185,ethylhexylglycerin,ETHYLHEXYLGLYCERIN | Ethylhexylglycerin,case_whitespace,v5
+186,eucalyptus globulus leaf extract,eucalyptus globulus leaf extract,case_whitespace,v5
+187,eucalyptus globulus leaf oil,Eucalyptus Globulus (Eucalyptus) Leaf Oil | Eucalyptus Globulus Leaf Oil,alias | case_whitespace,v5
+188,euterpe oleracea fruit extract,Euterpe Oleracea Fruit Extract,case_whitespace,v5
+189,euterpe oleracea sterols,Euterpe Oleracea Sterols,case_whitespace,v5
+190,fragrance,FRAGRANCE (PARFUM) | Fragrance | Fragrance (Parfum) | Fragrance/Parfum | PARFUM (FRAGRANCE) | PARFUM / FRAGRANCE | PARFUM/FRAGRANCE | Parfum/fragrance | parfum (fragrance),alias | case_whitespace,v5
+191,fructose,Fructose,case_whitespace,v5
+192,gardenia taitensis flower,Gardenia Taitensis Flower,case_whitespace,v5
+193,geraniol,Geraniol,case_whitespace,v5
+194,gluconolactone,Gluconolactone,case_whitespace,v5
+195,glucosamine hcl,Glucosamine HCL,case_whitespace,v5
+196,glucose,Glucose,case_whitespace,v5
+197,glucosyl ceramide,glucosyl ceramide,case_whitespace,v5
+198,glutamic acid,Glutamic Acid,case_whitespace,v5
+199,glycerin,GLYCERIN | Glycerin | glycerin,case_whitespace,v5
+200,glyceryl acrylate/acrylic acid copolymer,Glyceryl Acrylate/acrylic Acid Copolymer,case_whitespace,v5
+201,glyceryl caprylate,GLYCERYL CAPRYLATE | Glyceryl Caprylate,case_whitespace,v5
+202,glyceryl caprylate/caprate,Glyceryl Caprylate/Caprate,case_whitespace,v5
+203,glyceryl dioleate,Glyceryl Dioleate,case_whitespace,v5
+204,glyceryl oleate,Glyceryl Oleate,case_whitespace,v5
+205,glyceryl stearate,GLYCERYL STEARATE | Glyceryl Stearate | glyceryl stearate,case_whitespace,v5
+206,glyceryl stearate citrate,Glyceryl Stearate Citrate,case_whitespace,v5
+207,glyceryl stearate se,GLYCERYL STEARATE SE | Glyceryl Stearate SE,case_whitespace,v5
+208,glycine,Glycine,case_whitespace,v5
+209,glycine soja (soybean) extract,Glycine Soja (Soybean) Extract,case_whitespace,v5
+210,glycine soja oil,GLYCINE SOJA (SOYBEAN) OIL | GLYCINE SOJA OIL/SOYBEAN OIL,alias,v5
+211,glycolipids,Glycolipids,case_whitespace,v5
+212,glycosphingolipids,Glycosphingolipids,case_whitespace,v5
+213,glycyrrhetinic acid,Glycyrrhetinic Acid,case_whitespace,v5
+214,glycyrrhiza glabra (licorice) root extract,Glycyrrhiza Glabra (Licorice) Root Extract,case_whitespace,v5
+215,glycyrrhiza inflata root extract,Glycyrrhiza Inflata Root Extract,case_whitespace,v5
+216,helianthus annuus (sunflower) extract,Helianthus Annuus (Sunflower) Extract,case_whitespace,v5
+217,helianthus annuus (sunflower) seed wax,Helianthus Annuus (Sunflower) Seed Wax,case_whitespace,v5
+218,helianthus annuus (sunflower) seedcake,Helianthus Annuus (Sunflower) Seedcake,case_whitespace,v5
+219,helianthus annuus seed oil,HELIANTHUS ANNUUS SEED OIL/SUNFLOWER SEED OIL | Helianthus Annuus (Sunflower) Seed Oil | helianthus annuus (sunflower) seed oil,alias,v5
+220,heptapeptide-15 palmitate,Heptapeptide-15 Palmitate,case_whitespace,v5
+221,hexapeptide-11,Hexapeptide-11,case_whitespace,v5
+222,hexyldecanol,Hexyldecanol,case_whitespace,v5
+223,hexylene glycol,Hexylene Glycol | hexylene glycol,case_whitespace,v5
+224,hippophae rhamnoides (sea buckthorn) fruit oil,Hippophae Rhamnoides (Sea Buckthorn) Fruit Oil,case_whitespace,v5
+225,hippophae rhamnoides (sea buckthorn) seed oil,Hippophae Rhamnoides (Sea Buckthorn) Seed Oil,case_whitespace,v5
+226,histidine,Histidine,case_whitespace,v5
+227,homarine hcl,Homarine HCI,alias,v5
+228,honokiol,Honokiol,case_whitespace,v5
+229,hordeum vulgare (barley) extract,Hordeum Vulgare (Barley) Extract\Extrait D'Orge,alias,v5
+230,hyaluronic acid,hyaluronic acid,case_whitespace,v5
+231,hydrogenated castor oil,Hydrogenated Castor Oil,case_whitespace,v5
+232,hydrogenated coconut oil,Hydrogenated Coconut Oil,case_whitespace,v5
+233,hydrogenated lecithin,HYDROGENATED LECITHIN | Hydrogenated Lecithin | hydrogenated lecithin,case_whitespace,v5
+234,hydrogenated polydecene,HYDROGENATED POLYDECENE | hydrogenated polydecene,case_whitespace,v5
+235,hydrogenated polyisobutene,HYDROGENATED POLYISOBUTENE,case_whitespace,v5
+236,hydrogenated shea butter,Hydrogenated Shea Butter,case_whitespace,v5
+237,hydrogenated starch hydrolysate,Hydrogenated Starch Hydrolysate,case_whitespace,v5
+238,hydrogenated vegetable glycerides,Hydrogenated Vegetable Glycerides,case_whitespace,v5
+239,hydrolyzed collagen (marine),hydrolyzed collagen (marine),case_whitespace,v5
+240,hydrolyzed hyaluronic acid,Hydrolyzed Hyaluronic Acid | hydrolyzed hyaluronic acid,case_whitespace,v5
+241,hydrolyzed plukenetia volubilis seed extract,Hydrolyzed Plukenetia Volubilis Seed Extract,case_whitespace,v5
+242,hydrolyzed rice protein,HYDROLYZED RICE PROTEIN | Hydrolyzed Rice Protein,case_whitespace,v5
+243,hydrolyzed silk,Hydrolyzed Silk,case_whitespace,v5
+244,hydrolyzed sodium hyaluronate,HYDROLYZED SODIUM HYALURONATE | Hydrolyzed Sodium Hyaluronate,case_whitespace,v5
+245,hydrolyzed soy protein,HYDROLYZED SOY PROTEIN,case_whitespace,v5
+246,hydroxyacetophenone,HYDROXYACETOPHENONE | Hydroxyacetophenone,case_whitespace,v5
+247,hydroxycitronellal,Hydroxycitronellal,case_whitespace,v5
+248,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer,Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer | hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer,case_whitespace,v5
+249,hydroxyethyl urea,Hydroxyethyl Urea | hydroxyethyl urea,case_whitespace,v5
+250,hydroxyethylpiperazine ethane sulfonic acid,HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID,case_whitespace,v5
+251,hydroxypalmitoyl sphinganine,HYDROXYPALMITOYL SPHINGANINE,case_whitespace,v5
+252,hydroxyproline palmitamide,hydroxyproline palmitamide,case_whitespace,v5
+253,inositol,Inositol,case_whitespace,v5
+254,inulin,INULIN,case_whitespace,v5
+255,iodopropynyl butylcarbamate,iodopropynyl butylcarbamate,case_whitespace,v5
+256,iron oxides (ci 77491),IRON OXIDES (CI 77491) | Iron Oxides (Ci 77491),case_whitespace,v5
+257,isoceteth-20,Isoceteth-20,case_whitespace,v5
+258,isodecyl neopentanoate,ISODECYL NEOPENTANOATE,case_whitespace,v5
+259,isododecane,Isododecane,case_whitespace,v5
+260,isohexadecane,ISOHEXADECANE | Isohexadecane | isohexadecane,case_whitespace,v5
+261,isoleucine,Isoleucine,case_whitespace,v5
+262,isomalt,Isomalt,case_whitespace,v5
+263,isopropyl isostearate,ISOPROPYL ISOSTEARATE | Isopropyl Isostearate,case_whitespace,v5
+264,isopropyl myristate,Isopropyl Myristate,case_whitespace,v5
+265,isostearic acid,ISOSTEARIC ACID | Isostearic Acid,case_whitespace,v5
+266,isostearyl glyceryl ether,isostearyl glyceryl ether,case_whitespace,v5
+267,isostearyl isostearate,isostearyl isostearate,case_whitespace,v5
+268,jojoba esters,Jojoba Esters,case_whitespace,v5
+269,jojoba oil/macadamia seed oil esters,Jojoba Oil/Macadamia Seed Oil Esters,case_whitespace,v5
+270,lactic acid,Lactic Acid | lactic acid,case_whitespace,v5
+271,lactic acid/glycolic acid copolymer,Lactic Acid/Glycolic Acid Copolymer,case_whitespace,v5
+272,lactobacillus,LACTOBACILLUS,case_whitespace,v5
+273,lactobacillus ferment,Lactobacillus Ferment,case_whitespace,v5
+274,laminaria digitata extract,Laminaria Digitata Extract,case_whitespace,v5
+275,laminaria saccharina extract,Laminaria Saccharina Extract,case_whitespace,v5
+276,lanolin alcohol,Lanolin Alcohol,case_whitespace,v5
+277,laureth-23,Laureth-23,case_whitespace,v5
+278,laureth-4,Laureth-4,case_whitespace,v5
+279,laureth-7,Laureth-7,case_whitespace,v5
+280,lauryl peg-8 dimethicone,LAURYL PEG-8 DIMETHICONE,case_whitespace,v5
+281,lauryl peg-9 polydimethylsiloxyethyl dimethicone,Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone | Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone,case_whitespace,v5
+282,lecithin,Lecithin,case_whitespace,v5
+283,leucine,Leucine,case_whitespace,v5
+284,leuconostoc/radish root ferment filtrate,Leuconostoc/radish Root Ferment Filtrate,case_whitespace,v5
+285,limnanthes alba (meadowfoam) seed oil,Limnanthes Alba (Meadowfoam) Seed Oil,case_whitespace,v5
+286,limonene,LIMONENE | Limonene,case_whitespace,v5
+287,linalool,LINALOOL | Linalool,case_whitespace,v5
+288,linalyl acetate,Linalyl Acetate,case_whitespace,v5
+289,linoleic acid,Linoleic Acid | linoleic acid,case_whitespace,v5
+290,linolenic acid,Linolenic Acid,case_whitespace,v5
+291,lysine,Lysine,case_whitespace,v5
+292,lysine hci,Lysine Hci,case_whitespace,v5
+293,lysine hcl,Lysine HCl,case_whitespace,v5
+294,macadamia ternifolia seed oil,Macadamia Ternifolia Seed Oil,case_whitespace,v5
+295,madecassoside,MADECASSOSIDE | Madecassoside,case_whitespace,v5
+296,magnesium gluconate,Magnesium Gluconate,case_whitespace,v5
+297,magnesium stearate,Magnesium Stearate,case_whitespace,v5
+298,magnesium sulfate,MAGNESIUM SULFATE | Magnesium Sulfate | magnesium sulfate,case_whitespace,v5
+299,magnolol,Magnolol,case_whitespace,v5
+300,malachite extract,Malachite Extract,case_whitespace,v5
+301,maltodextrin,MALTODEXTRIN,case_whitespace,v5
+302,maltooligosyl glucoside,Maltooligosyl Glucoside,case_whitespace,v5
+303,maltose,Maltose,case_whitespace,v5
+304,manganese gluconate,MANGANESE GLUCONATE,case_whitespace,v5
+305,mannitol,Mannitol,case_whitespace,v5
+306,mannose,MANNOSE,case_whitespace,v5
+307,meadowfoam estolide,meadowfoam estolide,case_whitespace,v5
+308,medicago sativa (alfalfa) seed powder,Medicago Sativa (Alfalfa) Seed Powder,case_whitespace,v5
+309,medicago sativa extract,MEDICAGO SATIVA EXTRACT/ALFALFA EXTRACT,alias,v5
+310,mentha arvensis leaf extract,Mentha Arvensis Leaf Extract,case_whitespace,v5
+311,menthoxypropanediol,MENTHOXYPROPANEDIOL,case_whitespace,v5
+312,methyl gluceth-20,Methyl Gluceth-20,case_whitespace,v5
+313,methyl palmitate,Methyl Palmitate,case_whitespace,v5
+314,methyl trimethicone,Methyl Trimethicone,case_whitespace,v5
+315,methylisothiazolinone,methylisothiazolinone,case_whitespace,v5
+316,methylparaben,Methylparaben | methylparaben,case_whitespace,v5
+317,methylpropanediol,Methylpropanediol | methylpropanediol,case_whitespace,v5
+318,mica,Mica,case_whitespace,v5
+319,microcrystalline cellulose,Microcrystalline Cellulose | microcrystalline cellulose,case_whitespace,v5
+320,microcrystalline wax,CERA MICROCRISTALLINA / MICROCRYSTALLINE WAX | Microcrystalline Wax\Cera Microcristallina\Cire Microcristalline,alias,v5
+321,mineral oil,Mineral Oil\Paraffinum Liquidum\Huile Minerale | Mineral Oil\Paraffinum Liquidum\Huile Minérale,alias,v5
+322,myristic acid,MYRISTIC ACID,case_whitespace,v5
+323,myristyl myristate,MYRISTYL MYRISTATE,case_whitespace,v5
+324,neopentyl glycol dicaprate,neopentyl glycol dicaprate,case_whitespace,v5
+325,nepeta cataria extract,Nepeta Cataria Extract,case_whitespace,v5
+326,niacin,Niacin,case_whitespace,v5
+327,niacinamide,NIACINAMIDE | Niacinamide,case_whitespace,v5
+328,nymphaea alba root extract,Nymphaea Alba Root Extract,case_whitespace,v5
+329,o-cymen-5-ol,O-Cymen-5-Ol,case_whitespace,v5
+330,octyldodecanol,OCTYLDODECANOL | Octyldodecanol,case_whitespace,v5
+331,octyldodecyl myristate,octyldodecyl myristate,case_whitespace,v5
+332,octyldodecyl neopentanoate,Octyldodecyl Neopentanoate,case_whitespace,v5
+333,oenothera biennis (evening primrose) oil,Oenothera Biennis (Evening Primrose) Oil,case_whitespace,v5
+334,olea europaea (olive) leaf extract,Olea Europaea (Olive) Leaf Extract,case_whitespace,v5
+335,oleic acid,Oleic Acid,case_whitespace,v5
+336,oleth-10,Oleth-10,case_whitespace,v5
+337,olus oil/vegetable oil/huile végétale,Olus Oil/Vegetable Oil/Huile végétale,case_whitespace,v5
+338,ophiopogon japonicus root extract,Ophiopogon Japonicus Root Extract,case_whitespace,v5
+339,oryza sativa (rice) bran extract,Oryza Sativa (Rice) Bran Extract,case_whitespace,v5
+340,palmitic acid,PALMITIC ACID | Palmitic Acid | palmitic acid,case_whitespace,v5
+341,palmitoyl dipeptide-7,Palmitoyl Dipeptide-7,case_whitespace,v5
+342,palmitoyl heptapeptide-27,Palmitoyl Heptapeptide-27,case_whitespace,v5
+343,palmitoyl hexapeptide-12,palmitoyl hexapeptide-12,case_whitespace,v5
+344,palmitoyl octapeptide-24,Palmitoyl Octapeptide-24,case_whitespace,v5
+345,palmitoyl oligopeptide-78,Palmitoyl Oligopeptide-78,case_whitespace,v5
+346,palmitoyl pentapeptide-4,Palmitoyl Pentapeptide-4,case_whitespace,v5
+347,palmitoyl tetrapeptide-7,PALMITOYL TETRAPEPTIDE-7 | Palmitoyl Tetrapeptide-7,case_whitespace,v5
+348,palmitoyl tripeptide-1,PALMITOYL TRIPEPTIDE-1 | Palmitoyl Tripeptide-1,case_whitespace,v5
+349,palmitoyl tripeptide-5,Palmitoyl Tripeptide-5,case_whitespace,v5
+350,panax ginseng root extract,PANAX GINSENG ROOT EXTRACT,case_whitespace,v5
+351,panthenol,PANTHENOL | Panthenol,case_whitespace,v5
+352,pantolactone,Pantolactone,case_whitespace,v5
+353,paraffin,Paraffin,case_whitespace,v5
+354,pca,PCA | Pca,case_whitespace,v5
+355,peg-10 phytosterol,peg-10 phytosterol,case_whitespace,v5
+356,peg-100 stearate,PEG-100 STEARATE | PEG-100 Stearate | Peg-100 Stearate | peg-100 stearate,case_whitespace,v5
+357,peg-12 dimethicone,peg-12 dimethicone,case_whitespace,v5
+358,peg-150,Peg-150,case_whitespace,v5
+359,peg-3 dimethicone,peg-3 dimethicone,case_whitespace,v5
+360,peg-40 hydrogenated castor oil,Peg-40 Hydrogenated Castor Oil,case_whitespace,v5
+361,peg-60 glyceryl isostearate,Peg-60 Glyceryl Isostearate,case_whitespace,v5
+362,peg/ppg-14/7 dimethyl ether,PEG/PPG-14/7 DIMETHYL ETHER,case_whitespace,v5
+363,peg/ppg-17/4 dimethyl ether,PEG/PPG-17/4 DIMETHYL ETHER,case_whitespace,v5
+364,peg/ppg/polybutylene glycol-8/5/3 glycerin,PEG/PPG/polybutylene glycol-8/5/3 glycerin | Peg/Ppg/Polybutylene Glycol-8/5/3 Glycerin,case_whitespace,v5
+365,pelargonium graveolens flower oil,Pelargonium Graveolens Flower Oil,case_whitespace,v5
+366,pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate,PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE,case_whitespace,v5
+367,pentaerythrityl tetraethylhexanoate,PENTAERYTHRITYL TETRAETHYLHEXANOATE | Pentaerythrityl Tetraethylhexanoate,case_whitespace,v5
+368,pentaerythrityl tetraisostearate,Pentaerythrityl Tetraisostearate,case_whitespace,v5
+369,pentylene glycol,PENTYLENE GLYCOL | Pentylene Glycol | pentylene glycol,case_whitespace,v5
+370,petrolatum,PETROLATUM | Petrolatum,case_whitespace,v5
+371,phenethyl alcohol,Phenethyl Alcohol,case_whitespace,v5
+372,phenoxyethanol,PHENOXYETHANOL | Phenoxyethanol | phenoxyethanol,case_whitespace,v5
+373,phenyl trimethicone,Phenyl Trimethicone,case_whitespace,v5
+374,phenylalanine,Phenylalanine,case_whitespace,v5
+375,phenylpropanol,Phenylpropanol,case_whitespace,v5
+376,phospholipids,phospholipids,case_whitespace,v5
+377,phytosphingosine,PHYTOSPHINGOSINE | Phytosphingosine,case_whitespace,v5
+378,phytosterols,Phytosterols | phytosterols,case_whitespace,v5
+379,phytosteryl canola glycerides,Phytosteryl Canola Glycerides,case_whitespace,v5
+380,phytosteryl macadamiate,Phytosteryl Macadamiate | phytosteryl macadamiate,case_whitespace,v5
+381,phytosteryl sunflowerseedate,Phytosteryl Sunflowerseedate,case_whitespace,v5
+382,phytosteryl/octyldodecyl lauroyl glutamate,PHYTOSTERYL/OCTYLDODECYL LAUROYL GLUTAMATE,case_whitespace,v5
+383,pinene,Pinene,case_whitespace,v5
+384,polyacrylamide,Polyacrylamide,case_whitespace,v5
+385,polyacrylate crosspolymer-11,polyacrylate crosspolymer-11,case_whitespace,v5
+386,polyacrylate crosspolymer-6,Polyacrylate Crosspolymer-6,case_whitespace,v5
+387,polyacrylate-13,POLYACRYLATE-13,case_whitespace,v5
+388,polyethylene,POLYETHYLENE,case_whitespace,v5
+389,polyglycerin-3,Polyglycerin-3,case_whitespace,v5
+390,polyglyceryl-10 oleate,Polyglyceryl-10 Oleate,case_whitespace,v5
+391,polyglyceryl-10 stearate,Polyglyceryl-10 Stearate,case_whitespace,v5
+392,polyglyceryl-2 stearate,polyglyceryl-2 stearate,case_whitespace,v5
+393,polyglyceryl-3 diisostearate,POLYGLYCERYL-3 DIISOSTEARATE,case_whitespace,v5
+394,polyglyceryl-3 methylglucose distearate,Polyglyceryl-3 Methylglucose Distearate,case_whitespace,v5
+395,polyglyceryl-4 isostearate,POLYGLYCERYL-4 ISOSTEARATE | Polyglyceryl-4 Isostearate,case_whitespace,v5
+396,polyglyceryl-6 laurate,Polyglyceryl-6 Laurate,case_whitespace,v5
+397,polygonum cuspidatum root extract,Polygonum Cuspidatum Root Extract,case_whitespace,v5
+398,polyisobutene,POLYISOBUTENE,case_whitespace,v5
+399,polym nia sonchifolia root juice,POLYM NIA SONCHIFOLIA ROOT JUICE,case_whitespace,v5
+400,polymethylsilsesquioxane,POLYMETHYLSILSESQUIOXANE | Polymethylsilsesquioxane,case_whitespace,v5
+401,polyquaternium-51,Polyquaternium-51 | polyquaternium-51,case_whitespace,v5
+402,polysilicone-11,Polysilicone-11,case_whitespace,v5
+403,polysorbate 20,POLYSORBATE 20 | Polysorbate 20,case_whitespace,v5
+404,polysorbate 60,POLYSORBATE 60 | Polysorbate 60 | polysorbate 60,case_whitespace,v5
+405,polysorbate 80,Polysorbate 80,case_whitespace,v5
+406,polyvinyl alcohol,Polyvinyl Alcohol,case_whitespace,v5
+407,potassium cetyl phosphate,POTASSIUM CETYL PHOSPHATE | Potassium Cetyl Phosphate,case_whitespace,v5
+408,potassium hydroxide,POTASSIUM HYDROXIDE,case_whitespace,v5
+409,potassium phosphate,POTASSIUM PHOSPHATE,case_whitespace,v5
+410,potassium sorbate,Potassium Sorbate | potassium sorbate,case_whitespace,v5
+411,ppg-3 dipivalate,PPG-3 DIPIVALATE,case_whitespace,v5
+412,proline,Proline,case_whitespace,v5
+413,propanediol,PROPANEDIOL | Propanediol,case_whitespace,v5
+414,propylene carbonate,PROPYLENE CARBONATE,case_whitespace,v5
+415,propylene glycol,Propylene Glycol,case_whitespace,v5
+416,propylene glycol dicaprate,Propylene Glycol Dicaprate,case_whitespace,v5
+417,propylparaben,Propylparaben,case_whitespace,v5
+418,prunus amygdalus dulcis (sweet almond) seed meal,Prunus Amygdalus Dulcis (Sweet Almond) Seed Meal,case_whitespace,v5
+419,prunus avium (sweet cherry) fruit extract,Prunus Avium (Sweet Cherry) Fruit Extract,case_whitespace,v5
+420,pseudoalteromonas ferment extract,PSEUDOALTEROMONAS FERMENT EXTRACT,case_whitespace,v5
+421,pyrola incarnata extract,PYROLA INCARNATA EXTRACT,case_whitespace,v5
+422,pyrus malus (apple) seed extract,Pyrus Malus (Apple) Seed Extract,case_whitespace,v5
+423,red 33 (ci 17200),Red 33 (Ci 17200),case_whitespace,v5
+424,red 4 (ci 14700),Red 4 (Ci 14700),case_whitespace,v5
+425,rhamnose,Rhamnose,case_whitespace,v5
+426,rosa mosqueta (rose) hip oil,Rosa Mosqueta (Rose) Hip Oil,case_whitespace,v5
+427,rosmarinus officinalis (rosemary) leaf extract,ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT (ROSMARINUS OFFICINALIS LEAF EXTRACT) | Rosmarinus Officinalis (Rosemary) Leaf Extract,alias | case_whitespace,v5
+428,rosmarinus officinalis (rosemary) leaf oil,Rosmarinus Officinalis (Rosemary) Leaf Oil,case_whitespace,v5
+429,rubus idaeus (raspberry) leaf extract,Rubus Idaeus (Raspberry) Leaf Extract,case_whitespace,v5
+430,saccharide isomerate,Saccharide Isomerate,case_whitespace,v5
+431,saccharomyces lysate extract,Saccharomyces Lysate Extract,case_whitespace,v5
+432,saccharomyces/copper ferment,Saccharomyces/Copper Ferment | Saccharomyces/copper Ferment,case_whitespace,v5
+433,saccharomyces/iron ferment,Saccharomyces/Iron Ferment,case_whitespace,v5
+434,saccharomyces/magnesium ferment,Saccharomyces/Magnesium Ferment | Saccharomyces/magnesium Ferment,case_whitespace,v5
+435,saccharomyces/rice ferment filtrate,Saccharomyces/rice Ferment Filtrate,case_whitespace,v5
+436,saccharomyces/silicon ferment,Saccharomyces/Silicon Ferment | Saccharomyces/silicon Ferment,case_whitespace,v5
+437,saccharomyces/zinc ferment,Saccharomyces/Zinc Ferment,case_whitespace,v5
+438,salicylic acid,SALICYLIC ACID,case_whitespace,v5
+439,sambucus nigra flower extract,Sambucus Nigra Flower Extract,case_whitespace,v5
+440,sambucus nigra fruit extract,Sambucus Nigra Fruit Extract,case_whitespace,v5
+441,sanguisorba officinalis root extract,SANGUISORBA OFFICINALIS ROOT EXTRACT,case_whitespace,v5
+442,santalum album (sandalwood) oil,Santalum Album (Sandalwood) Oil,case_whitespace,v5
+443,sarcosine,SARCOSINE,case_whitespace,v5
+444,sclerocarya birrea seed oil,Sclerocarya Birrea Seed Oil,case_whitespace,v5
+445,sclerotium gum,Sclerotium Gum,case_whitespace,v5
+446,scutellaria baicalensis root extract,SCUTELLARIA BAICALENSIS ROOT EXTRACT,case_whitespace,v5
+447,serine,Serine,case_whitespace,v5
+448,sesamum indicum (sesame) oil,Sesamum Indicum (Sesame) Oil,case_whitespace,v5
+449,sesamum indicum (sesame) seed oil,Sesamum Indicum (Sesame) Seed Oil,case_whitespace,v5
+450,sesamum indicum (sesame) seed powder,Sesamum Indicum (Sesame) Seed Powder,case_whitespace,v5
+451,sh-oligopeptide-1,sh-Oligopeptide-1,case_whitespace,v5
+452,sh-oligopeptide-2,sh-Oligopeptide-2,case_whitespace,v5
+453,sh-polypeptide-1,sh-Polypeptide-1,case_whitespace,v5
+454,sh-polypeptide-11,sh-Polypeptide-11,case_whitespace,v5
+455,sh-polypeptide-9,sh-Polypeptide-9,case_whitespace,v5
+456,silica,SILICA | Silica,case_whitespace,v5
+457,simmondsia chinensis (jojoba) seed oil,Simmondsia Chinensis (Jojoba) Seed Oil,case_whitespace,v5
+458,sodium acetylated hyaluronate,SODIUM ACETYLATED HYALURONATE | Sodium Acetylated Hyaluronate | sodium acetylated hyaluronate,case_whitespace,v5
+459,sodium acrylates copolymer,Sodium Acrylates Copolymer,case_whitespace,v5
+460,sodium benzoate,Sodium Benzoate | sodium benzoate,case_whitespace,v5
+461,sodium carboxymethyl beta-glucan,sodium carboxymethyl beta-glucan,case_whitespace,v5
+462,sodium chloride,SODIUM CHLORIDE | Sodium Chloride | sodium chloride,case_whitespace,v5
+463,sodium citrate,SODIUM CITRATE | Sodium Citrate | sodium citrate,case_whitespace,v5
+464,sodium gluconate,Sodium Gluconate,case_whitespace,v5
+465,sodium hyaluronate,SODIUM HYALURONATE | Sodium Hyaluronate | sodium hyaluronate,case_whitespace,v5
+466,sodium hyaluronate crosspolymer,Sodium Hyaluronate Crosspolymer,case_whitespace,v5
+467,sodium hydroxide,SODIUM HYDROXIDE | Sodium Hydroxide | sodium hydroxide,case_whitespace,v5
+468,sodium isostearate,sodium isostearate,case_whitespace,v5
+469,sodium lactate,SODIUM LACTATE | Sodium Lactate,case_whitespace,v5
+470,sodium lauroyl lactylate,SODIUM LAUROYL LACTYLATE | Sodium Lauroyl Lactylate,case_whitespace,v5
+471,sodium metabisulfite,SODIUM METABISULFITE,case_whitespace,v5
+472,sodium metaphosphate,SODIUM METAPHOSPHATE,case_whitespace,v5
+473,sodium methyl stearoyl taurate,sodium methyl stearoyl taurate,case_whitespace,v5
+474,sodium pca,Sodium PCA | Sodium Pca | sodium pca,case_whitespace,v5
+475,sodium phytate,Sodium Phytate | sodium phytate,case_whitespace,v5
+476,sodium polyacrylate,SODIUM POLYACRYLATE | Sodium Polyacrylate | sodium polyacrylate,case_whitespace,v5
+477,sodium polyacrylate starch,Sodium Polyacrylate Starch,case_whitespace,v5
+478,sodium polyacryloyldimethyl taurate,SODIUM POLYACRYLOYLDIMETHYL TAURATE,case_whitespace,v5
+479,sodium stearoyl glutamate,Sodium Stearoyl Glutamate,case_whitespace,v5
+480,solanum lycopersicum (tomato) seed oil,Solanum Lycopersicum (Tomato) Seed Oil,case_whitespace,v5
+481,sorbic acid,Sorbic Acid,case_whitespace,v5
+482,sorbitan isostearate,Sorbitan Isostearate,case_whitespace,v5
+483,sorbitan oleate,Sorbitan Oleate,case_whitespace,v5
+484,sorbitan olivate,SORBITAN OLIVATE | Sorbitan Olivate,case_whitespace,v5
+485,sorbitan palmitate,Sorbitan Palmitate,case_whitespace,v5
+486,sorbitan sesquioleate,SORBITAN SESQUIOLEATE,case_whitespace,v5
+487,sorbitan stearate,sorbitan stearate,case_whitespace,v5
+488,sorbitan tristearate,SORBITAN TRISTEARATE,case_whitespace,v5
+489,spinacia oleracea leaf extract,SPINACIA OLERACEA/SPINACH LEAF EXTRACT,alias,v5
+490,squalane,SQUALANE | Squalane | squalane,case_whitespace,v5
+491,squalene,Squalene,case_whitespace,v5
+492,stearalkonium hectorite,STEARALKONIUM HECTORITE,case_whitespace,v5
+493,stearic acid,STEARIC ACID | Stearic Acid,case_whitespace,v5
+494,stearyl alcohol,STEARYL ALCOHOL | Stearyl Alcohol | stearyl alcohol,case_whitespace,v5
+495,stearyl heptanoate,STEARYL HEPTANOATE,case_whitespace,v5
+496,stellaria media (chickweed) extract,Stellaria Media (Chickweed) Extract,case_whitespace,v5
+497,succinic acid,succinic acid,case_whitespace,v5
+498,sucrose stearate,Sucrose Stearate,case_whitespace,v5
+499,symphytum officinale callus culture extract,Symphytum Officinale Callus Culture Extract,case_whitespace,v5
+500,synthetic beeswax,Synthetic Beeswax,case_whitespace,v5
+501,synthetic wax,SYNTHETIC WAX,case_whitespace,v5
+502,t-butyl alcohol,T-butyl Alcohol,case_whitespace,v5
+503,teprenone,Teprenone,case_whitespace,v5
+504,tetrasodium edta,Tetrasodium EDTA,case_whitespace,v5
+505,tetrasodium glutamate diacetate,TETRASODIUM GLUTAMATE DIACETATE,case_whitespace,v5
+506,threonine,Threonine,case_whitespace,v5
+507,titanium dioxide,TITANIUM DIOXIDE | Titanium Dioxide,case_whitespace,v5
+508,titanium dioxide (ci 77891),TITANIUM DIOXIDE (CI 77891),case_whitespace,v5
+509,tocopherol,TOCOPHEROL | Tocopherol | tocopherol,case_whitespace,v5
+510,tocopheryl acetate,Tocopheryl Acetate,case_whitespace,v5
+511,tocopheryl succinate,Tocopheryl Succinate,case_whitespace,v5
+512,trehalose,TREHALOSE | Trehalose | trehalose,case_whitespace,v5
+513,triacetin,Triacetin | triacetin,case_whitespace,v5
+514,tribehenin,tribehenin,case_whitespace,v5
+515,tridecane,Tridecane,case_whitespace,v5
+516,tridecyl trimellitate,Tridecyl Trimellitate,case_whitespace,v5
+517,triethanolamine,Triethanolamine,case_whitespace,v5
+518,triethyl citrate,triethyl citrate,case_whitespace,v5
+519,triethylhexanoin,Triethylhexanoin | triethylhexanoin,case_whitespace,v5
+520,triheptanoin,triheptanoin,case_whitespace,v5
+521,trihydroxystearin,TRIHYDROXYSTEARIN,case_whitespace,v5
+522,triolein,Triolein,case_whitespace,v5
+523,tripeptide-3,Tripeptide-3,case_whitespace,v5
+524,trisiloxane,trisiloxane,case_whitespace,v5
+525,trisodium edta,TRISODIUM EDTA | Trisodium Edta,case_whitespace,v5
+526,trisodium ethylenediamine disuccinate,TRISODIUM ETHYLENEDIAMINE DISUCCINATE | Trisodium Ethylenediamine Disuccinate,case_whitespace,v5
+527,triticum vulgare (wheat) germ oil,Triticum Vulgare (Wheat) Germ Oil,case_whitespace,v5
+528,tromethamine,TROMETHAMINE | Tromethamine,case_whitespace,v5
+529,tropolone,TROPOLONE,case_whitespace,v5
+530,tyrosine,Tyrosine,case_whitespace,v5
+531,undaria pinnatifida extract,Undaria Pinnatifida Extract,case_whitespace,v5
+532,undecane,Undecane,case_whitespace,v5
+533,urea,Urea | urea,case_whitespace,v5
+534,urtica dioica (nettle) leaf extract,Urtica Dioica (Nettle) Leaf Extract,case_whitespace,v5
+535,vaccinium macrocarpon (cranberry) seed oil,Vaccinium Macrocarpon (Cranberry) Seed Oil,case_whitespace,v5
+536,valine,Valine,case_whitespace,v5
+537,vegetable oil,Vegetable Oil,case_whitespace,v5
+538,vegetable oil (olus oil) (huile végétale),Vegetable Oil (Olus Oil) (Huile végétale),case_whitespace,v5
+539,violet 2 (ci 60725),Violet 2 (Ci 60725),case_whitespace,v5
+540,vitis vinifera (grape) fruit water,vitis vinifera (grape) fruit water,case_whitespace,v5
+541,vitis vinifera (grape) juice,vitis vinifera (grape) juice,case_whitespace,v5
+542,vitreoscilla ferment,VITREOSCILLA FERMENT,case_whitespace,v5
+543,water,"AQUA (WATER) | AQUA (WATER, EAU) | AQUA / WATER | AQUA / WATER / EAU | AQUA/WATER/EAU | Aqua | Aqua (Water) | Aqua/Water/Eau | Aqua/water/eau | Purified Water | WATER | WATER (AQUA) | WATER(AQUA/EAU) | Water | Water (Aqua / Eau) | Water (Aqua) | Water (Aqua) (Eau) | Water/Aqua/Eau | Water/Eau | Water/aqua/eau | Water\Aqua\Eau | aqua/water/eau | water | water/aqua | water/aqua/eau",alias,v5
+544,xanthan gum,XANTHAN GUM | Xanthamgum | Xanthan Gum | xanthan gum,alias | case_whitespace,v5
+545,xylitol,Xylitol,case_whitespace,v5
+546,xylitylglucoside,Xylitylglucoside,case_whitespace,v5
+547,yeast extract,Yeast Extract,case_whitespace,v5
+548,yellow 5 (ci 19140),Yellow 5 (Ci 19140),case_whitespace,v5
+549,yellow 6 (ci 15985),Yellow 6 (Ci 15985),case_whitespace,v5
+550,zea mays (corn) oil,Zea Mays (Corn) Oil,case_whitespace,v5
+551,zea mays (corn) starch,ZEA MAYS (CORN) STARCH,case_whitespace,v5
+552,zea mays starch,ZEA MAYS STARCH / CORN STARCH,alias,v5
+553,zinc gluconate,ZINC GLUCONATE | Zinc Gluconate,case_whitespace,v5
+554,zinc hydrolyzed hyaluronate,Zinc Hydrolyzed Hyaluronate,case_whitespace,v5
+555,ziziphus jujuba fruit extract,ZIZIPHUS JUJUBA FRUIT EXTRACT,case_whitespace,v5

@@ -1,0 +1,1533 @@
+product_id,product_name,brand,product_form,ingredient_position,raw_ingredient,normalized_ingredient
+P00001,cerave moisturizing cream,cerave,cream,1,AQUA / WATER / EAU,water
+P00001,cerave moisturizing cream,cerave,cream,2,GLYCERIN,glycerin
+P00001,cerave moisturizing cream,cerave,cream,3,CETEARYL ALCOHOL,cetearyl alcohol
+P00001,cerave moisturizing cream,cerave,cream,4,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00001,cerave moisturizing cream,cerave,cream,5,CETYL ALCOHOL,cetyl alcohol
+P00001,cerave moisturizing cream,cerave,cream,6,CETEARETH-20,ceteareth-20
+P00001,cerave moisturizing cream,cerave,cream,7,PETROLATUM,petrolatum
+P00001,cerave moisturizing cream,cerave,cream,8,POTASSIUM PHOSPHATE,potassium phosphate
+P00001,cerave moisturizing cream,cerave,cream,9,CERAMIDE NP,ceramide np
+P00001,cerave moisturizing cream,cerave,cream,10,CERAMIDE AP,ceramide ap
+P00001,cerave moisturizing cream,cerave,cream,11,CERAMIDE EOP,ceramide eop
+P00001,cerave moisturizing cream,cerave,cream,12,CARBOMER,carbomer
+P00001,cerave moisturizing cream,cerave,cream,13,DIMETHICONE,dimethicone
+P00001,cerave moisturizing cream,cerave,cream,14,BEHENTRIMONIUM METHOSULFATE,behentrimonium methosulfate
+P00001,cerave moisturizing cream,cerave,cream,15,SODIUM LAUROYL LACTYLATE,sodium lauroyl lactylate
+P00001,cerave moisturizing cream,cerave,cream,16,SODIUM HYALURONATE,sodium hyaluronate
+P00001,cerave moisturizing cream,cerave,cream,17,CHOLESTEROL,cholesterol
+P00001,cerave moisturizing cream,cerave,cream,18,PHENOXYETHANOL,phenoxyethanol
+P00001,cerave moisturizing cream,cerave,cream,19,DISODIUM EDTA,disodium edta
+P00001,cerave moisturizing cream,cerave,cream,20,DIPOTASSIUM PHOSPHATE,dipotassium phosphate
+P00001,cerave moisturizing cream,cerave,cream,21,TOCOPHEROL,tocopherol
+P00001,cerave moisturizing cream,cerave,cream,22,PHYTOSPHINGOSINE,phytosphingosine
+P00001,cerave moisturizing cream,cerave,cream,23,XANTHAN GUM,xanthan gum
+P00001,cerave moisturizing cream,cerave,cream,24,ETHYLHEXYLGLYCERIN,ethylhexylglycerin
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,1,Water,water
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,2,Dicaprylyl Carbonate,dicaprylyl carbonate
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,3,Ethylhexyl Stearate,ethylhexyl stearate
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,4,Glycerin,glycerin
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,5,Cocoglycerides,cocoglycerides
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,6,Squalane,squalane
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,7,Sodium Polyacrylate,sodium polyacrylate
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,8,Butyrospermum Parkii Butter,butyrospermum parkii butter
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,9,Ceramide NP,ceramide np
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,10,Ceramide AP,ceramide ap
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,11,Ceramide AS,ceramide as
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,12,Ceramide NS,ceramide ns
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,13,Ceramide EOP,ceramide eop
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,14,Sodium Hyaluronate,sodium hyaluronate
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,15,Adenosine,adenosine
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,16,Palmitoyl Tripeptide-5,palmitoyl tripeptide-5
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,17,Citrullus Lanatus (Watermelon) Seed Oil,citrullus lanatus (watermelon) seed oil
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,18,Glyceryl Stearate,glyceryl stearate
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,19,Caprylyl Glycol,caprylyl glycol
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,20,Hydroxyacetophenone,hydroxyacetophenone
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,21,Sodium Stearoyl Glutamate,sodium stearoyl glutamate
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,22,Hexylene Glycol,hexylene glycol
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,23,Tocopherol,tocopherol
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,24,"2,3-Butanediol","2,3-butanediol"
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,25,Xanthan Gum,xanthan gum
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,26,Ethylhexylglycerin,ethylhexylglycerin
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,27,Sodium Phytate,sodium phytate
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,28,Sodium PCA,sodium pca
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,29,Urea,urea
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,30,Hydrogenated Lecithin,hydrogenated lecithin
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,31,Trehalose,trehalose
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,32,Polyquaternium-51,polyquaternium-51
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,33,Triacetin,triacetin
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,34,Cholesterol,cholesterol
+P00002,paula’s choice resist barrier repair advanced moisturizer,paula’s choice,cream,35,Phenoxyethanol,phenoxyethanol
+P00003,vanicream daily facial moisturizer,vanicream,lotion,1,water,water
+P00003,vanicream daily facial moisturizer,vanicream,lotion,2,squalane,squalane
+P00003,vanicream daily facial moisturizer,vanicream,lotion,3,glycerin,glycerin
+P00003,vanicream daily facial moisturizer,vanicream,lotion,4,pentylene glycol,pentylene glycol
+P00003,vanicream daily facial moisturizer,vanicream,lotion,5,polyglyceryl-2 stearate,polyglyceryl-2 stearate
+P00003,vanicream daily facial moisturizer,vanicream,lotion,6,glyceryl stearate,glyceryl stearate
+P00003,vanicream daily facial moisturizer,vanicream,lotion,7,stearyl alcohol,stearyl alcohol
+P00003,vanicream daily facial moisturizer,vanicream,lotion,8,hyaluronic acid,hyaluronic acid
+P00003,vanicream daily facial moisturizer,vanicream,lotion,9,ceramide EOP,ceramide eop
+P00003,vanicream daily facial moisturizer,vanicream,lotion,10,ceramide NG,ceramide ng
+P00003,vanicream daily facial moisturizer,vanicream,lotion,11,ceramide NP,ceramide np
+P00003,vanicream daily facial moisturizer,vanicream,lotion,12,ceramide AS,ceramide as
+P00003,vanicream daily facial moisturizer,vanicream,lotion,13,ceramide AP,ceramide ap
+P00003,vanicream daily facial moisturizer,vanicream,lotion,14,carnosine,carnosine
+P00003,vanicream daily facial moisturizer,vanicream,lotion,15,hydrogenated lecithin,hydrogenated lecithin
+P00003,vanicream daily facial moisturizer,vanicream,lotion,16,phytosterols,phytosterols
+P00003,vanicream daily facial moisturizer,vanicream,lotion,17,caprylyl glycol,caprylyl glycol
+P00003,vanicream daily facial moisturizer,vanicream,lotion,18,polyacrylate crosspolymer-11,polyacrylate crosspolymer-11
+P00003,vanicream daily facial moisturizer,vanicream,lotion,19,"1,2-hexanediol","1,2-hexanediol"
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,1,AQUA / WATER,water
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,2,DICAPRYLYL CARBONATE,dicaprylyl carbonate
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,3,BUTYLENE GLYCOL,butylene glycol
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,4,ISODECYL NEOPENTANOATE,isodecyl neopentanoate
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,5,SYNTHETIC WAX,synthetic wax
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,6,DIMETHICONE,dimethicone
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,7,CERA MICROCRISTALLINA / MICROCRYSTALLINE WAX,microcrystalline wax
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,8,GLYCERIN,glycerin
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,9,NIACINAMIDE,niacinamide
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,10,LAURYL PEG-8 DIMETHICONE,lauryl peg-8 dimethicone
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,11,SODIUM CHLORIDE,sodium chloride
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,12,DIPROPYLENE GLYCOL,dipropylene glycol
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,13,TREHALOSE,trehalose
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,14,"1,2-HEXANEDIOL","1,2-hexanediol"
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,15,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,16,SORBITAN SESQUIOLEATE,sorbitan sesquioleate
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,17,SQUALANE,squalane
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,18,GLYCERYL CAPRYLATE,glyceryl caprylate
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,19,DIMETHICONE/PEG-10/15 CROSSPOLYMER,dimethicone/peg-10/15 crosspolymer
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,20,TOCOPHEROL,tocopherol
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,21,STEARALKONIUM HECTORITE,stearalkonium hectorite
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,22,CERAMIDE NP,ceramide np
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,23,PSEUDOALTEROMONAS FERMENT EXTRACT,pseudoalteromonas ferment extract
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,24,PROPYLENE CARBONATE,propylene carbonate
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,25,ADENOSINE,adenosine
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,26,SODIUM CITRATE,sodium citrate
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,27,SALICYLIC ACID,salicylic acid
+P00004,kiehl’s ultra facial barrier balm,kiehl’s,balm,28,SODIUM HYDROXIDE,sodium hydroxide
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,1,Water,water
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,2,Glycerin,glycerin
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,3,Dimethicone,dimethicone
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,4,Cetearyl Olivate,cetearyl olivate
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,5,Sorbitan Olivate,sorbitan olivate
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,6,Sodium Hyaluronate,sodium hyaluronate
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,7,Serine,serine
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,8,Glycine,glycine
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,9,Alanine,alanine
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,10,Threonine,threonine
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,11,Arginine,arginine
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,12,Proline,proline
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,13,Lysine Hci,lysine hci
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,14,Glutamic Acid,glutamic acid
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,15,Sodium Pca,sodium pca
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,16,Pca,pca
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,17,Sodium Lactate,sodium lactate
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,18,Urea,urea
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,19,Sodium Chloride,sodium chloride
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,20,Citric Acid,citric acid
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,21,Betaine,betaine
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,22,Allantoin,allantoin
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,23,Fructose,fructose
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,24,Maltose,maltose
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,25,Trehalose,trehalose
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,26,Glucose,glucose
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,27,Pentylene Glycol,pentylene glycol
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,28,Synthetic Beeswax,synthetic beeswax
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,29,Polyacrylate Crosspolymer-6,polyacrylate crosspolymer-6
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,30,Dimethicone Crosspolymer,dimethicone crosspolymer
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,31,Dimethiconol,dimethiconol
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,32,Ethylhexylglycerin,ethylhexylglycerin
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,33,Caprylyl Glycol,caprylyl glycol
+P00005,neutrogena hydro boost gel cream fragrance free,neutrogena,gel_cream,34,Sodium Hydroxide,sodium hydroxide
+P00006,la mer moisturizing cream,la mer,cream,1,Algae Extract,algae extract
+P00006,la mer moisturizing cream,la mer,cream,2,Mineral Oil\Paraffinum Liquidum\Huile Minerale,mineral oil
+P00006,la mer moisturizing cream,la mer,cream,3,Petrolatum,petrolatum
+P00006,la mer moisturizing cream,la mer,cream,4,Glycerin,glycerin
+P00006,la mer moisturizing cream,la mer,cream,5,Isohexadecane,isohexadecane
+P00006,la mer moisturizing cream,la mer,cream,6,Microcrystalline Wax\Cera Microcristallina\Cire Microcristalline,microcrystalline wax
+P00006,la mer moisturizing cream,la mer,cream,7,Lanolin Alcohol,lanolin alcohol
+P00006,la mer moisturizing cream,la mer,cream,8,Citrus Aurantifolia (Lime) Peel Extract,citrus aurantifolia (lime) peel extract
+P00006,la mer moisturizing cream,la mer,cream,9,Sesamum Indicum (Sesame) Seed Oil,sesamum indicum (sesame) seed oil
+P00006,la mer moisturizing cream,la mer,cream,10,Eucalyptus Globulus (Eucalyptus) Leaf Oil,eucalyptus globulus leaf oil
+P00006,la mer moisturizing cream,la mer,cream,11,Sesamum Indicum (Sesame) Seed Powder,sesamum indicum (sesame) seed powder
+P00006,la mer moisturizing cream,la mer,cream,12,Medicago Sativa (Alfalfa) Seed Powder,medicago sativa (alfalfa) seed powder
+P00006,la mer moisturizing cream,la mer,cream,13,Helianthus Annuus (Sunflower) Seedcake,helianthus annuus (sunflower) seedcake
+P00006,la mer moisturizing cream,la mer,cream,14,Prunus Amygdalus Dulcis (Sweet Almond) Seed Meal,prunus amygdalus dulcis (sweet almond) seed meal
+P00006,la mer moisturizing cream,la mer,cream,15,Sodium Gluconate,sodium gluconate
+P00006,la mer moisturizing cream,la mer,cream,16,Copper Gluconate,copper gluconate
+P00006,la mer moisturizing cream,la mer,cream,17,Calcium Gluconate,calcium gluconate
+P00006,la mer moisturizing cream,la mer,cream,18,Magnesium Gluconate,magnesium gluconate
+P00006,la mer moisturizing cream,la mer,cream,19,Zinc Gluconate,zinc gluconate
+P00006,la mer moisturizing cream,la mer,cream,20,Magnesium Sulfate,magnesium sulfate
+P00006,la mer moisturizing cream,la mer,cream,21,Paraffin,paraffin
+P00006,la mer moisturizing cream,la mer,cream,22,Tocopheryl Succinate,tocopheryl succinate
+P00006,la mer moisturizing cream,la mer,cream,23,Niacin,niacin
+P00006,la mer moisturizing cream,la mer,cream,24,Water\Aqua\Eau,water
+P00006,la mer moisturizing cream,la mer,cream,25,Beta-Carotene,beta-carotene
+P00006,la mer moisturizing cream,la mer,cream,26,Decyl Oleate,decyl oleate
+P00006,la mer moisturizing cream,la mer,cream,27,Aluminum Distearate,aluminum distearate
+P00006,la mer moisturizing cream,la mer,cream,28,Octyldodecanol,octyldodecanol
+P00006,la mer moisturizing cream,la mer,cream,29,Citric Acid,citric acid
+P00006,la mer moisturizing cream,la mer,cream,30,Cyanocobalamin,cyanocobalamin
+P00006,la mer moisturizing cream,la mer,cream,31,Magnesium Stearate,magnesium stearate
+P00006,la mer moisturizing cream,la mer,cream,32,Panthenol,panthenol
+P00006,la mer moisturizing cream,la mer,cream,33,Zea Mays (Corn) Oil,zea mays (corn) oil
+P00006,la mer moisturizing cream,la mer,cream,34,Limonene,limonene
+P00006,la mer moisturizing cream,la mer,cream,35,Geraniol,geraniol
+P00006,la mer moisturizing cream,la mer,cream,36,Linalool,linalool
+P00006,la mer moisturizing cream,la mer,cream,37,Hydroxycitronellal,hydroxycitronellal
+P00006,la mer moisturizing cream,la mer,cream,38,Citronellol,citronellol
+P00006,la mer moisturizing cream,la mer,cream,39,Benzyl Salicylate,benzyl salicylate
+P00006,la mer moisturizing cream,la mer,cream,40,Benzyl Benzoate,benzyl benzoate
+P00006,la mer moisturizing cream,la mer,cream,41,Sodium Benzoate,sodium benzoate
+P00006,la mer moisturizing cream,la mer,cream,42,Alcohol Denat,alcohol denat
+P00006,la mer moisturizing cream,la mer,cream,43,Fragrance (Parfum),fragrance
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,1,AQUA / WATER / EAU,water
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,2,GLYCERIN,glycerin
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,3,SQUALANE,squalane
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,4,DIMETHICONE,dimethicone
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,5,ZEA MAYS STARCH / CORN STARCH,zea mays starch
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,6,NIACINAMIDE,niacinamide
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,7,AMMONIUM POLYACRYLOYLDIMETHYL TAURATE,ammonium polyacryloyldimethyl taurate
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,8,MYRISTYL MYRISTATE,myristyl myristate
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,9,STEARIC ACID,stearic acid
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,10,CERAMIDE NP,ceramide np
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,11,POTASSIUM CETYL PHOSPHATE,potassium cetyl phosphate
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,12,GLYCERYL STEARATE SE,glyceryl stearate se
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,13,SODIUM HYDROXIDE,sodium hydroxide
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,14,MYRISTIC ACID,myristic acid
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,15,PALMITIC ACID,palmitic acid
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,16,CAPRYLOYL GLYCINE,capryloyl glycine
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,17,CAPRYLYL GLYCOL,caprylyl glycol
+P00007,toleriane double repair face moisturizer,la roche-posay,cream,18,XANTHAN GUM,xanthan gum
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,1,Aqua (Water),water
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,2,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,3,Cetyl Alcohol,cetyl alcohol
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,4,Propanediol,propanediol
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,5,Stearyl Alcohol,stearyl alcohol
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,6,Glycerin,glycerin
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,7,Sodium Hyaluronate,sodium hyaluronate
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,8,Arginine,arginine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,9,Aspartic Acid,aspartic acid
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,10,Glycine,glycine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,11,Alanine,alanine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,12,Serine,serine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,13,Valine,valine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,14,Isoleucine,isoleucine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,15,Proline,proline
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,16,Threonine,threonine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,17,Histidine,histidine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,18,Phenylalanine,phenylalanine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,19,Glucose,glucose
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,20,Maltose,maltose
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,21,Fructose,fructose
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,22,Trehalose,trehalose
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,23,Sodium PCA,sodium pca
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,24,PCA,pca
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,25,Sodium Lactate,sodium lactate
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,26,Urea,urea
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,27,Allantoin,allantoin
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,28,Linoleic Acid,linoleic acid
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,29,Oleic Acid,oleic acid
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,30,Phytosteryl Canola Glycerides,phytosteryl canola glycerides
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,31,Palmitic Acid,palmitic acid
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,32,Stearic Acid,stearic acid
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,33,Lecithin,lecithin
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,34,Triolein,triolein
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,35,Tocopherol,tocopherol
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,36,Carbomer,carbomer
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,37,Isoceteth-20,isoceteth-20
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,38,Polysorbate 60,polysorbate 60
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,39,Sodium Chloride,sodium chloride
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,40,Citric Acid,citric acid
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,41,Trisodium Ethylenediamine Disuccinate,trisodium ethylenediamine disuccinate
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,42,Pentylene Glycol,pentylene glycol
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,43,Triethanolamine,triethanolamine
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,44,Sodium Hydroxide,sodium hydroxide
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,45,Phenoxyethanol,phenoxyethanol
+P00008,the ordinary natural moisturizing factors + ha,the ordinary,cream,46,Chlorphenesin,chlorphenesin
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,1,AQUA / WATER / EAU,water
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,2,GLYCERIN,glycerin
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,3,NIACINAMIDE,niacinamide
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,4,CETEARYL ALCOHOL,cetearyl alcohol
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,5,HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID,hydroxyethylpiperazine ethane sulfonic acid
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,6,GLYCERYL STEARATE,glyceryl stearate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,7,SQUALANE,squalane
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,8,DIMETHICONE,dimethicone
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,9,MYRISTYL MYRISTATE,myristyl myristate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,10,ETHYLHEXYL PALMITATE,ethylhexyl palmitate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,11,BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER,butyrospermum parkii butter
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,12,PHENOXYETHANOL,phenoxyethanol
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,13,PEG-100 STEARATE,peg-100 stearate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,14,CAPRYLYL GLYCOL,caprylyl glycol
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,15,SODIUM POLYACRYLATE,sodium polyacrylate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,16,TOCOPHEROL,tocopherol
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,17,CITRIC ACID,citric acid
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,18,SODIUM HYALURONATE,sodium hyaluronate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,19,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,20,PENTYLENE GLYCOL,pentylene glycol
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,21,PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE,pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,22,HYDROLYZED RICE PROTEIN,hydrolyzed rice protein
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,23,CERAMIDE NP,ceramide np
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,24,ADENOSINE,adenosine
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,25,TRISODIUM ETHYLENEDIAMINE DISUCCINATE,trisodium ethylenediamine disuccinate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,26,COLLOIDAL OATMEAL,colloidal oatmeal
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,27,HYDROXYPALMITOYL SPHINGANINE,hydroxypalmitoyl sphinganine
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,28,BUTYLENE GLYCOL,butylene glycol
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,29,LIMONENE,limonene
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,30,CARAMEL,caramel
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,31,CITRAL,citral
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,32,LINALOOL,linalool
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,33,CARBOMER,carbomer
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,34,SODIUM LACTATE,sodium lactate
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,35,POLYSORBATE 20,polysorbate 20
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,36,PALMITOYL TRIPEPTIDE-1,palmitoyl tripeptide-1
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,37,PALMITOYL TETRAPEPTIDE-7,palmitoyl tetrapeptide-7
+P00009,confidence in a cream anti-aging hydrating moisturizer,it cosmetics,cream,38,PARFUM / FRAGRANCE,fragrance
+P00010,rhode barrier restore cream,rhode,cream,1,Water/Aqua/Eau,water
+P00010,rhode barrier restore cream,rhode,cream,2,Glycerin,glycerin
+P00010,rhode barrier restore cream,rhode,cream,3,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00010,rhode barrier restore cream,rhode,cream,4,Butyrospermum Parkii (Shea) Butter,butyrospermum parkii butter
+P00010,rhode barrier restore cream,rhode,cream,5,Behenyl Alcohol,behenyl alcohol
+P00010,rhode barrier restore cream,rhode,cream,6,Xylitylglucoside,xylitylglucoside
+P00010,rhode barrier restore cream,rhode,cream,7,Niacinamide,niacinamide
+P00010,rhode barrier restore cream,rhode,cream,8,Squalane,squalane
+P00010,rhode barrier restore cream,rhode,cream,9,Sodium Acrylates Copolymer,sodium acrylates copolymer
+P00010,rhode barrier restore cream,rhode,cream,10,Acetyl Tetrapeptide-2,acetyl tetrapeptide-2
+P00010,rhode barrier restore cream,rhode,cream,11,Palmitoyl Heptapeptide-27,palmitoyl heptapeptide-27
+P00010,rhode barrier restore cream,rhode,cream,12,Palmitoyl Oligopeptide-78,palmitoyl oligopeptide-78
+P00010,rhode barrier restore cream,rhode,cream,13,Palmitoyl Octapeptide-24,palmitoyl octapeptide-24
+P00010,rhode barrier restore cream,rhode,cream,14,Phenoxyethanol,phenoxyethanol
+P00010,rhode barrier restore cream,rhode,cream,15,Anhydroxylitol,anhydroxylitol
+P00010,rhode barrier restore cream,rhode,cream,16,"1,2-Hexanediol","1,2-hexanediol"
+P00010,rhode barrier restore cream,rhode,cream,17,Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer
+P00010,rhode barrier restore cream,rhode,cream,18,Xylitol,xylitol
+P00010,rhode barrier restore cream,rhode,cream,19,Lecithin,lecithin
+P00010,rhode barrier restore cream,rhode,cream,20,Ethylhexylglycerin,ethylhexylglycerin
+P00010,rhode barrier restore cream,rhode,cream,21,Glucose,glucose
+P00010,rhode barrier restore cream,rhode,cream,22,Bisabolol,bisabolol
+P00010,rhode barrier restore cream,rhode,cream,23,Sodium Hyaluronate,sodium hyaluronate
+P00010,rhode barrier restore cream,rhode,cream,24,Teprenone,teprenone
+P00010,rhode barrier restore cream,rhode,cream,25,Polysorbate 60,polysorbate 60
+P00010,rhode barrier restore cream,rhode,cream,26,Sorbitan Isostearate,sorbitan isostearate
+P00010,rhode barrier restore cream,rhode,cream,27,Caprylyl Glycol,caprylyl glycol
+P00010,rhode barrier restore cream,rhode,cream,28,Euterpe Oleracea Fruit Extract,euterpe oleracea fruit extract
+P00010,rhode barrier restore cream,rhode,cream,29,Potassium Sorbate,potassium sorbate
+P00010,rhode barrier restore cream,rhode,cream,30,Citric Acid,citric acid
+P00010,rhode barrier restore cream,rhode,cream,31,Sorbic Acid,sorbic acid
+P00010,rhode barrier restore cream,rhode,cream,32,Lactic Acid/Glycolic Acid Copolymer,lactic acid/glycolic acid copolymer
+P00010,rhode barrier restore cream,rhode,cream,33,Tocopherol,tocopherol
+P00010,rhode barrier restore cream,rhode,cream,34,Polyvinyl Alcohol,polyvinyl alcohol
+P00010,rhode barrier restore cream,rhode,cream,35,Sodium Hydroxide,sodium hydroxide
+P00011,half & half fluid moisturizer,prequel,fluid,1,Water (Aqua),water
+P00011,half & half fluid moisturizer,prequel,fluid,2,Glycerin,glycerin
+P00011,half & half fluid moisturizer,prequel,fluid,3,Propanediol,propanediol
+P00011,half & half fluid moisturizer,prequel,fluid,4,Isopropyl Myristate,isopropyl myristate
+P00011,half & half fluid moisturizer,prequel,fluid,5,Ethylhexyl Olivate,ethylhexyl olivate
+P00011,half & half fluid moisturizer,prequel,fluid,6,Squalane,squalane
+P00011,half & half fluid moisturizer,prequel,fluid,7,Hydrolyzed Rice Protein,hydrolyzed rice protein
+P00011,half & half fluid moisturizer,prequel,fluid,8,Ceramide NP,ceramide np
+P00011,half & half fluid moisturizer,prequel,fluid,9,Ceramide AS,ceramide as
+P00011,half & half fluid moisturizer,prequel,fluid,10,Ceramide NS,ceramide ns
+P00011,half & half fluid moisturizer,prequel,fluid,11,Ceramide EOP,ceramide eop
+P00011,half & half fluid moisturizer,prequel,fluid,12,Ceramide AP,ceramide ap
+P00011,half & half fluid moisturizer,prequel,fluid,13,Hexapeptide-11,hexapeptide-11
+P00011,half & half fluid moisturizer,prequel,fluid,14,Palmitoyl Tripeptide-1,palmitoyl tripeptide-1
+P00011,half & half fluid moisturizer,prequel,fluid,15,Palmitoyl Tetrapeptide-7,palmitoyl tetrapeptide-7
+P00011,half & half fluid moisturizer,prequel,fluid,16,Polyglyceryl-10 Stearate,polyglyceryl-10 stearate
+P00011,half & half fluid moisturizer,prequel,fluid,17,Triolein,triolein
+P00011,half & half fluid moisturizer,prequel,fluid,18,Ammonium Acryloyldimethyltaurate/VP Copolymer,ammonium acryloyldimethyltaurate/vp copolymer
+P00011,half & half fluid moisturizer,prequel,fluid,19,Glyceryl Oleate,glyceryl oleate
+P00011,half & half fluid moisturizer,prequel,fluid,20,Undecane,undecane
+P00011,half & half fluid moisturizer,prequel,fluid,21,Hydroxyacetophenone,hydroxyacetophenone
+P00011,half & half fluid moisturizer,prequel,fluid,22,Glyceryl Dioleate,glyceryl dioleate
+P00011,half & half fluid moisturizer,prequel,fluid,23,Caprylyl Glycol,caprylyl glycol
+P00011,half & half fluid moisturizer,prequel,fluid,24,Xanthan Gum,xanthan gum
+P00011,half & half fluid moisturizer,prequel,fluid,25,Tridecane,tridecane
+P00011,half & half fluid moisturizer,prequel,fluid,26,Betaine,betaine
+P00011,half & half fluid moisturizer,prequel,fluid,27,Sodium Stearoyl Glutamate,sodium stearoyl glutamate
+P00011,half & half fluid moisturizer,prequel,fluid,28,Citric Acid,citric acid
+P00011,half & half fluid moisturizer,prequel,fluid,29,Sodium Phytate,sodium phytate
+P00011,half & half fluid moisturizer,prequel,fluid,30,Sodium PCA,sodium pca
+P00011,half & half fluid moisturizer,prequel,fluid,31,Sodium Hydroxide,sodium hydroxide
+P00011,half & half fluid moisturizer,prequel,fluid,32,Sodium Lactate,sodium lactate
+P00011,half & half fluid moisturizer,prequel,fluid,33,PCA,pca
+P00011,half & half fluid moisturizer,prequel,fluid,34,Sodium Benzoate,sodium benzoate
+P00011,half & half fluid moisturizer,prequel,fluid,35,Serine,serine
+P00011,half & half fluid moisturizer,prequel,fluid,36,Alanine,alanine
+P00011,half & half fluid moisturizer,prequel,fluid,37,Palmitic Acid,palmitic acid
+P00011,half & half fluid moisturizer,prequel,fluid,38,Glycine,glycine
+P00011,half & half fluid moisturizer,prequel,fluid,39,Hydrogenated Lecithin,hydrogenated lecithin
+P00011,half & half fluid moisturizer,prequel,fluid,40,Ethylhexyl Palmitate,ethylhexyl palmitate
+P00011,half & half fluid moisturizer,prequel,fluid,41,Butylene Glycol,butylene glycol
+P00011,half & half fluid moisturizer,prequel,fluid,42,Phenoxyethanol,phenoxyethanol
+P00011,half & half fluid moisturizer,prequel,fluid,43,Ethylhexylglycerin,ethylhexylglycerin
+P00011,half & half fluid moisturizer,prequel,fluid,44,Glutamic Acid,glutamic acid
+P00011,half & half fluid moisturizer,prequel,fluid,45,Lysine HCl,lysine hcl
+P00011,half & half fluid moisturizer,prequel,fluid,46,Threonine,threonine
+P00011,half & half fluid moisturizer,prequel,fluid,47,Arginine,arginine
+P00011,half & half fluid moisturizer,prequel,fluid,48,Proline,proline
+P00011,half & half fluid moisturizer,prequel,fluid,49,Tocopherol,tocopherol
+P00011,half & half fluid moisturizer,prequel,fluid,50,Carbomer,carbomer
+P00011,half & half fluid moisturizer,prequel,fluid,51,Polysorbate 20,polysorbate 20
+P00012,superfood air-whip moisture cream,youth to the people,cream,1,AQUA/WATER/EAU,water
+P00012,superfood air-whip moisture cream,youth to the people,cream,2,GLYCERIN,glycerin
+P00012,superfood air-whip moisture cream,youth to the people,cream,3,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00012,superfood air-whip moisture cream,youth to the people,cream,4,PENTAERYTHRITYL TETRAETHYLHEXANOATE,pentaerythrityl tetraethylhexanoate
+P00012,superfood air-whip moisture cream,youth to the people,cream,5,PENTYLENE GLYCOL,pentylene glycol
+P00012,superfood air-whip moisture cream,youth to the people,cream,6,BETAINE,betaine
+P00012,superfood air-whip moisture cream,youth to the people,cream,7,SQUALANE,squalane
+P00012,superfood air-whip moisture cream,youth to the people,cream,8,HELIANTHUS ANNUUS SEED OIL/SUNFLOWER SEED OIL,helianthus annuus seed oil
+P00012,superfood air-whip moisture cream,youth to the people,cream,9,ALOE BARBADENSIS LEAF JUICE POWDER,aloe barbadensis leaf juice powder
+P00012,superfood air-whip moisture cream,youth to the people,cream,10,BRASSICA OLERACEA ACEPHALA LEAF EXTRACT,brassica oleracea acephala leaf extract
+P00012,superfood air-whip moisture cream,youth to the people,cream,11,CAMELLIA SINENSIS LEAF EXTRACT,camellia sinensis leaf extract
+P00012,superfood air-whip moisture cream,youth to the people,cream,12,CHAMOMILLA RECUTITA FLOWER EXTRACT/MATRICARIA FLOWER EXTRACT,chamomilla recutita flower extract
+P00012,superfood air-whip moisture cream,youth to the people,cream,13,MEDICAGO SATIVA EXTRACT/ALFALFA EXTRACT,medicago sativa extract
+P00012,superfood air-whip moisture cream,youth to the people,cream,14,SARCOSINE,sarcosine
+P00012,superfood air-whip moisture cream,youth to the people,cream,15,SPINACIA OLERACEA/SPINACH LEAF EXTRACT,spinacia oleracea leaf extract
+P00012,superfood air-whip moisture cream,youth to the people,cream,16,COPPER PCA,copper pca
+P00012,superfood air-whip moisture cream,youth to the people,cream,17,HYDROLYZED SODIUM HYALURONATE,hydrolyzed sodium hyaluronate
+P00012,superfood air-whip moisture cream,youth to the people,cream,18,HYDROXYACETOPHENONE,hydroxyacetophenone
+P00012,superfood air-whip moisture cream,youth to the people,cream,19,MENTHOXYPROPANEDIOL,menthoxypropanediol
+P00012,superfood air-whip moisture cream,youth to the people,cream,20,PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE,pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate
+P00012,superfood air-whip moisture cream,youth to the people,cream,21,SODIUM HYALURONATE,sodium hyaluronate
+P00012,superfood air-whip moisture cream,youth to the people,cream,22,SODIUM HYDROXIDE,sodium hydroxide
+P00012,superfood air-whip moisture cream,youth to the people,cream,23,TETRASODIUM GLUTAMATE DIACETATE,tetrasodium glutamate diacetate
+P00012,superfood air-whip moisture cream,youth to the people,cream,24,3-O-ETHYL ASCORBIC ACID,3-o-ethyl ascorbic acid
+P00012,superfood air-whip moisture cream,youth to the people,cream,25,PANTHENOL,panthenol
+P00012,superfood air-whip moisture cream,youth to the people,cream,26,TOCOPHEROL,tocopherol
+P00012,superfood air-whip moisture cream,youth to the people,cream,27,HYDROGENATED LECITHIN,hydrogenated lecithin
+P00012,superfood air-whip moisture cream,youth to the people,cream,28,ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER,acrylates/c10-30 alkyl acrylate crosspolymer
+P00012,superfood air-whip moisture cream,youth to the people,cream,29,CARBOMER,carbomer
+P00012,superfood air-whip moisture cream,youth to the people,cream,30,CETEARYL ALCOHOL,cetearyl alcohol
+P00012,superfood air-whip moisture cream,youth to the people,cream,31,CETEARYL GLUCOSIDE,cetearyl glucoside
+P00012,superfood air-whip moisture cream,youth to the people,cream,32,CITRIC ACID,citric acid
+P00012,superfood air-whip moisture cream,youth to the people,cream,33,GLYCINE SOJA OIL/SOYBEAN OIL,glycine soja oil
+P00012,superfood air-whip moisture cream,youth to the people,cream,34,LIMONENE,limonene
+P00012,superfood air-whip moisture cream,youth to the people,cream,35,CHLORPHENESIN,chlorphenesin
+P00012,superfood air-whip moisture cream,youth to the people,cream,36,PHENOXYETHANOL,phenoxyethanol
+P00012,superfood air-whip moisture cream,youth to the people,cream,37,PARFUM/FRAGRANCE,fragrance
+P00013,super rich repair moisturizer,dermalogica,cream,1,Water/Aqua/Eau,water
+P00013,super rich repair moisturizer,dermalogica,cream,2,Isohexadecane,isohexadecane
+P00013,super rich repair moisturizer,dermalogica,cream,3,Dipropylene Glycol,dipropylene glycol
+P00013,super rich repair moisturizer,dermalogica,cream,4,Caprylic/ Capric/Myristic/Stearic Triglyceride,caprylic/ capric/myristic/stearic triglyceride
+P00013,super rich repair moisturizer,dermalogica,cream,5,Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone,lauryl peg-9 polydimethylsiloxyethyl dimethicone
+P00013,super rich repair moisturizer,dermalogica,cream,6,Simmondsia Chinensis (Jojoba) Seed Oil,simmondsia chinensis (jojoba) seed oil
+P00013,super rich repair moisturizer,dermalogica,cream,7,Butyrospermum Parkii (Shea) Butter,butyrospermum parkii butter
+P00013,super rich repair moisturizer,dermalogica,cream,8,Dimethicone,dimethicone
+P00013,super rich repair moisturizer,dermalogica,cream,9,Glycerin,glycerin
+P00013,super rich repair moisturizer,dermalogica,cream,10,Octyldodecyl Neopentanoate,octyldodecyl neopentanoate
+P00013,super rich repair moisturizer,dermalogica,cream,11,Sodium Chloride,sodium chloride
+P00013,super rich repair moisturizer,dermalogica,cream,12,Isostearic Acid,isostearic acid
+P00013,super rich repair moisturizer,dermalogica,cream,13,Arginine/Lysine Polypeptide,arginine/lysine polypeptide
+P00013,super rich repair moisturizer,dermalogica,cream,14,Palmitoyl Tripeptide-5,palmitoyl tripeptide-5
+P00013,super rich repair moisturizer,dermalogica,cream,15,Avena Sativa (Oat) Kernel Extract,avena sativa (oat) kernel extract
+P00013,super rich repair moisturizer,dermalogica,cream,16,Pyrus Malus (Apple) Seed Extract,pyrus malus (apple) seed extract
+P00013,super rich repair moisturizer,dermalogica,cream,17,Borago Officinalis Seed Oil,borago officinalis seed oil
+P00013,super rich repair moisturizer,dermalogica,cream,18,Oenothera Biennis (Evening Primrose) Oil,oenothera biennis (evening primrose) oil
+P00013,super rich repair moisturizer,dermalogica,cream,19,Hydrogenated Coconut Oil,hydrogenated coconut oil
+P00013,super rich repair moisturizer,dermalogica,cream,20,Gardenia Taitensis Flower,gardenia taitensis flower
+P00013,super rich repair moisturizer,dermalogica,cream,21,Laminaria Digitata Extract,laminaria digitata extract
+P00013,super rich repair moisturizer,dermalogica,cream,22,Yeast Extract,yeast extract
+P00013,super rich repair moisturizer,dermalogica,cream,23,Glucosamine HCL,glucosamine hcl
+P00013,super rich repair moisturizer,dermalogica,cream,24,Cedrus Atlantica Bark Oil,cedrus atlantica bark oil
+P00013,super rich repair moisturizer,dermalogica,cream,25,Cupressus Sempervirens Leaf/Stem Extract,cupressus sempervirens leaf/stem extract
+P00013,super rich repair moisturizer,dermalogica,cream,26,Eucalyptus Globulus Leaf Oil,eucalyptus globulus leaf oil
+P00013,super rich repair moisturizer,dermalogica,cream,27,Helianthus Annuus (Sunflower) Seed Oil,helianthus annuus seed oil
+P00013,super rich repair moisturizer,dermalogica,cream,28,Pelargonium Graveolens Flower Oil,pelargonium graveolens flower oil
+P00013,super rich repair moisturizer,dermalogica,cream,29,Aniba Rosodora (Rosewood) Wood Oil,aniba rosodora (rosewood) wood oil
+P00013,super rich repair moisturizer,dermalogica,cream,30,Abies Sibirica Oil,abies sibirica oil
+P00013,super rich repair moisturizer,dermalogica,cream,31,Santalum Album (Sandalwood) Oil,santalum album (sandalwood) oil
+P00013,super rich repair moisturizer,dermalogica,cream,32,Sodium Hyaluronate,sodium hyaluronate
+P00013,super rich repair moisturizer,dermalogica,cream,33,Tocopheryl Acetate,tocopheryl acetate
+P00013,super rich repair moisturizer,dermalogica,cream,34,Colloidal Oatmeal,colloidal oatmeal
+P00013,super rich repair moisturizer,dermalogica,cream,35,Madecassoside,madecassoside
+P00013,super rich repair moisturizer,dermalogica,cream,36,Urea,urea
+P00013,super rich repair moisturizer,dermalogica,cream,37,Hexyldecanol,hexyldecanol
+P00013,super rich repair moisturizer,dermalogica,cream,38,Polyglyceryl-4 Isostearate,polyglyceryl-4 isostearate
+P00013,super rich repair moisturizer,dermalogica,cream,39,Cetyl Dimethicone,cetyl dimethicone
+P00013,super rich repair moisturizer,dermalogica,cream,40,Hydrogenated Castor Oil,hydrogenated castor oil
+P00013,super rich repair moisturizer,dermalogica,cream,41,Butylene Glycol,butylene glycol
+P00013,super rich repair moisturizer,dermalogica,cream,42,Caprylyl Glycol,caprylyl glycol
+P00013,super rich repair moisturizer,dermalogica,cream,43,Ethylhexylglycerin,ethylhexylglycerin
+P00013,super rich repair moisturizer,dermalogica,cream,44,Hexylene Glycol,hexylene glycol
+P00013,super rich repair moisturizer,dermalogica,cream,45,Linalool,linalool
+P00013,super rich repair moisturizer,dermalogica,cream,46,Geraniol,geraniol
+P00013,super rich repair moisturizer,dermalogica,cream,47,Citronellol,citronellol
+P00013,super rich repair moisturizer,dermalogica,cream,48,Phenoxyethanol,phenoxyethanol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,1,Water,water
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,2,Glycerin,glycerin
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,3,Cyclopentasiloxane,cyclopentasiloxane
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,4,Dipropylene Glycol,dipropylene glycol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,5,Dimethicone,dimethicone
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,6,Cyclohexasiloxane,cyclohexasiloxane
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,7,Yeast Extract,yeast extract
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,8,Sodium Hyaluronate,sodium hyaluronate
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,9,Ceramide Eop,ceramide eop
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,10,Ceramide Eos,ceramide eos
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,11,Ceramide Ap,ceramide ap
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,12,Ceramide Np,ceramide np
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,13,Ceramide Ns,ceramide ns
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,14,Sambucus Nigra Fruit Extract,sambucus nigra fruit extract
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,15,Hydrolyzed Silk,hydrolyzed silk
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,16,Sodium Pca,sodium pca
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,17,Tocopherol,tocopherol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,18,Ascorbyl Palmitate,ascorbyl palmitate
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,19,Caprooyl Phytosphingosine,caprooyl phytosphingosine
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,20,Caprooyl Sphingosine,caprooyl sphingosine
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,21,Saccharide Isomerate,saccharide isomerate
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,22,Saccharomyces/Magnesium Ferment,saccharomyces/magnesium ferment
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,23,Saccharomyces/Iron Ferment,saccharomyces/iron ferment
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,24,Saccharomyces/Copper Ferment,saccharomyces/copper ferment
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,25,Saccharomyces/Silicon Ferment,saccharomyces/silicon ferment
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,26,Saccharomyces/Zinc Ferment,saccharomyces/zinc ferment
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,27,Olea Europaea (Olive) Leaf Extract,olea europaea (olive) leaf extract
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,28,Methyl Gluceth-20,methyl gluceth-20
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,29,Ethylhexylglycerin,ethylhexylglycerin
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,30,Lauryl Peg-9 Polydimethylsiloxyethyl Dimethicone,lauryl peg-9 polydimethylsiloxyethyl dimethicone
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,31,Cholesterol,cholesterol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,32,Sodium Chloride,sodium chloride
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,33,Sodium Citrate,sodium citrate
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,34,Citric Acid,citric acid
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,35,Behenic Acid,behenic acid
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,36,Propylene Glycol,propylene glycol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,37,Ceteareth-25,ceteareth-25
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,38,Butylene Glycol,butylene glycol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,39,Dimethicone/Peg-10/15 Crosspolymer,dimethicone/peg-10/15 crosspolymer
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,40,Cetyl Alcohol,cetyl alcohol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,41,Diso- Dium Edta,disodium edta
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,42,Sodium Benzoate,sodium benzoate
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,43,Potassium Sorbate,potassium sorbate
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,44,Phenoxyethanol,phenoxyethanol
+P00014,water drench hyaluronic cloud cream hydrating moisturizer,peter thomas roth,cream,45,Mica,mica
+P00015,naturium multi-peptide moisturizer,naturium,cream,1,Aqua,water
+P00015,naturium multi-peptide moisturizer,naturium,cream,2,Glycerin,glycerin
+P00015,naturium multi-peptide moisturizer,naturium,cream,3,Dimethicone,dimethicone
+P00015,naturium multi-peptide moisturizer,naturium,cream,4,Simmondsia Chinensis (Jojoba) Seed Oil,simmondsia chinensis (jojoba) seed oil
+P00015,naturium multi-peptide moisturizer,naturium,cream,5,Squalane,squalane
+P00015,naturium multi-peptide moisturizer,naturium,cream,6,Glyceryl Stearate,glyceryl stearate
+P00015,naturium multi-peptide moisturizer,naturium,cream,7,Cetyl Alcohol,cetyl alcohol
+P00015,naturium multi-peptide moisturizer,naturium,cream,8,Niacinamide,niacinamide
+P00015,naturium multi-peptide moisturizer,naturium,cream,9,Stearyl Alcohol,stearyl alcohol
+P00015,naturium multi-peptide moisturizer,naturium,cream,10,Palmitoyl Tripeptide-5,palmitoyl tripeptide-5
+P00015,naturium multi-peptide moisturizer,naturium,cream,11,Pantolactone,pantolactone
+P00015,naturium multi-peptide moisturizer,naturium,cream,12,Palmitoyl Tripeptide-1,palmitoyl tripeptide-1
+P00015,naturium multi-peptide moisturizer,naturium,cream,13,Palmitoyl Tetrapeptide-7,palmitoyl tetrapeptide-7
+P00015,naturium multi-peptide moisturizer,naturium,cream,14,Hydrolyzed Plukenetia Volubilis Seed Extract,hydrolyzed plukenetia volubilis seed extract
+P00015,naturium multi-peptide moisturizer,naturium,cream,15,Dunaliella Salina Extract,dunaliella salina extract
+P00015,naturium multi-peptide moisturizer,naturium,cream,16,Sodium Hyaluronate,sodium hyaluronate
+P00015,naturium multi-peptide moisturizer,naturium,cream,17,3-O-Ethyl Ascorbic Acid,3-o-ethyl ascorbic acid
+P00015,naturium multi-peptide moisturizer,naturium,cream,18,Panthenol,panthenol
+P00015,naturium multi-peptide moisturizer,naturium,cream,19,Caryodendron Orinocense Seed Oil,caryodendron orinocense seed oil
+P00015,naturium multi-peptide moisturizer,naturium,cream,20,Honokiol,honokiol
+P00015,naturium multi-peptide moisturizer,naturium,cream,21,Magnolol,magnolol
+P00015,naturium multi-peptide moisturizer,naturium,cream,22,Palmitic Acid,palmitic acid
+P00015,naturium multi-peptide moisturizer,naturium,cream,23,Sorbitan Oleate,sorbitan oleate
+P00015,naturium multi-peptide moisturizer,naturium,cream,24,Aluminum Starch Octenylsuccinate,aluminum starch octenylsuccinate
+P00015,naturium multi-peptide moisturizer,naturium,cream,25,Hydroxyacetophenone,hydroxyacetophenone
+P00015,naturium multi-peptide moisturizer,naturium,cream,26,Stearic Acid,stearic acid
+P00015,naturium multi-peptide moisturizer,naturium,cream,27,Acrylamide/Sodium Acryloyldimethyltaurate Copolymer,acrylamide/sodium acryloyldimethyltaurate copolymer
+P00015,naturium multi-peptide moisturizer,naturium,cream,28,Polyglyceryl-6 Laurate,polyglyceryl-6 laurate
+P00015,naturium multi-peptide moisturizer,naturium,cream,29,"1,2-Hexanediol","1,2-hexanediol"
+P00015,naturium multi-peptide moisturizer,naturium,cream,30,Boron Nitride,boron nitride
+P00015,naturium multi-peptide moisturizer,naturium,cream,31,Caprylyl Glycol,caprylyl glycol
+P00015,naturium multi-peptide moisturizer,naturium,cream,32,Polyglyceryl-10 Oleate,polyglyceryl-10 oleate
+P00015,naturium multi-peptide moisturizer,naturium,cream,33,Isohexadecane,isohexadecane
+P00015,naturium multi-peptide moisturizer,naturium,cream,34,Butylene Glycol,butylene glycol
+P00015,naturium multi-peptide moisturizer,naturium,cream,35,Chlorphenesin,chlorphenesin
+P00015,naturium multi-peptide moisturizer,naturium,cream,36,Acrylates/C10-30 Alkyl Acrylate Crosspolymer,acrylates/c10-30 alkyl acrylate crosspolymer
+P00015,naturium multi-peptide moisturizer,naturium,cream,37,Tocopheryl Acetate,tocopheryl acetate
+P00015,naturium multi-peptide moisturizer,naturium,cream,38,Polysorbate 80,polysorbate 80
+P00015,naturium multi-peptide moisturizer,naturium,cream,39,Sorbitan Palmitate,sorbitan palmitate
+P00015,naturium multi-peptide moisturizer,naturium,cream,40,Sodium Hydroxide,sodium hydroxide
+P00015,naturium multi-peptide moisturizer,naturium,cream,41,Sodium Benzoate,sodium benzoate
+P00015,naturium multi-peptide moisturizer,naturium,cream,42,Carbomer,carbomer
+P00015,naturium multi-peptide moisturizer,naturium,cream,43,Sodium Lactate,sodium lactate
+P00015,naturium multi-peptide moisturizer,naturium,cream,44,Phenoxyethanol,phenoxyethanol
+P00015,naturium multi-peptide moisturizer,naturium,cream,45,Polysorbate 20,polysorbate 20
+P00015,naturium multi-peptide moisturizer,naturium,cream,46,Citric Acid,citric acid
+P00015,naturium multi-peptide moisturizer,naturium,cream,47,Ethylhexylglycerin,ethylhexylglycerin
+P00015,naturium multi-peptide moisturizer,naturium,cream,48,Potassium Sorbate,potassium sorbate
+P00016,the dewy milk moisturizer,tatcha,milk,1,Aqua/water/eau,water
+P00016,the dewy milk moisturizer,tatcha,milk,2,Saccharomyces/rice Ferment Filtrate,saccharomyces/rice ferment filtrate
+P00016,the dewy milk moisturizer,tatcha,milk,3,Glycerin,glycerin
+P00016,the dewy milk moisturizer,tatcha,milk,4,Dimethicone,dimethicone
+P00016,the dewy milk moisturizer,tatcha,milk,5,Squalane,squalane
+P00016,the dewy milk moisturizer,tatcha,milk,6,Diisostearyl Malate,diisostearyl malate
+P00016,the dewy milk moisturizer,tatcha,milk,7,Propanediol,propanediol
+P00016,the dewy milk moisturizer,tatcha,milk,8,Solanum Lycopersicum (Tomato) Seed Oil,solanum lycopersicum (tomato) seed oil
+P00016,the dewy milk moisturizer,tatcha,milk,9,Dipentaerythrityl Hexahydroxystearate,dipentaerythrityl hexahydroxystearate
+P00016,the dewy milk moisturizer,tatcha,milk,10,Bis-diglyceryl Polyacyladipate-2,bis-diglyceryl polyacyladipate-2
+P00016,the dewy milk moisturizer,tatcha,milk,11,Pentylene Glycol,pentylene glycol
+P00016,the dewy milk moisturizer,tatcha,milk,12,Tridecyl Trimellitate,tridecyl trimellitate
+P00016,the dewy milk moisturizer,tatcha,milk,13,Peg-60 Glyceryl Isostearate,peg-60 glyceryl isostearate
+P00016,the dewy milk moisturizer,tatcha,milk,14,Inositol,inositol
+P00016,the dewy milk moisturizer,tatcha,milk,15,Camellia Sinensis Leaf Extract,camellia sinensis leaf extract
+P00016,the dewy milk moisturizer,tatcha,milk,16,Cladosiphon Okamuranus Extract,cladosiphon okamuranus extract
+P00016,the dewy milk moisturizer,tatcha,milk,17,Chondrus Crispus Extract,chondrus crispus extract
+P00016,the dewy milk moisturizer,tatcha,milk,18,Hydrolyzed Sodium Hyaluronate,hydrolyzed sodium hyaluronate
+P00016,the dewy milk moisturizer,tatcha,milk,19,Zinc Hydrolyzed Hyaluronate,zinc hydrolyzed hyaluronate
+P00016,the dewy milk moisturizer,tatcha,milk,20,Epigallocatechin Gallatyl Glucoside,epigallocatechin gallatyl glucoside
+P00016,the dewy milk moisturizer,tatcha,milk,21,Sodium Hyaluronate,sodium hyaluronate
+P00016,the dewy milk moisturizer,tatcha,milk,22,Oryza Sativa (Rice) Bran Extract,oryza sativa (rice) bran extract
+P00016,the dewy milk moisturizer,tatcha,milk,23,Ammonium Acryloyldimethyltaurate/vp Copolymer,ammonium acryloyldimethyltaurate/vp copolymer
+P00016,the dewy milk moisturizer,tatcha,milk,24,Dimethicone/vinyl Dimethicone Crosspolymer,dimethicone/vinyl dimethicone crosspolymer
+P00016,the dewy milk moisturizer,tatcha,milk,25,Acrylates/c10-30 Alkyl Acrylate Crosspolymer,acrylates/c10-30 alkyl acrylate crosspolymer
+P00016,the dewy milk moisturizer,tatcha,milk,26,Arginine,arginine
+P00016,the dewy milk moisturizer,tatcha,milk,27,Tocopherol,tocopherol
+P00016,the dewy milk moisturizer,tatcha,milk,28,Butylene Glycol,butylene glycol
+P00016,the dewy milk moisturizer,tatcha,milk,29,Gluconolactone,gluconolactone
+P00016,the dewy milk moisturizer,tatcha,milk,30,T-butyl Alcohol,t-butyl alcohol
+P00016,the dewy milk moisturizer,tatcha,milk,31,Ethylhexylglycerin,ethylhexylglycerin
+P00016,the dewy milk moisturizer,tatcha,milk,32,Parfum/fragrance,fragrance
+P00016,the dewy milk moisturizer,tatcha,milk,33,Citrus Aurantium Bergamia Peel Oil,citrus aurantium bergamia peel oil
+P00016,the dewy milk moisturizer,tatcha,milk,34,Citrus Limon Peel Oil,citrus limon peel oil
+P00016,the dewy milk moisturizer,tatcha,milk,35,Limonene,limonene
+P00016,the dewy milk moisturizer,tatcha,milk,36,Linalool,linalool
+P00016,the dewy milk moisturizer,tatcha,milk,37,Linalyl Acetate,linalyl acetate
+P00016,the dewy milk moisturizer,tatcha,milk,38,Pinene,pinene
+P00016,the dewy milk moisturizer,tatcha,milk,39,Sodium Benzoate,sodium benzoate
+P00016,the dewy milk moisturizer,tatcha,milk,40,Phenoxyethanol,phenoxyethanol
+P00016,the dewy milk moisturizer,tatcha,milk,41,Violet 2 (Ci 60725),violet 2 (ci 60725)
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,1,Water,water
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,2,Glycerin,glycerin
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,3,Dimethicone,dimethicone
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,4,Cetearyl Olivate,cetearyl olivate
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,5,Avena Sativa (Oat) Kernel Flour,avena sativa (oat) kernel flour
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,6,Sorbitan Olivate,sorbitan olivate
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,7,Polyacrylamide,polyacrylamide
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,8,Synthetic Beeswax,synthetic beeswax
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,9,Phenoxyethanol,phenoxyethanol
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,10,C13-14 Isoparaffin,c13-14 isoparaffin
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,11,Butylene Glycol,butylene glycol
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,12,Dimethicone Crosspolymer,dimethicone crosspolymer
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,13,Panthenol,panthenol
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,14,Chlorphenesin,chlorphenesin
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,15,Dimethiconol,dimethiconol
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,16,Carbomer,carbomer
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,17,Laureth-7,laureth-7
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,18,Chrysanthemum Parthenium (Feverfew) Flower/Leaf/Stem Juice,chrysanthemum parthenium (feverfew) flower/leaf/stem juice
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,19,Ethylhexylglycerin,ethylhexylglycerin
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,20,Sodium Hydroxide,sodium hydroxide
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,21,Avena Sativa (Oat) Kernel Extract,avena sativa (oat) kernel extract
+P00017,"calm + restore oat gel moisturizer, sensitive skin",aveeno,gel_cream,22,Centella Asiatica Extract,centella asiatica extract
+P00018,daily hydrating lotion,cetaphil,lotion,1,Water,water
+P00018,daily hydrating lotion,cetaphil,lotion,2,Dicaprylyl Carbonate,dicaprylyl carbonate
+P00018,daily hydrating lotion,cetaphil,lotion,3,Hydroxyethyl Urea,hydroxyethyl urea
+P00018,daily hydrating lotion,cetaphil,lotion,4,Cyclopentasiloxane,cyclopentasiloxane
+P00018,daily hydrating lotion,cetaphil,lotion,5,Glycerin,glycerin
+P00018,daily hydrating lotion,cetaphil,lotion,6,Glyceryl Stearate,glyceryl stearate
+P00018,daily hydrating lotion,cetaphil,lotion,7,PEG-100 Stearate,peg-100 stearate
+P00018,daily hydrating lotion,cetaphil,lotion,8,Hydrolyzed Hyaluronic Acid,hydrolyzed hyaluronic acid
+P00018,daily hydrating lotion,cetaphil,lotion,9,Sodium Hydroxide,sodium hydroxide
+P00018,daily hydrating lotion,cetaphil,lotion,10,Homarine HCI,homarine hcl
+P00018,daily hydrating lotion,cetaphil,lotion,11,Sodium PCA,sodium pca
+P00018,daily hydrating lotion,cetaphil,lotion,12,Cetyl Alcohol,cetyl alcohol
+P00018,daily hydrating lotion,cetaphil,lotion,13,Caprylyl Glycol,caprylyl glycol
+P00018,daily hydrating lotion,cetaphil,lotion,14,Phenoxyethanol,phenoxyethanol
+P00018,daily hydrating lotion,cetaphil,lotion,15,Acrylates/C10-30 Alkyl Acrylate Crosspolymer,acrylates/c10-30 alkyl acrylate crosspolymer
+P00018,daily hydrating lotion,cetaphil,lotion,16,Erythritol,erythritol
+P00019,moisturising gel cream,byoma,gel_cream,1,Aqua,water
+P00019,moisturising gel cream,byoma,gel_cream,2,Glycerin,glycerin
+P00019,moisturising gel cream,byoma,gel_cream,3,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00019,moisturising gel cream,byoma,gel_cream,4,Pentaerythrityl Tetraethylhexanoate,pentaerythrityl tetraethylhexanoate
+P00019,moisturising gel cream,byoma,gel_cream,5,Polyglyceryl-3 Methylglucose Distearate,polyglyceryl-3 methylglucose distearate
+P00019,moisturising gel cream,byoma,gel_cream,6,Niacinamide,niacinamide
+P00019,moisturising gel cream,byoma,gel_cream,7,Ceramide NP,ceramide np
+P00019,moisturising gel cream,byoma,gel_cream,8,Cholesterol,cholesterol
+P00019,moisturising gel cream,byoma,gel_cream,9,Phytosphingosine,phytosphingosine
+P00019,moisturising gel cream,byoma,gel_cream,10,Camellia Sinensis Leaf Extract,camellia sinensis leaf extract
+P00019,moisturising gel cream,byoma,gel_cream,11,Stearic Acid,stearic acid
+P00019,moisturising gel cream,byoma,gel_cream,12,Oleic Acid,oleic acid
+P00019,moisturising gel cream,byoma,gel_cream,13,Lactic Acid,lactic acid
+P00019,moisturising gel cream,byoma,gel_cream,14,Hydrogenated Lecithin,hydrogenated lecithin
+P00019,moisturising gel cream,byoma,gel_cream,15,Cetearyl Alcohol,cetearyl alcohol
+P00019,moisturising gel cream,byoma,gel_cream,16,Panthenol,panthenol
+P00019,moisturising gel cream,byoma,gel_cream,17,Carbomer,carbomer
+P00019,moisturising gel cream,byoma,gel_cream,18,Xanthan Gum,xanthan gum
+P00019,moisturising gel cream,byoma,gel_cream,19,Tromethamine,tromethamine
+P00019,moisturising gel cream,byoma,gel_cream,20,"1,2-Hexanediol","1,2-hexanediol"
+P00019,moisturising gel cream,byoma,gel_cream,21,Caprylyl Glycol,caprylyl glycol
+P00019,moisturising gel cream,byoma,gel_cream,22,Hydroxyacetophenone,hydroxyacetophenone
+P00019,moisturising gel cream,byoma,gel_cream,23,Caprylhydroxamic Acid,caprylhydroxamic acid
+P00020,dramatically different moisturizing gel,clinique,gel,1,Water\Aqua\Eau,water
+P00020,dramatically different moisturizing gel,clinique,gel,2,Dimethicone,dimethicone
+P00020,dramatically different moisturizing gel,clinique,gel,3,Isododecane,isododecane
+P00020,dramatically different moisturizing gel,clinique,gel,4,Butylene Glycol,butylene glycol
+P00020,dramatically different moisturizing gel,clinique,gel,5,Bis-Peg-18 Methyl Ether Dimethyl Silane,bis-peg-18 methyl ether dimethyl silane
+P00020,dramatically different moisturizing gel,clinique,gel,6,Glycerin,glycerin
+P00020,dramatically different moisturizing gel,clinique,gel,7,Laminaria Saccharina Extract,laminaria saccharina extract
+P00020,dramatically different moisturizing gel,clinique,gel,8,Polygonum Cuspidatum Root Extract,polygonum cuspidatum root extract
+P00020,dramatically different moisturizing gel,clinique,gel,9,Saccharomyces Lysate Extract,saccharomyces lysate extract
+P00020,dramatically different moisturizing gel,clinique,gel,10,Cucumis Sativus (Cucumber) Fruit Extract,cucumis sativus (cucumber) fruit extract
+P00020,dramatically different moisturizing gel,clinique,gel,11,Hordeum Vulgare (Barley) Extract\Extrait D'Orge,hordeum vulgare (barley) extract
+P00020,dramatically different moisturizing gel,clinique,gel,12,Helianthus Annuus (Sunflower) Seedcake,helianthus annuus (sunflower) seedcake
+P00020,dramatically different moisturizing gel,clinique,gel,13,Caffeine,caffeine
+P00020,dramatically different moisturizing gel,clinique,gel,14,Trehalose,trehalose
+P00020,dramatically different moisturizing gel,clinique,gel,15,Sodium Hyaluronate,sodium hyaluronate
+P00020,dramatically different moisturizing gel,clinique,gel,16,Tocopheryl Acetate,tocopheryl acetate
+P00020,dramatically different moisturizing gel,clinique,gel,17,Polysilicone-11,polysilicone-11
+P00020,dramatically different moisturizing gel,clinique,gel,18,Silica,silica
+P00020,dramatically different moisturizing gel,clinique,gel,19,Propylene Glycol Dicaprate,propylene glycol dicaprate
+P00020,dramatically different moisturizing gel,clinique,gel,20,Oleth-10,oleth-10
+P00020,dramatically different moisturizing gel,clinique,gel,21,Lactobacillus Ferment,lactobacillus ferment
+P00020,dramatically different moisturizing gel,clinique,gel,22,Laureth-23,laureth-23
+P00020,dramatically different moisturizing gel,clinique,gel,23,Laureth-4,laureth-4
+P00020,dramatically different moisturizing gel,clinique,gel,24,Ammonium Acryloyldimethyltaurate/Vp Copolymer,ammonium acryloyldimethyltaurate/vp copolymer
+P00020,dramatically different moisturizing gel,clinique,gel,25,Carbomer,carbomer
+P00020,dramatically different moisturizing gel,clinique,gel,26,Caprylyl Glycol,caprylyl glycol
+P00020,dramatically different moisturizing gel,clinique,gel,27,Hexylene Glycol,hexylene glycol
+P00020,dramatically different moisturizing gel,clinique,gel,28,Tromethamine,tromethamine
+P00020,dramatically different moisturizing gel,clinique,gel,29,Disodium Edta,disodium edta
+P00020,dramatically different moisturizing gel,clinique,gel,30,Phenoxyethanol,phenoxyethanol
+P00020,dramatically different moisturizing gel,clinique,gel,31,Yellow 5 (Ci 19140),yellow 5 (ci 19140)
+P00020,dramatically different moisturizing gel,clinique,gel,32,Red 4 (Ci 14700),red 4 (ci 14700)
+P00020,dramatically different moisturizing gel,clinique,gel,33,Yellow 6 (Ci 15985),yellow 6 (ci 15985)
+P00021,tolerance control soothing skin recovery balm,avène,balm,1,AVÈNE THERMAL SPRING WATER,avène thermal spring water
+P00021,tolerance control soothing skin recovery balm,avène,balm,2,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00021,tolerance control soothing skin recovery balm,avène,balm,3,GLYCERIN,glycerin
+P00021,tolerance control soothing skin recovery balm,avène,balm,4,CETEARYL ALCOHOL,cetearyl alcohol
+P00021,tolerance control soothing skin recovery balm,avène,balm,5,BUTYROSPERMUM PARKII (SHEA) BUTTER,butyrospermum parkii butter
+P00021,tolerance control soothing skin recovery balm,avène,balm,6,SQUALANE,squalane
+P00021,tolerance control soothing skin recovery balm,avène,balm,7,BEESWAX,beeswax
+P00021,tolerance control soothing skin recovery balm,avène,balm,8,CETEARYL GLUCOSIDE,cetearyl glucoside
+P00021,tolerance control soothing skin recovery balm,avène,balm,9,CETYL ESTERS,cetyl esters
+P00021,tolerance control soothing skin recovery balm,avène,balm,10,AQUAPHILUS DOLOMIAE EXTRACT FILTRATE,aquaphilus dolomiae extract filtrate
+P00021,tolerance control soothing skin recovery balm,avène,balm,11,ARGININE,arginine
+P00021,tolerance control soothing skin recovery balm,avène,balm,12,CITRIC ACID,citric acid
+P00021,tolerance control soothing skin recovery balm,avène,balm,13,TROMETHAMINE,tromethamine
+P00021,tolerance control soothing skin recovery balm,avène,balm,14,WATER,water
+P00021,tolerance control soothing skin recovery balm,avène,balm,15,XANTHAN GUM,xanthan gum
+P00022,protini polypeptide cream,drunk elephant,cream,1,Water/Aqua/Eau,water
+P00022,protini polypeptide cream,drunk elephant,cream,2,Dicaprylyl Carbonate,dicaprylyl carbonate
+P00022,protini polypeptide cream,drunk elephant,cream,3,Glycerin,glycerin
+P00022,protini polypeptide cream,drunk elephant,cream,4,Cetearyl Alcohol,cetearyl alcohol
+P00022,protini polypeptide cream,drunk elephant,cream,5,Cetearyl Olivate,cetearyl olivate
+P00022,protini polypeptide cream,drunk elephant,cream,6,Sorbitan Olivate,sorbitan olivate
+P00022,protini polypeptide cream,drunk elephant,cream,7,Sclerocarya Birrea Seed Oil,sclerocarya birrea seed oil
+P00022,protini polypeptide cream,drunk elephant,cream,8,Bacillus/Folic Acid Ferment Extract,bacillus/folic acid ferment extract
+P00022,protini polypeptide cream,drunk elephant,cream,9,Nymphaea Alba Root Extract,nymphaea alba root extract
+P00022,protini polypeptide cream,drunk elephant,cream,10,sh-Oligopeptide-1,sh-oligopeptide-1
+P00022,protini polypeptide cream,drunk elephant,cream,11,sh-Oligopeptide-2,sh-oligopeptide-2
+P00022,protini polypeptide cream,drunk elephant,cream,12,sh-Polypeptide-1,sh-polypeptide-1
+P00022,protini polypeptide cream,drunk elephant,cream,13,sh-Polypeptide-9,sh-polypeptide-9
+P00022,protini polypeptide cream,drunk elephant,cream,14,sh-Polypeptide-11,sh-polypeptide-11
+P00022,protini polypeptide cream,drunk elephant,cream,15,Copper Palmitoyl Heptapeptide-14,copper palmitoyl heptapeptide-14
+P00022,protini polypeptide cream,drunk elephant,cream,16,Heptapeptide-15 Palmitate,heptapeptide-15 palmitate
+P00022,protini polypeptide cream,drunk elephant,cream,17,Palmitoyl Tetrapeptide-7,palmitoyl tetrapeptide-7
+P00022,protini polypeptide cream,drunk elephant,cream,18,Palmitoyl Tripeptide-1,palmitoyl tripeptide-1
+P00022,protini polypeptide cream,drunk elephant,cream,19,Alanine,alanine
+P00022,protini polypeptide cream,drunk elephant,cream,20,Arginine,arginine
+P00022,protini polypeptide cream,drunk elephant,cream,21,Glycine,glycine
+P00022,protini polypeptide cream,drunk elephant,cream,22,Histidine,histidine
+P00022,protini polypeptide cream,drunk elephant,cream,23,Isoleucine,isoleucine
+P00022,protini polypeptide cream,drunk elephant,cream,24,Phenylalanine,phenylalanine
+P00022,protini polypeptide cream,drunk elephant,cream,25,Proline,proline
+P00022,protini polypeptide cream,drunk elephant,cream,26,Serine,serine
+P00022,protini polypeptide cream,drunk elephant,cream,27,Threonine,threonine
+P00022,protini polypeptide cream,drunk elephant,cream,28,Valine,valine
+P00022,protini polypeptide cream,drunk elephant,cream,29,Acetyl Glutamine,acetyl glutamine
+P00022,protini polypeptide cream,drunk elephant,cream,30,Coconut Alkanes,coconut alkanes
+P00022,protini polypeptide cream,drunk elephant,cream,31,Coco-Caprylate/Caprate,coco-caprylate/caprate
+P00022,protini polypeptide cream,drunk elephant,cream,32,Sodium Hyaluronate,sodium hyaluronate
+P00022,protini polypeptide cream,drunk elephant,cream,33,Aspartic Acid,aspartic acid
+P00022,protini polypeptide cream,drunk elephant,cream,34,Linoleic Acid,linoleic acid
+P00022,protini polypeptide cream,drunk elephant,cream,35,Linolenic Acid,linolenic acid
+P00022,protini polypeptide cream,drunk elephant,cream,36,Lecithin,lecithin
+P00022,protini polypeptide cream,drunk elephant,cream,37,Butylene Glycol,butylene glycol
+P00022,protini polypeptide cream,drunk elephant,cream,38,Polyvinyl Alcohol,polyvinyl alcohol
+P00022,protini polypeptide cream,drunk elephant,cream,39,Sodium Lactate,sodium lactate
+P00022,protini polypeptide cream,drunk elephant,cream,40,Sodium PCA,sodium pca
+P00022,protini polypeptide cream,drunk elephant,cream,41,PCA,pca
+P00022,protini polypeptide cream,drunk elephant,cream,42,Sorbitan Isostearate,sorbitan isostearate
+P00022,protini polypeptide cream,drunk elephant,cream,43,Carbomer,carbomer
+P00022,protini polypeptide cream,drunk elephant,cream,44,Polysorbate 20,polysorbate 20
+P00022,protini polypeptide cream,drunk elephant,cream,45,Polysorbate 60,polysorbate 60
+P00022,protini polypeptide cream,drunk elephant,cream,46,Lactic Acid/Glycolic Acid Copolymer,lactic acid/glycolic acid copolymer
+P00022,protini polypeptide cream,drunk elephant,cream,47,Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer
+P00022,protini polypeptide cream,drunk elephant,cream,48,Xanthan Gum,xanthan gum
+P00022,protini polypeptide cream,drunk elephant,cream,49,Isomalt,isomalt
+P00022,protini polypeptide cream,drunk elephant,cream,50,"1,2-Hexanediol","1,2-hexanediol"
+P00022,protini polypeptide cream,drunk elephant,cream,51,Caprylyl Glycol,caprylyl glycol
+P00022,protini polypeptide cream,drunk elephant,cream,52,Chlorphenesin,chlorphenesin
+P00022,protini polypeptide cream,drunk elephant,cream,53,Phenoxyethanol,phenoxyethanol
+P00022,protini polypeptide cream,drunk elephant,cream,54,Tocopherol,tocopherol
+P00022,protini polypeptide cream,drunk elephant,cream,55,Sodium Benzoate,sodium benzoate
+P00022,protini polypeptide cream,drunk elephant,cream,56,Phenylpropanol,phenylpropanol
+P00022,protini polypeptide cream,drunk elephant,cream,57,Glyceryl Caprylate,glyceryl caprylate
+P00022,protini polypeptide cream,drunk elephant,cream,58,Symphytum Officinale Callus Culture Extract,symphytum officinale callus culture extract
+P00023,squalane + omega repair cream,biossance,cream,1,Water/Aqua/Eau,water
+P00023,squalane + omega repair cream,biossance,cream,2,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00023,squalane + omega repair cream,biossance,cream,3,Squalane,squalane
+P00023,squalane + omega repair cream,biossance,cream,4,Glycerin,glycerin
+P00023,squalane + omega repair cream,biossance,cream,5,Butyrospermum Parkii (Shea) Butter,butyrospermum parkii butter
+P00023,squalane + omega repair cream,biossance,cream,6,Sorbitan Olivate,sorbitan olivate
+P00023,squalane + omega repair cream,biossance,cream,7,Cetearyl Olivate,cetearyl olivate
+P00023,squalane + omega repair cream,biossance,cream,8,Cetearyl Alcohol,cetearyl alcohol
+P00023,squalane + omega repair cream,biossance,cream,9,Cetyl Palmitate,cetyl palmitate
+P00023,squalane + omega repair cream,biossance,cream,10,Jojoba Esters,jojoba esters
+P00023,squalane + omega repair cream,biossance,cream,11,Euterpe Oleracea Sterols,euterpe oleracea sterols
+P00023,squalane + omega repair cream,biossance,cream,12,Phenoxyethanol,phenoxyethanol
+P00023,squalane + omega repair cream,biossance,cream,13,Sorbitan Palmitate,sorbitan palmitate
+P00023,squalane + omega repair cream,biossance,cream,14,Ceramide Np,ceramide np
+P00023,squalane + omega repair cream,biossance,cream,15,Carbomer,carbomer
+P00023,squalane + omega repair cream,biossance,cream,16,Tocopherol,tocopherol
+P00023,squalane + omega repair cream,biossance,cream,17,Ethylhexylglycerin,ethylhexylglycerin
+P00023,squalane + omega repair cream,biossance,cream,18,Sodium Hydroxide,sodium hydroxide
+P00023,squalane + omega repair cream,biossance,cream,19,Sodium Gluconate,sodium gluconate
+P00023,squalane + omega repair cream,biossance,cream,20,Sodium Hyaluronate,sodium hyaluronate
+P00023,squalane + omega repair cream,biossance,cream,21,Linoleic Acid,linoleic acid
+P00023,squalane + omega repair cream,biossance,cream,22,Oleic Acid,oleic acid
+P00023,squalane + omega repair cream,biossance,cream,23,Linolenic Acid,linolenic acid
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,1,water/aqua/eau,water
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,2,glycerin,glycerin
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,3,caprylic/capric triglyceride,caprylic/capric triglyceride
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,4,squalane,squalane
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,5,coconut alkanes,coconut alkanes
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,6,meadowfoam estolide,meadowfoam estolide
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,7,glyceryl stearate,glyceryl stearate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,8,peg-100 stearate,peg-100 stearate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,9,cetearyl alcohol,cetearyl alcohol
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,10,c12-15 alkyl benzoate,c12-15 alkyl benzoate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,11,phytosteryl macadamiate,phytosteryl macadamiate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,12,coco-caprylate/caprate,coco-caprylate/caprate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,13,triheptanoin,triheptanoin
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,14,caprylyl glycol,caprylyl glycol
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,15,methylpropanediol,methylpropanediol
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,16,linoleic acid,linoleic acid
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,17,phytosterols,phytosterols
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,18,phospholipids,phospholipids
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,19,sodium polyacrylate,sodium polyacrylate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,20,tribehenin,tribehenin
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,21,sodium pca,sodium pca
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,22,urea,urea
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,23,phenoxyethanol,phenoxyethanol
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,24,c9-12 alkane,c9-12 alkane
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,25,dipalmitoyl hydroxyproline,dipalmitoyl hydroxyproline
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,26,dilinoleic acid/butanediol copolymer,dilinoleic acid/butanediol copolymer
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,27,hydroxyproline palmitamide,hydroxyproline palmitamide
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,28,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,29,isohexadecane,isohexadecane
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,30,trehalose,trehalose
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,31,ceramide ng,ceramide ng
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,32,hexylene glycol,hexylene glycol
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,33,peg-10 phytosterol,peg-10 phytosterol
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,34,sodium phytate,sodium phytate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,35,polysorbate 60,polysorbate 60
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,36,polyquaternium-51,polyquaternium-51
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,37,palmitic acid,palmitic acid
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,38,triacetin,triacetin
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,39,sodium isostearate,sodium isostearate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,40,castor oil/ipdi copolymer,castor oil/ipdi copolymer
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,41,lactic acid,lactic acid
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,42,sodium hyaluronate,sodium hyaluronate
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,43,palmitoyl hexapeptide-12,palmitoyl hexapeptide-12
+P00024,instant angel lipid-rich firming moisturizer,dieux,cream,44,tocopherol,tocopherol
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,1,Water/Aqua/Eau,water
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,2,Propanediol,propanediol
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,3,Glycerin,glycerin
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,4,Limnanthes Alba (Meadowfoam) Seed Oil,limnanthes alba (meadowfoam) seed oil
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,5,Betaine,betaine
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,6,Behenyl Alcohol,behenyl alcohol
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,7,"1,2-Hexanediol","1,2-hexanediol"
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,8,Carbomer,carbomer
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,9,Tromethamine,tromethamine
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,10,Jojoba Esters,jojoba esters
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,11,Arachidyl Alcohol,arachidyl alcohol
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,12,Glyceryl Caprylate,glyceryl caprylate
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,13,Butylene Glycol,butylene glycol
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,14,Ethylhexylglycerin,ethylhexylglycerin
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,15,Disodium EDTA,disodium edta
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,16,Arachidyl Glucoside,arachidyl glucoside
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,17,Mentha Arvensis Leaf Extract,mentha arvensis leaf extract
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,18,Fragrance/Parfum,fragrance
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,19,Hydrolyzed Hyaluronic Acid,hydrolyzed hyaluronic acid
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,20,Malachite Extract,malachite extract
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,21,Aureobasidium Pullulans Ferment,aureobasidium pullulans ferment
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,22,Tocopherol,tocopherol
+P00025,water bank blue hyaluronic gel moisturizer,laneige,gel_cream,23,Undaria Pinnatifida Extract,undaria pinnatifida extract
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,1,Betula Platyphylla Japonica Juice,betula platyphylla japonica juice
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,2,Butylene Glycol,butylene glycol
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,3,Glycerin,glycerin
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,4,Dimethicone,dimethicone
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,5,Betaine,betaine
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,6,Cetearyl Alcohol,cetearyl alcohol
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,7,"1,2-Hexanediol","1,2-hexanediol"
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,8,Cetearyl Olivate,cetearyl olivate
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,9,Sorbitan Olivate,sorbitan olivate
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,10,Ethylhexylglycerin,ethylhexylglycerin
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,11,Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,12,Ethyl Hexanediol,ethyl hexanediol
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,13,Xanthan Gum,xanthan gum
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,14,Allantoin,allantoin
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,15,Panthenol,panthenol
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,16,Water,water
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,17,Sodium Hyaluronate,sodium hyaluronate
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,18,Sodium Lactate,sodium lactate
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,19,Sorbitan Isostearate,sorbitan isostearate
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,20,Polysorbate 60,polysorbate 60
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,21,Tocopherol,tocopherol
+P00026,oil-free ultra-moisturizing lotion with birch sap,cosrx,lotion,22,4-Terpineol,4-terpineol
+P00027,lipid gold,stratia,lotion,1,Water (Aqua),water
+P00027,lipid gold,stratia,lotion,2,Propylene Glycol,propylene glycol
+P00027,lipid gold,stratia,lotion,3,Ethoxydiglycol,ethoxydiglycol
+P00027,lipid gold,stratia,lotion,4,Niacinamide,niacinamide
+P00027,lipid gold,stratia,lotion,5,Polyglyceryl-3 Methylglucose Distearate,polyglyceryl-3 methylglucose distearate
+P00027,lipid gold,stratia,lotion,6,Rosa Mosqueta (Rose) Hip Oil,rosa mosqueta (rose) hip oil
+P00027,lipid gold,stratia,lotion,7,Hippophae Rhamnoides (Sea Buckthorn) Seed Oil,hippophae rhamnoides (sea buckthorn) seed oil
+P00027,lipid gold,stratia,lotion,8,Hippophae Rhamnoides (Sea Buckthorn) Fruit Oil,hippophae rhamnoides (sea buckthorn) fruit oil
+P00027,lipid gold,stratia,lotion,9,Panthenol,panthenol
+P00027,lipid gold,stratia,lotion,10,Dimethicone,dimethicone
+P00027,lipid gold,stratia,lotion,11,Glycerin,glycerin
+P00027,lipid gold,stratia,lotion,12,Squalane,squalane
+P00027,lipid gold,stratia,lotion,13,Cetyl Alcohol,cetyl alcohol
+P00027,lipid gold,stratia,lotion,14,Vaccinium Macrocarpon (Cranberry) Seed Oil,vaccinium macrocarpon (cranberry) seed oil
+P00027,lipid gold,stratia,lotion,15,Tocopherol,tocopherol
+P00027,lipid gold,stratia,lotion,16,Camellia Sinensis Leaf Extract,camellia sinensis leaf extract
+P00027,lipid gold,stratia,lotion,17,Ceramide NP,ceramide np
+P00027,lipid gold,stratia,lotion,18,Ceramide AP,ceramide ap
+P00027,lipid gold,stratia,lotion,19,Ceramide EOP,ceramide eop
+P00027,lipid gold,stratia,lotion,20,Phytosphingosine,phytosphingosine
+P00027,lipid gold,stratia,lotion,21,Cholesterol,cholesterol
+P00027,lipid gold,stratia,lotion,22,Sodium Hyaluronate,sodium hyaluronate
+P00027,lipid gold,stratia,lotion,23,Sodium Lauroyl Lactylate,sodium lauroyl lactylate
+P00027,lipid gold,stratia,lotion,24,Carbomer,carbomer
+P00027,lipid gold,stratia,lotion,25,Xanthan Gum,xanthan gum
+P00027,lipid gold,stratia,lotion,26,Methylparaben,methylparaben
+P00027,lipid gold,stratia,lotion,27,Propylparaben,propylparaben
+P00027,lipid gold,stratia,lotion,28,Disodium EDTA,disodium edta
+P00028,skin balance day cream,eucerin,cream,1,Water,water
+P00028,skin balance day cream,eucerin,cream,2,Glycerin,glycerin
+P00028,skin balance day cream,eucerin,cream,3,Butyrospermum Parkii (Shea) Butter,butyrospermum parkii butter
+P00028,skin balance day cream,eucerin,cream,4,Panthenol,panthenol
+P00028,skin balance day cream,eucerin,cream,5,Cetyl Palmitate,cetyl palmitate
+P00028,skin balance day cream,eucerin,cream,6,Methyl Palmitate,methyl palmitate
+P00028,skin balance day cream,eucerin,cream,7,Vegetable Oil,vegetable oil
+P00028,skin balance day cream,eucerin,cream,8,Pentylene Glycol,pentylene glycol
+P00028,skin balance day cream,eucerin,cream,9,Methylpropanediol,methylpropanediol
+P00028,skin balance day cream,eucerin,cream,10,Sodium Polyacrylate,sodium polyacrylate
+P00028,skin balance day cream,eucerin,cream,11,Glycyrrhiza Inflata Root Extract,glycyrrhiza inflata root extract
+P00028,skin balance day cream,eucerin,cream,12,4-t-Butylcyclohexanol (Trans-Isomer),4-t-butylcyclohexanol (trans-isomer)
+P00028,skin balance day cream,eucerin,cream,13,Caprylyl Glycol,caprylyl glycol
+P00028,skin balance day cream,eucerin,cream,14,Sodium Hydroxide,sodium hydroxide
+P00028,skin balance day cream,eucerin,cream,15,Pantolactone,pantolactone
+P00028,skin balance day cream,eucerin,cream,16,Citric Acid,citric acid
+P00029,ultra repair cream intense hydration,first aid beauty,cream,1,Water,water
+P00029,ultra repair cream intense hydration,first aid beauty,cream,2,Stearic Acid,stearic acid
+P00029,ultra repair cream intense hydration,first aid beauty,cream,3,Glycerin,glycerin
+P00029,ultra repair cream intense hydration,first aid beauty,cream,4,C12-15 Alkyl Benzoate,c12-15 alkyl benzoate
+P00029,ultra repair cream intense hydration,first aid beauty,cream,5,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00029,ultra repair cream intense hydration,first aid beauty,cream,6,Glyceryl Stearate,glyceryl stearate
+P00029,ultra repair cream intense hydration,first aid beauty,cream,7,Glyceryl Stearate SE,glyceryl stearate se
+P00029,ultra repair cream intense hydration,first aid beauty,cream,8,Cetearylalcohol,cetearyl alcohol
+P00029,ultra repair cream intense hydration,first aid beauty,cream,9,Dimethicone,dimethicone
+P00029,ultra repair cream intense hydration,first aid beauty,cream,10,Squalane,squalane
+P00029,ultra repair cream intense hydration,first aid beauty,cream,11,Hydrogenated Shea Butter,hydrogenated shea butter
+P00029,ultra repair cream intense hydration,first aid beauty,cream,12,Phenoxyethanol,phenoxyethanol
+P00029,ultra repair cream intense hydration,first aid beauty,cream,13,Caprylyl Glycol,caprylyl glycol
+P00029,ultra repair cream intense hydration,first aid beauty,cream,14,Xanthamgum,xanthan gum
+P00029,ultra repair cream intense hydration,first aid beauty,cream,15,Allantoin,allantoin
+P00029,ultra repair cream intense hydration,first aid beauty,cream,16,Sodium Hydroxide,sodium hydroxide
+P00029,ultra repair cream intense hydration,first aid beauty,cream,17,Tetrasodium EDTA,tetrasodium edta
+P00029,ultra repair cream intense hydration,first aid beauty,cream,18,Chrysanthemum Parthenium (Feverfew) Extract,chrysanthemum parthenium (feverfew) extract
+P00029,ultra repair cream intense hydration,first aid beauty,cream,19,Camellia Sinensis Leaf Extract,camellia sinensis leaf extract
+P00029,ultra repair cream intense hydration,first aid beauty,cream,20,Glycyrrhiza Glabra (Licorice) Root Extract,glycyrrhiza glabra (licorice) root extract
+P00029,ultra repair cream intense hydration,first aid beauty,cream,21,Ceramide NP,ceramide np
+P00029,ultra repair cream intense hydration,first aid beauty,cream,22,Eucalyptus Globulus Leaf Oil,eucalyptus globulus leaf oil
+P00030,triple lipid-peptide cream,skinfix,cream,1,Water/Aqua/Eau,water
+P00030,triple lipid-peptide cream,skinfix,cream,2,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00030,triple lipid-peptide cream,skinfix,cream,3,Glycerin,glycerin
+P00030,triple lipid-peptide cream,skinfix,cream,4,Butyrospermum Parkii (Shea) Butter,butyrospermum parkii butter
+P00030,triple lipid-peptide cream,skinfix,cream,5,Olus Oil/Vegetable Oil/Huile végétale,olus oil/vegetable oil/huile végétale
+P00030,triple lipid-peptide cream,skinfix,cream,6,Cetyl Lactate,cetyl lactate
+P00030,triple lipid-peptide cream,skinfix,cream,7,Propanediol,propanediol
+P00030,triple lipid-peptide cream,skinfix,cream,8,C12-16 Alcohols,c12-16 alcohols
+P00030,triple lipid-peptide cream,skinfix,cream,9,Caprylyl Caprylate/Caprate,caprylyl caprylate/caprate
+P00030,triple lipid-peptide cream,skinfix,cream,10,Jojoba Oil/Macadamia Seed Oil Esters,jojoba oil/macadamia seed oil esters
+P00030,triple lipid-peptide cream,skinfix,cream,11,Glyceryl Stearate Citrate,glyceryl stearate citrate
+P00030,triple lipid-peptide cream,skinfix,cream,12,Palmitic Acid,palmitic acid
+P00030,triple lipid-peptide cream,skinfix,cream,13,Hydrogenated Lecithin,hydrogenated lecithin
+P00030,triple lipid-peptide cream,skinfix,cream,14,Oryza Sativa (Rice) Bran Extract,oryza sativa (rice) bran extract
+P00030,triple lipid-peptide cream,skinfix,cream,15,Dilinoleic Acid/Propanediol Copolymer,dilinoleic acid/propanediol copolymer
+P00030,triple lipid-peptide cream,skinfix,cream,16,Squalene,squalene
+P00030,triple lipid-peptide cream,skinfix,cream,17,Ophiopogon Japonicus Root Extract,ophiopogon japonicus root extract
+P00030,triple lipid-peptide cream,skinfix,cream,18,Xanthan Gum,xanthan gum
+P00030,triple lipid-peptide cream,skinfix,cream,19,Phytosteryl Sunflowerseedate,phytosteryl sunflowerseedate
+P00030,triple lipid-peptide cream,skinfix,cream,20,Glycine Soja (Soybean) Extract,glycine soja (soybean) extract
+P00030,triple lipid-peptide cream,skinfix,cream,21,Pentylene Glycol,pentylene glycol
+P00030,triple lipid-peptide cream,skinfix,cream,22,Ceramide NP,ceramide np
+P00030,triple lipid-peptide cream,skinfix,cream,23,Ceramide AP,ceramide ap
+P00030,triple lipid-peptide cream,skinfix,cream,24,Ceramide EOP,ceramide eop
+P00030,triple lipid-peptide cream,skinfix,cream,25,Hydrolyzed Rice Protein,hydrolyzed rice protein
+P00030,triple lipid-peptide cream,skinfix,cream,26,Chondrus Crispus Extract,chondrus crispus extract
+P00030,triple lipid-peptide cream,skinfix,cream,27,Hydrogenated Vegetable Glycerides,hydrogenated vegetable glycerides
+P00030,triple lipid-peptide cream,skinfix,cream,28,Helianthus Annuus (Sunflower) Extract,helianthus annuus (sunflower) extract
+P00030,triple lipid-peptide cream,skinfix,cream,29,Sodium Hyaluronate,sodium hyaluronate
+P00030,triple lipid-peptide cream,skinfix,cream,30,Citric Acid,citric acid
+P00030,triple lipid-peptide cream,skinfix,cream,31,Phytosteryl Macadamiate,phytosteryl macadamiate
+P00030,triple lipid-peptide cream,skinfix,cream,32,Tocopherol,tocopherol
+P00030,triple lipid-peptide cream,skinfix,cream,33,Rosmarinus Officinalis (Rosemary) Leaf Extract,rosmarinus officinalis (rosemary) leaf extract
+P00030,triple lipid-peptide cream,skinfix,cream,34,Aloe Barbadensis Leaf Juice,aloe barbadensis leaf juice
+P00030,triple lipid-peptide cream,skinfix,cream,35,Trisodium Ethylenediamine Disuccinate,trisodium ethylenediamine disuccinate
+P00030,triple lipid-peptide cream,skinfix,cream,36,Phytosterols,phytosterols
+P00030,triple lipid-peptide cream,skinfix,cream,37,Sodium Lauroyl Lactylate,sodium lauroyl lactylate
+P00030,triple lipid-peptide cream,skinfix,cream,38,Gluconolactone,gluconolactone
+P00030,triple lipid-peptide cream,skinfix,cream,39,Phenethyl Alcohol,phenethyl alcohol
+P00030,triple lipid-peptide cream,skinfix,cream,40,Phytosphingosine,phytosphingosine
+P00030,triple lipid-peptide cream,skinfix,cream,41,Cholesterol,cholesterol
+P00030,triple lipid-peptide cream,skinfix,cream,42,Carbomer,carbomer
+P00030,triple lipid-peptide cream,skinfix,cream,43,Potassium Sorbate,potassium sorbate
+P00030,triple lipid-peptide cream,skinfix,cream,44,Ethylhexylglycerin,ethylhexylglycerin
+P00030,triple lipid-peptide cream,skinfix,cream,45,Hydroxyacetophenone,hydroxyacetophenone
+P00030,triple lipid-peptide cream,skinfix,cream,46,Sodium Benzoate,sodium benzoate
+P00030,triple lipid-peptide cream,skinfix,cream,47,Phenoxyethanol,phenoxyethanol
+P00031,sos recovery cream,tower 28,cream,1,Water/Aqua/Eau,water
+P00031,sos recovery cream,tower 28,cream,2,Glycerin,glycerin
+P00031,sos recovery cream,tower 28,cream,3,Cetyl Ethylhexanoate,cetyl ethylhexanoate
+P00031,sos recovery cream,tower 28,cream,4,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00031,sos recovery cream,tower 28,cream,5,Propanediol,propanediol
+P00031,sos recovery cream,tower 28,cream,6,"1,2-Hexanediol","1,2-hexanediol"
+P00031,sos recovery cream,tower 28,cream,7,Glyceryl Stearate,glyceryl stearate
+P00031,sos recovery cream,tower 28,cream,8,Cetearyl Alcohol,cetearyl alcohol
+P00031,sos recovery cream,tower 28,cream,9,Microcrystalline Cellulose,microcrystalline cellulose
+P00031,sos recovery cream,tower 28,cream,10,Sodium Polyacrylate Starch,sodium polyacrylate starch
+P00031,sos recovery cream,tower 28,cream,11,Sclerotium Gum,sclerotium gum
+P00031,sos recovery cream,tower 28,cream,12,Triolein,triolein
+P00031,sos recovery cream,tower 28,cream,13,Potassium Cetyl Phosphate,potassium cetyl phosphate
+P00031,sos recovery cream,tower 28,cream,14,Behenyl Alcohol,behenyl alcohol
+P00031,sos recovery cream,tower 28,cream,15,Allantoin,allantoin
+P00031,sos recovery cream,tower 28,cream,16,Ceramide NP,ceramide np
+P00031,sos recovery cream,tower 28,cream,17,Glyceryl Dioleate,glyceryl dioleate
+P00031,sos recovery cream,tower 28,cream,18,Cellulose Gum,cellulose gum
+P00031,sos recovery cream,tower 28,cream,19,Sodium Phytate,sodium phytate
+P00031,sos recovery cream,tower 28,cream,20,Pentylene Glycol,pentylene glycol
+P00031,sos recovery cream,tower 28,cream,21,Sodium Acetylated Hyaluronate,sodium acetylated hyaluronate
+P00031,sos recovery cream,tower 28,cream,22,Sodium Hyaluronate,sodium hyaluronate
+P00031,sos recovery cream,tower 28,cream,23,Sodium Hyaluronate Crosspolymer,sodium hyaluronate crosspolymer
+P00031,sos recovery cream,tower 28,cream,24,Hydrolyzed Sodium Hyaluronate,hydrolyzed sodium hyaluronate
+P00031,sos recovery cream,tower 28,cream,25,Ethylhexylglycerin,ethylhexylglycerin
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,1,WATER (AQUA),water
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,2,ISOHEXADECANE,isohexadecane
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,3,STEARYL HEPTANOATE,stearyl heptanoate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,4,GLYCERIN,glycerin
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,5,BUTYLENE GLYCOL,butylene glycol
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,6,ISOPROPYL ISOSTEARATE,isopropyl isostearate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,7,NIACINAMIDE,niacinamide
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,8,CETEARYL OLIVATE,cetearyl olivate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,9,TREHALOSE,trehalose
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,10,SQUALANE,squalane
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,11,DIMETHICONE,dimethicone
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,12,STEARIC ACID,stearic acid
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,13,ALUMINUM STARCH OCTENYLSUCCINATE,aluminum starch octenylsuccinate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,14,POLYMETHYLSILSESQUIOXANE,polymethylsilsesquioxane
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,15,SILICA,silica
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,16,SODIUM HYALURONATE,sodium hyaluronate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,17,PALMITOYL TRIPEPTIDE-1,palmitoyl tripeptide-1
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,18,PALMITOYL TETRAPEPTIDE-7,palmitoyl tetrapeptide-7
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,19,PANTHENOL,panthenol
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,20,SORBITAN OLIVATE,sorbitan olivate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,21,CETEARYL ALCOHOL,cetearyl alcohol
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,22,GLYCERYL STEARATE,glyceryl stearate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,23,PEG-100 STEARATE,peg-100 stearate
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,24,POLYETHYLENE,polyethylene
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,25,DISODIUM EDTA,disodium edta
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,26,POLYACRYLATE-13,polyacrylate-13
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,27,POLYISOBUTENE,polyisobutene
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,28,POLYSORBATE 20,polysorbate 20
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,29,CAPRYLYL GLYCOL,caprylyl glycol
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,30,PHENOXYETHANOL,phenoxyethanol
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,31,ETHYLHEXYLGLYCERIN,ethylhexylglycerin
+P00032,holy hydration! face cream fragrance free,e.l.f.,cream,32,CARBOMER,carbomer
+P00033,intensive moisture facial cream,curél,cream,1,water/aqua,water
+P00033,intensive moisture facial cream,curél,cream,2,glycerin,glycerin
+P00033,intensive moisture facial cream,curél,cream,3,cetyl-pg hydroxyethyl palmitamide,cetyl-pg hydroxyethyl palmitamide
+P00033,intensive moisture facial cream,curél,cream,4,trisiloxane,trisiloxane
+P00033,intensive moisture facial cream,curél,cream,5,dimethicone,dimethicone
+P00033,intensive moisture facial cream,curél,cream,6,hydrogenated polydecene,hydrogenated polydecene
+P00033,intensive moisture facial cream,curél,cream,7,peg-3 dimethicone,peg-3 dimethicone
+P00033,intensive moisture facial cream,curél,cream,8,allantoin,allantoin
+P00033,intensive moisture facial cream,curél,cream,9,magnesium sulfate,magnesium sulfate
+P00033,intensive moisture facial cream,curél,cream,10,butylene glycol,butylene glycol
+P00033,intensive moisture facial cream,curél,cream,11,isostearyl glyceryl ether,isostearyl glyceryl ether
+P00033,intensive moisture facial cream,curél,cream,12,peg-12 dimethicone,peg-12 dimethicone
+P00033,intensive moisture facial cream,curél,cream,13,succinic acid,succinic acid
+P00033,intensive moisture facial cream,curél,cream,14,sodium hydroxide,sodium hydroxide
+P00033,intensive moisture facial cream,curél,cream,15,eucalyptus globulus leaf extract,eucalyptus globulus leaf extract
+P00033,intensive moisture facial cream,curél,cream,16,tocopherol,tocopherol
+P00033,intensive moisture facial cream,curél,cream,17,methylparaben,methylparaben
+P00034,essential energy hydrating cream,shiseido,cream,1,WATER(AQUA/EAU),water
+P00034,essential energy hydrating cream,shiseido,cream,2,DIMETHICONE,dimethicone
+P00034,essential energy hydrating cream,shiseido,cream,3,BUTYLENE GLYCOL,butylene glycol
+P00034,essential energy hydrating cream,shiseido,cream,4,ALCOHOL DENAT,alcohol denat
+P00034,essential energy hydrating cream,shiseido,cream,5,BETAINE,betaine
+P00034,essential energy hydrating cream,shiseido,cream,6,GLYCERIN,glycerin
+P00034,essential energy hydrating cream,shiseido,cream,7,ISOHEXADECANE,isohexadecane
+P00034,essential energy hydrating cream,shiseido,cream,8,HYDROGENATED POLYDECENE,hydrogenated polydecene
+P00034,essential energy hydrating cream,shiseido,cream,9,PPG-3 DIPIVALATE,ppg-3 dipivalate
+P00034,essential energy hydrating cream,shiseido,cream,10,SILICA,silica
+P00034,essential energy hydrating cream,shiseido,cream,11,BEHENYL ALCOHOL,behenyl alcohol
+P00034,essential energy hydrating cream,shiseido,cream,12,STEARYL ALCOHOL,stearyl alcohol
+P00034,essential energy hydrating cream,shiseido,cream,13,MYRISTYL MYRISTATE,myristyl myristate
+P00034,essential energy hydrating cream,shiseido,cream,14,GLYCERYL STEARATE SE,glyceryl stearate se
+P00034,essential energy hydrating cream,shiseido,cream,15,POLYSORBATE 60,polysorbate 60
+P00034,essential energy hydrating cream,shiseido,cream,16,PEG-100 STEARATE,peg-100 stearate
+P00034,essential energy hydrating cream,shiseido,cream,17,PEG/PPG-14/7 DIMETHYL ETHER,peg/ppg-14/7 dimethyl ether
+P00034,essential energy hydrating cream,shiseido,cream,18,PEG/PPG-17/4 DIMETHYL ETHER,peg/ppg-17/4 dimethyl ether
+P00034,essential energy hydrating cream,shiseido,cream,19,PHENOXYETHANOL,phenoxyethanol
+P00034,essential energy hydrating cream,shiseido,cream,20,DIMETHYLACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE CROSSPOLYMER,dimethylacrylamide/sodium acryloyldimethyltaurate crosspolymer
+P00034,essential energy hydrating cream,shiseido,cream,21,TITANIUM DIOXIDE (CI 77891),titanium dioxide (ci 77891)
+P00034,essential energy hydrating cream,shiseido,cream,22,SORBITAN TRISTEARATE,sorbitan tristearate
+P00034,essential energy hydrating cream,shiseido,cream,23,ERYTHRITOL,erythritol
+P00034,essential energy hydrating cream,shiseido,cream,24,FRAGRANCE (PARFUM),fragrance
+P00034,essential energy hydrating cream,shiseido,cream,25,ALCOHOL,alcohol
+P00034,essential energy hydrating cream,shiseido,cream,26,AMINOPROPYL DIMETHICONE,aminopropyl dimethicone
+P00034,essential energy hydrating cream,shiseido,cream,27,2-O-ETHYL ASCORBIC ACID,2-o-ethyl ascorbic acid
+P00034,essential energy hydrating cream,shiseido,cream,28,CARBOMER,carbomer
+P00034,essential energy hydrating cream,shiseido,cream,29,TRISODIUM EDTA,trisodium edta
+P00034,essential energy hydrating cream,shiseido,cream,30,XANTHAN GUM,xanthan gum
+P00034,essential energy hydrating cream,shiseido,cream,31,CAFFEINE,caffeine
+P00034,essential energy hydrating cream,shiseido,cream,32,POTASSIUM HYDROXIDE,potassium hydroxide
+P00034,essential energy hydrating cream,shiseido,cream,33,ISOSTEARIC ACID,isostearic acid
+P00034,essential energy hydrating cream,shiseido,cream,34,SODIUM METAPHOSPHATE,sodium metaphosphate
+P00034,essential energy hydrating cream,shiseido,cream,35,PHYTOSTERYL/OCTYLDODECYL LAUROYL GLUTAMATE,phytosteryl/octyldodecyl lauroyl glutamate
+P00034,essential energy hydrating cream,shiseido,cream,36,ALUMINUM HYDROXIDE,aluminum hydroxide
+P00034,essential energy hydrating cream,shiseido,cream,37,LINALOOL,linalool
+P00034,essential energy hydrating cream,shiseido,cream,38,TOCOPHEROL,tocopherol
+P00034,essential energy hydrating cream,shiseido,cream,39,SODIUM METABISULFITE,sodium metabisulfite
+P00034,essential energy hydrating cream,shiseido,cream,40,LIMONENE,limonene
+P00034,essential energy hydrating cream,shiseido,cream,41,CITRUS UNSHIU PEEL EXTRACT,citrus unshiu peel extract
+P00034,essential energy hydrating cream,shiseido,cream,42,SODIUM HYALURONATE,sodium hyaluronate
+P00034,essential energy hydrating cream,shiseido,cream,43,ANGELICA KEISKEI LEAF/STEM EXTRACT,angelica keiskei leaf/stem extract
+P00034,essential energy hydrating cream,shiseido,cream,44,ZIZIPHUS JUJUBA FRUIT EXTRACT,ziziphus jujuba fruit extract
+P00034,essential energy hydrating cream,shiseido,cream,45,PANAX GINSENG ROOT EXTRACT,panax ginseng root extract
+P00034,essential energy hydrating cream,shiseido,cream,46,SODIUM ACETYLATED HYALURONATE,sodium acetylated hyaluronate
+P00034,essential energy hydrating cream,shiseido,cream,47,SCUTELLARIA BAICALENSIS ROOT EXTRACT,scutellaria baicalensis root extract
+P00034,essential energy hydrating cream,shiseido,cream,48,IRON OXIDES (CI 77491),iron oxides (ci 77491)
+P00034,essential energy hydrating cream,shiseido,cream,49,ALPINIA SPECIOSA LEAF EXTRACT,alpinia speciosa leaf extract
+P00034,essential energy hydrating cream,shiseido,cream,50,ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT (ROSMARINUS OFFICINALIS LEAF EXTRACT),rosmarinus officinalis (rosemary) leaf extract
+P00034,essential energy hydrating cream,shiseido,cream,51,SANGUISORBA OFFICINALIS ROOT EXTRACT,sanguisorba officinalis root extract
+P00034,essential energy hydrating cream,shiseido,cream,52,PYROLA INCARNATA EXTRACT,pyrola incarnata extract
+P00035,sensibio ar+ cream,bioderma,cream,1,Aqua/Water/Eau,water
+P00035,sensibio ar+ cream,bioderma,cream,2,Glycerin,glycerin
+P00035,sensibio ar+ cream,bioderma,cream,3,C15-19 Alkane,c15-19 alkane
+P00035,sensibio ar+ cream,bioderma,cream,4,C10-18 Triglycerides,c10-18 triglycerides
+P00035,sensibio ar+ cream,bioderma,cream,5,Dipropylene Glycol,dipropylene glycol
+P00035,sensibio ar+ cream,bioderma,cream,6,Glyceryl Stearate Citrate,glyceryl stearate citrate
+P00035,sensibio ar+ cream,bioderma,cream,7,Helianthus Annuus (Sunflower) Seed Wax,helianthus annuus (sunflower) seed wax
+P00035,sensibio ar+ cream,bioderma,cream,8,Pentylene Glycol,pentylene glycol
+P00035,sensibio ar+ cream,bioderma,cream,9,Squalane,squalane
+P00035,sensibio ar+ cream,bioderma,cream,10,Sucrose Stearate,sucrose stearate
+P00035,sensibio ar+ cream,bioderma,cream,11,Corn Starch Modified,corn starch modified
+P00035,sensibio ar+ cream,bioderma,cream,12,Cocos Nucifera (Coconut) Oil,cocos nucifera (coconut) oil
+P00035,sensibio ar+ cream,bioderma,cream,13,Maltooligosyl Glucoside,maltooligosyl glucoside
+P00035,sensibio ar+ cream,bioderma,cream,14,Glyceryl Caprylate/Caprate,glyceryl caprylate/caprate
+P00035,sensibio ar+ cream,bioderma,cream,15,Sclerotium Gum,sclerotium gum
+P00035,sensibio ar+ cream,bioderma,cream,16,Glycyrrhetinic Acid,glycyrrhetinic acid
+P00035,sensibio ar+ cream,bioderma,cream,17,Hydrogenated Starch Hydrolysate,hydrogenated starch hydrolysate
+P00035,sensibio ar+ cream,bioderma,cream,18,Xanthan Gum,xanthan gum
+P00035,sensibio ar+ cream,bioderma,cream,19,1-Methylhydantoin-2-Imide,1-methylhydantoin-2-imide
+P00035,sensibio ar+ cream,bioderma,cream,20,Phytosphingosine,phytosphingosine
+P00035,sensibio ar+ cream,bioderma,cream,21,Sodium Citrate,sodium citrate
+P00035,sensibio ar+ cream,bioderma,cream,22,Citric Acid,citric acid
+P00035,sensibio ar+ cream,bioderma,cream,23,Mannitol,mannitol
+P00035,sensibio ar+ cream,bioderma,cream,24,Xylitol,xylitol
+P00035,sensibio ar+ cream,bioderma,cream,25,O-Cymen-5-Ol,o-cymen-5-ol
+P00035,sensibio ar+ cream,bioderma,cream,26,Benzotriazolyl Dodecyl P-Cresol,benzotriazolyl dodecyl p-cresol
+P00035,sensibio ar+ cream,bioderma,cream,27,Rhamnose,rhamnose
+P00035,sensibio ar+ cream,bioderma,cream,28,Tocopherol,tocopherol
+P00035,sensibio ar+ cream,bioderma,cream,29,Helianthus Annuus (Sunflower) Seed Oil,helianthus annuus seed oil
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,1,Purified Water,water
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,2,Glycerin,glycerin
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,3,Isohexadecane,isohexadecane
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,4,Distarch Phosphate,distarch phosphate
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,5,Niacinamide,niacinamide
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,6,Isopropyl Isostearate,isopropyl isostearate
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,7,Dimethicone,dimethicone
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,8,Panthenol,panthenol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,9,Palmitoyl Dipeptide-7,palmitoyl dipeptide-7
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,10,Palmitoyl Pentapeptide-4,palmitoyl pentapeptide-4
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,11,Tripeptide-3,tripeptide-3
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,12,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,13,Ethylhexylglycerin,ethylhexylglycerin
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,14,Hydroxyacetophenone,hydroxyacetophenone
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,15,Butylene Glycol,butylene glycol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,16,Dimethiconol,dimethiconol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,17,Cetearyl Alcohol,cetearyl alcohol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,18,Cetearyl Glucoside,cetearyl glucoside
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,19,Palmitic Acid,palmitic acid
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,20,Stearic Acid,stearic acid
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,21,Stearyl Alcohol,stearyl alcohol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,22,Cetyl Alcohol,cetyl alcohol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,23,Behenyl Alcohol,behenyl alcohol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,24,Disodium EDTA,disodium edta
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,25,Sodium Acrylates Copolymer,sodium acrylates copolymer
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,26,PEG-100 Stearate,peg-100 stearate
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,27,Phenoxyethanol,phenoxyethanol
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,28,Titanium Dioxide,titanium dioxide
+P00036,regenerist micro-sculpting cream moisturizer fragrance free,olay,cream,29,Mica,mica
+P00037,pm facial moisturizing lotion,cerave,lotion,1,AQUA / WATER / EAU,water
+P00037,pm facial moisturizing lotion,cerave,lotion,2,GLYCERIN,glycerin
+P00037,pm facial moisturizing lotion,cerave,lotion,3,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00037,pm facial moisturizing lotion,cerave,lotion,4,NIACINAMIDE,niacinamide
+P00037,pm facial moisturizing lotion,cerave,lotion,5,CETEARYL ALCOHOL,cetearyl alcohol
+P00037,pm facial moisturizing lotion,cerave,lotion,6,POTASSIUM PHOSPHATE,potassium phosphate
+P00037,pm facial moisturizing lotion,cerave,lotion,7,CERAMIDE NP,ceramide np
+P00037,pm facial moisturizing lotion,cerave,lotion,8,CERAMIDE AP,ceramide ap
+P00037,pm facial moisturizing lotion,cerave,lotion,9,CERAMIDE EOP,ceramide eop
+P00037,pm facial moisturizing lotion,cerave,lotion,10,CARBOMER,carbomer
+P00037,pm facial moisturizing lotion,cerave,lotion,11,DIMETHICONE,dimethicone
+P00037,pm facial moisturizing lotion,cerave,lotion,12,CETEARETH-20,ceteareth-20
+P00037,pm facial moisturizing lotion,cerave,lotion,13,BEHENTRIMONIUM METHOSULFATE,behentrimonium methosulfate
+P00037,pm facial moisturizing lotion,cerave,lotion,14,SODIUM LAUROYL LACTYLATE,sodium lauroyl lactylate
+P00037,pm facial moisturizing lotion,cerave,lotion,15,SODIUM HYALURONATE,sodium hyaluronate
+P00037,pm facial moisturizing lotion,cerave,lotion,16,CHOLESTEROL,cholesterol
+P00037,pm facial moisturizing lotion,cerave,lotion,17,PHENOXYETHANOL,phenoxyethanol
+P00037,pm facial moisturizing lotion,cerave,lotion,18,DISODIUM EDTA,disodium edta
+P00037,pm facial moisturizing lotion,cerave,lotion,19,DIPOTASSIUM PHOSPHATE,dipotassium phosphate
+P00037,pm facial moisturizing lotion,cerave,lotion,20,CAPRYLYL GLYCOL,caprylyl glycol
+P00037,pm facial moisturizing lotion,cerave,lotion,21,PHYTOSPHINGOSINE,phytosphingosine
+P00037,pm facial moisturizing lotion,cerave,lotion,22,XANTHAN GUM,xanthan gum
+P00037,pm facial moisturizing lotion,cerave,lotion,23,POLYGLYCERYL-3 DIISOSTEARATE,polyglyceryl-3 diisostearate
+P00037,pm facial moisturizing lotion,cerave,lotion,24,ETHYLHEXYLGLYCERIN,ethylhexylglycerin
+P00038,dramatically different moisturizing lotion+,clinique,lotion,1,Water\Aqua\Eau,water
+P00038,dramatically different moisturizing lotion+,clinique,lotion,2,Mineral Oil\Paraffinum Liquidum\Huile Minérale,mineral oil
+P00038,dramatically different moisturizing lotion+,clinique,lotion,3,Glycerin,glycerin
+P00038,dramatically different moisturizing lotion+,clinique,lotion,4,Petrolatum,petrolatum
+P00038,dramatically different moisturizing lotion+,clinique,lotion,5,Stearic Acid,stearic acid
+P00038,dramatically different moisturizing lotion+,clinique,lotion,6,Glyceryl Stearate,glyceryl stearate
+P00038,dramatically different moisturizing lotion+,clinique,lotion,7,Sesamum Indicum (Sesame) Oil,sesamum indicum (sesame) oil
+P00038,dramatically different moisturizing lotion+,clinique,lotion,8,Urea,urea
+P00038,dramatically different moisturizing lotion+,clinique,lotion,9,Lanolin Alcohol,lanolin alcohol
+P00038,dramatically different moisturizing lotion+,clinique,lotion,10,Triethanolamine,triethanolamine
+P00038,dramatically different moisturizing lotion+,clinique,lotion,11,Hordeum Vulgare (Barley) Extract\Extrait D'Orge,hordeum vulgare (barley) extract
+P00038,dramatically different moisturizing lotion+,clinique,lotion,12,Cucumis Sativus (Cucumber) Fruit Extract,cucumis sativus (cucumber) fruit extract
+P00038,dramatically different moisturizing lotion+,clinique,lotion,13,Helianthus Annuus (Sunflower) Seedcake,helianthus annuus (sunflower) seedcake
+P00038,dramatically different moisturizing lotion+,clinique,lotion,14,Propylene Glycol Dicaprate,propylene glycol dicaprate
+P00038,dramatically different moisturizing lotion+,clinique,lotion,15,Sodium Hyaluronate,sodium hyaluronate
+P00038,dramatically different moisturizing lotion+,clinique,lotion,16,Butylene Glycol,butylene glycol
+P00038,dramatically different moisturizing lotion+,clinique,lotion,17,Pentylene Glycol,pentylene glycol
+P00038,dramatically different moisturizing lotion+,clinique,lotion,18,Trisodium Edta,trisodium edta
+P00038,dramatically different moisturizing lotion+,clinique,lotion,19,Phenoxyethanol,phenoxyethanol
+P00038,dramatically different moisturizing lotion+,clinique,lotion,20,Yellow 6 (Ci 15985),yellow 6 (ci 15985)
+P00038,dramatically different moisturizing lotion+,clinique,lotion,21,Yellow 5 (Ci 19140),yellow 5 (ci 19140)
+P00038,dramatically different moisturizing lotion+,clinique,lotion,22,Red 33 (Ci 17200),red 33 (ci 17200)
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,1,Water/aqua/eau,water
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,2,Propanediol,propanediol
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,3,Dicaprylyl Carbonate,dicaprylyl carbonate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,4,Glycerin,glycerin
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,5,Cocos Nucifera (Coconut) Fruit Water,cocos nucifera (coconut) fruit water
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,6,Pentylene Glycol,pentylene glycol
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,7,Prunus Avium (Sweet Cherry) Fruit Extract,prunus avium (sweet cherry) fruit extract
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,8,Sodium Hyaluronate,sodium hyaluronate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,9,Hydrolyzed Sodium Hyaluronate,hydrolyzed sodium hyaluronate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,10,Ceramide Np,ceramide np
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,11,Glutamic Acid,glutamic acid
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,12,Arginine,arginine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,13,Histidine,histidine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,14,Tyrosine,tyrosine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,15,Alanine,alanine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,16,Lysine,lysine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,17,Serine,serine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,18,Aspartic Acid,aspartic acid
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,19,Leucine,leucine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,20,Phenylalanine,phenylalanine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,21,Threonine,threonine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,22,Proline,proline
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,23,Valine,valine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,24,Glycine,glycine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,25,Isoleucine,isoleucine
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,26,Hexapeptide-11,hexapeptide-11
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,27,Palmitoyl Tripeptide-1,palmitoyl tripeptide-1
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,28,Saccharide Isomerate,saccharide isomerate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,29,Ascorbic Acid,ascorbic acid
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,30,Tocopheryl Acetate,tocopheryl acetate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,31,Saccharomyces/magnesium Ferment,saccharomyces/magnesium ferment
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,32,Saccharomyces/silicon Ferment,saccharomyces/silicon ferment
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,33,Saccharomyces/copper Ferment,saccharomyces/copper ferment
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,34,Leuconostoc/radish Root Ferment Filtrate,leuconostoc/radish root ferment filtrate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,35,Tocopherol,tocopherol
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,36,Glyceryl Caprylate,glyceryl caprylate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,37,Cetearyl Olivate,cetearyl olivate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,38,Sorbitan Olivate,sorbitan olivate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,39,Hydroxyacetophenone,hydroxyacetophenone
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,40,Butylene Glycol,butylene glycol
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,41,Xanthan Gum,xanthan gum
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,42,Glyceryl Acrylate/acrylic Acid Copolymer,glyceryl acrylate/acrylic acid copolymer
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,43,Carbomer,carbomer
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,44,Sodium Hydroxide,sodium hydroxide
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,45,Citric Acid,citric acid
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,46,Sodium Citrate,sodium citrate
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,47,Cetearyl Alcohol,cetearyl alcohol
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,48,Phenoxyethanol,phenoxyethanol
+P00039,cloud dew gel cream moisturizer,summer fridays,gel_cream,49,Iron Oxides (Ci 77491),iron oxides (ci 77491)
+P00040,dew point gel-cream moisturizer,versed,gel_cream,1,Water (Aqua) (Eau),water
+P00040,dew point gel-cream moisturizer,versed,gel_cream,2,Glycerin,glycerin
+P00040,dew point gel-cream moisturizer,versed,gel_cream,3,Propylene Glycol,propylene glycol
+P00040,dew point gel-cream moisturizer,versed,gel_cream,4,Squalane,squalane
+P00040,dew point gel-cream moisturizer,versed,gel_cream,5,"1,2-Hexanediol","1,2-hexanediol"
+P00040,dew point gel-cream moisturizer,versed,gel_cream,6,Camellia Sinensis Leaf Extract,camellia sinensis leaf extract
+P00040,dew point gel-cream moisturizer,versed,gel_cream,7,Aloe Barbadensis Leaf Juice,aloe barbadensis leaf juice
+P00040,dew point gel-cream moisturizer,versed,gel_cream,8,Sodium Hyaluronate,sodium hyaluronate
+P00040,dew point gel-cream moisturizer,versed,gel_cream,9,Sambucus Nigra Flower Extract,sambucus nigra flower extract
+P00040,dew point gel-cream moisturizer,versed,gel_cream,10,Simmondsia Chinensis (Jojoba) Seed Oil,simmondsia chinensis (jojoba) seed oil
+P00040,dew point gel-cream moisturizer,versed,gel_cream,11,Triticum Vulgare (Wheat) Germ Oil,triticum vulgare (wheat) germ oil
+P00040,dew point gel-cream moisturizer,versed,gel_cream,12,Vegetable Oil (Olus Oil) (Huile végétale),vegetable oil (olus oil) (huile végétale)
+P00040,dew point gel-cream moisturizer,versed,gel_cream,13,Polyacrylamide,polyacrylamide
+P00040,dew point gel-cream moisturizer,versed,gel_cream,14,Carbomer,carbomer
+P00040,dew point gel-cream moisturizer,versed,gel_cream,15,Laureth-7,laureth-7
+P00040,dew point gel-cream moisturizer,versed,gel_cream,16,C13-14 Isoalkane,c13-14 isoalkane
+P00040,dew point gel-cream moisturizer,versed,gel_cream,17,Trisodium Ethylenediamine Disuccinate,trisodium ethylenediamine disuccinate
+P00040,dew point gel-cream moisturizer,versed,gel_cream,18,Phenoxyethanol,phenoxyethanol
+P00040,dew point gel-cream moisturizer,versed,gel_cream,19,Potassium Sorbate,potassium sorbate
+P00040,dew point gel-cream moisturizer,versed,gel_cream,20,Sodium Benzoate,sodium benzoate
+P00040,dew point gel-cream moisturizer,versed,gel_cream,21,Citric Acid,citric acid
+P00040,dew point gel-cream moisturizer,versed,gel_cream,22,Sodium Hydroxide,sodium hydroxide
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,1,aqua/water/eau,water
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,2,glycerin,glycerin
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,3,vitis vinifera (grape) fruit water,vitis vinifera (grape) fruit water
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,4,isostearyl isostearate,isostearyl isostearate
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,5,octyldodecyl myristate,octyldodecyl myristate
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,6,squalane,squalane
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,7,microcrystalline cellulose,microcrystalline cellulose
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,8,caprylic/capric triglyceride,caprylic/capric triglyceride
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,9,benzyl alcohol,benzyl alcohol
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,10,xanthan gum,xanthan gum
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,11,carbomer,carbomer
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,12,cellulose gum,cellulose gum
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,13,caprylyl glycol,caprylyl glycol
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,14,vitis vinifera (grape) juice,vitis vinifera (grape) juice
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,15,sodium hyaluronate,sodium hyaluronate
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,16,sodium hydroxide,sodium hydroxide
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,17,aloe barbadensis leaf juice powder,aloe barbadensis leaf juice powder
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,18,helianthus annuus (sunflower) seed oil,helianthus annuus seed oil
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,19,sodium phytate,sodium phytate
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,20,tocopherol,tocopherol
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,21,citric acid,citric acid
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,22,dehydroacetic acid,dehydroacetic acid
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,23,sodium carboxymethyl beta-glucan,sodium carboxymethyl beta-glucan
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,24,sodium benzoate,sodium benzoate
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,25,potassium sorbate,potassium sorbate
+P00041,vinohydra gel moisturizer,caudalie,gel_cream,26,parfum (fragrance),fragrance
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,1,"AQUA (WATER, EAU)",water
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,2,DICAPRYLYL ETHER,dicaprylyl ether
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,3,GLYCERIN,glycerin
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,4,DIGLYCERIN,diglycerin
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,5,SQUALANE,squalane
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,6,"1,2-HEXANEDIOL","1,2-hexanediol"
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,7,INULIN,inulin
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,8,SODIUM POLYACRYLOYLDIMETHYL TAURATE,sodium polyacryloyldimethyl taurate
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,9,ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER,acrylates/c10-30 alkyl acrylate crosspolymer
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,10,PANTHENOL,panthenol
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,11,XANTHAN GUM,xanthan gum
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,12,SODIUM HYALURONATE,sodium hyaluronate
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,13,SODIUM HYDROXIDE,sodium hydroxide
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,14,COPPER GLUCONATE,copper gluconate
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,15,CENTELLA ASIATICA LEAF EXTRACT,centella asiatica leaf extract
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,16,ZINC GLUCONATE,zinc gluconate
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,17,CITRIC ACID,citric acid
+P00042,bariéderm-cica daily gel-cream,uriage,gel_cream,18,TOCOPHEROL,tocopherol
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,1,water,water
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,2,hydroxyethyl urea,hydroxyethyl urea
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,3,butylene glycol,butylene glycol
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,4,glycerin,glycerin
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,5,pentylene glycol,pentylene glycol
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,6,PEG/PPG/polybutylene glycol-8/5/3 glycerin,peg/ppg/polybutylene glycol-8/5/3 glycerin
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,7,squalane,squalane
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,8,triethylhexanoin,triethylhexanoin
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,9,ammonium acryloyldimethyltaurate/VP copolymer,ammonium acryloyldimethyltaurate/vp copolymer
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,10,agar,agar
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,11,alpha-glucan,alpha-glucan
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,12,arginine,arginine
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,13,citric acid,citric acid
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,14,dimethicone,dimethicone
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,15,dipropylene glycol,dipropylene glycol
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,16,disodium EDTA,disodium edta
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,17,glucosyl ceramide,glucosyl ceramide
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,18,hydrolyzed collagen (marine),hydrolyzed collagen (marine)
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,19,hydrolyzed hyaluronic acid,hydrolyzed hyaluronic acid
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,20,iodopropynyl butylcarbamate,iodopropynyl butylcarbamate
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,21,methylisothiazolinone,methylisothiazolinone
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,22,sodium acetylated hyaluronate,sodium acetylated hyaluronate
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,23,sodium chloride,sodium chloride
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,24,sodium citrate,sodium citrate
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,25,sodium hyaluronate,sodium hyaluronate
+P00043,plumping gel cream facial moisturizer,hada labo tokyo,gel_cream,26,triethyl citrate,triethyl citrate
+P00044,omega water cream,the inkey list,gel_cream,1,Water (Aqua / Eau),water
+P00044,omega water cream,the inkey list,gel_cream,2,Dicaprylyl Carbonate,dicaprylyl carbonate
+P00044,omega water cream,the inkey list,gel_cream,3,Glycerin,glycerin
+P00044,omega water cream,the inkey list,gel_cream,4,Niacinamide,niacinamide
+P00044,omega water cream,the inkey list,gel_cream,5,Propanediol,propanediol
+P00044,omega water cream,the inkey list,gel_cream,6,Betaine,betaine
+P00044,omega water cream,the inkey list,gel_cream,7,Polyglyceryl-4 Isostearate,polyglyceryl-4 isostearate
+P00044,omega water cream,the inkey list,gel_cream,8,Coco-Caprylate/Caprate,coco-caprylate/caprate
+P00044,omega water cream,the inkey list,gel_cream,9,Magnesium Sulfate,magnesium sulfate
+P00044,omega water cream,the inkey list,gel_cream,10,Glycosphingolipids,glycosphingolipids
+P00044,omega water cream,the inkey list,gel_cream,11,Glycolipids,glycolipids
+P00044,omega water cream,the inkey list,gel_cream,12,Sodium Benzoate,sodium benzoate
+P00044,omega water cream,the inkey list,gel_cream,13,Disteardimonium Hectorite,disteardimonium hectorite
+P00044,omega water cream,the inkey list,gel_cream,14,Oleic Acid,oleic acid
+P00044,omega water cream,the inkey list,gel_cream,15,Potassium Sorbate,potassium sorbate
+P00044,omega water cream,the inkey list,gel_cream,16,Citric Acid,citric acid
+P00044,omega water cream,the inkey list,gel_cream,17,Polyglycerin-3,polyglycerin-3
+P00045,cicaplast balm b5+,la roche-posay,balm,1,WATER,water
+P00045,cicaplast balm b5+,la roche-posay,balm,2,HYDROGENATED POLYISOBUTENE,hydrogenated polyisobutene
+P00045,cicaplast balm b5+,la roche-posay,balm,3,DIMETHICONE,dimethicone
+P00045,cicaplast balm b5+,la roche-posay,balm,4,GLYCERIN,glycerin
+P00045,cicaplast balm b5+,la roche-posay,balm,5,BUTYROSPERMUM PARKII (SHEA) BUTTER,butyrospermum parkii butter
+P00045,cicaplast balm b5+,la roche-posay,balm,6,PANTHENOL,panthenol
+P00045,cicaplast balm b5+,la roche-posay,balm,7,ZEA MAYS (CORN) STARCH,zea mays (corn) starch
+P00045,cicaplast balm b5+,la roche-posay,balm,8,PROPANEDIOL,propanediol
+P00045,cicaplast balm b5+,la roche-posay,balm,9,BUTYLENE GLYCOL,butylene glycol
+P00045,cicaplast balm b5+,la roche-posay,balm,10,CETYL PEG/PPG-10/1 DIMETHICONE,cetyl peg/ppg-10/1 dimethicone
+P00045,cicaplast balm b5+,la roche-posay,balm,11,TRIHYDROXYSTEARIN,trihydroxystearin
+P00045,cicaplast balm b5+,la roche-posay,balm,12,CENTELLA ASIATICA LEAF EXTRACT,centella asiatica leaf extract
+P00045,cicaplast balm b5+,la roche-posay,balm,13,POLYM NIA SONCHIFOLIA ROOT JUICE,polym nia sonchifolia root juice
+P00045,cicaplast balm b5+,la roche-posay,balm,14,ZINC GLUCONATE,zinc gluconate
+P00045,cicaplast balm b5+,la roche-posay,balm,15,MADECASSOSIDE,madecassoside
+P00045,cicaplast balm b5+,la roche-posay,balm,16,MANGANESE GLUCONATE,manganese gluconate
+P00045,cicaplast balm b5+,la roche-posay,balm,17,ALPHA-GLUCAN OLIGOSACCHARIDE,alpha-glucan oligosaccharide
+P00045,cicaplast balm b5+,la roche-posay,balm,18,SILICA,silica
+P00045,cicaplast balm b5+,la roche-posay,balm,19,ALUMINUM HYDROXIDE,aluminum hydroxide
+P00045,cicaplast balm b5+,la roche-posay,balm,20,MAGNESIUM SULFATE,magnesium sulfate
+P00045,cicaplast balm b5+,la roche-posay,balm,21,MANNOSE,mannose
+P00045,cicaplast balm b5+,la roche-posay,balm,22,CAPRYLOYL GLYCINE,capryloyl glycine
+P00045,cicaplast balm b5+,la roche-posay,balm,23,VITREOSCILLA FERMENT,vitreoscilla ferment
+P00045,cicaplast balm b5+,la roche-posay,balm,24,CITRIC ACID,citric acid
+P00045,cicaplast balm b5+,la roche-posay,balm,25,TRISODIUM ETHYLENEDIAMINE DISUCCINATE,trisodium ethylenediamine disuccinate
+P00045,cicaplast balm b5+,la roche-posay,balm,26,LACTOBACILLUS,lactobacillus
+P00045,cicaplast balm b5+,la roche-posay,balm,27,ACETYLATED GLYCOL STEARATE,acetylated glycol stearate
+P00045,cicaplast balm b5+,la roche-posay,balm,28,MALTODEXTRIN,maltodextrin
+P00045,cicaplast balm b5+,la roche-posay,balm,29,PENTYLENE GLYCOL,pentylene glycol
+P00045,cicaplast balm b5+,la roche-posay,balm,30,POLYGLYCERYL-4 ISOSTEARATE,polyglyceryl-4 isostearate
+P00045,cicaplast balm b5+,la roche-posay,balm,31,TOCOPHEROL,tocopherol
+P00045,cicaplast balm b5+,la roche-posay,balm,32,PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE,pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate
+P00045,cicaplast balm b5+,la roche-posay,balm,33,PHENOXYETHANOL,phenoxyethanol
+P00045,cicaplast balm b5+,la roche-posay,balm,34,TITANIUM DIOXIDE,titanium dioxide
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,1,AQUA / WATER / EAU,water
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,2,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,3,GLYCERIN,glycerin
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,4,PROPANEDIOL,propanediol
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,5,PENTYLENE GLYCOL,pentylene glycol
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,6,NIACINAMIDE,niacinamide
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,7,AMMONIUM POLYACRYLOYLDIMETHYL TAURATE,ammonium polyacryloyldimethyl taurate
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,8,CAPRYLYL GLYCOL,caprylyl glycol
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,9,CITRIC ACID,citric acid
+P00046,toleriane fluide oil-free moisturizer,la roche-posay,fluid,10,XANTHAN GUM,xanthan gum
+P00047,lait-crème fluid+,embryolisse,fluid,1,AQUA (WATER),water
+P00047,lait-crème fluid+,embryolisse,fluid,2,CAPRYLIC/CAPRIC TRIGLYCERIDE,caprylic/capric triglyceride
+P00047,lait-crème fluid+,embryolisse,fluid,3,OCTYLDODECANOL,octyldodecanol
+P00047,lait-crème fluid+,embryolisse,fluid,4,GLYCERIN,glycerin
+P00047,lait-crème fluid+,embryolisse,fluid,5,CETEARYL GLUCOSIDE,cetearyl glucoside
+P00047,lait-crème fluid+,embryolisse,fluid,6,BUTYROSPERMUM PARKII (SHEA) BUTTER,butyrospermum parkii butter
+P00047,lait-crème fluid+,embryolisse,fluid,7,CERA ALBA (BEESWAX),cera alba (beeswax)
+P00047,lait-crème fluid+,embryolisse,fluid,8,SORBITAN OLIVATE,sorbitan olivate
+P00047,lait-crème fluid+,embryolisse,fluid,9,ALOE BARBADENSIS LEAF JUICE POWDER,aloe barbadensis leaf juice powder
+P00047,lait-crème fluid+,embryolisse,fluid,10,XANTHAN GUM,xanthan gum
+P00047,lait-crème fluid+,embryolisse,fluid,11,PARFUM (FRAGRANCE),fragrance
+P00047,lait-crème fluid+,embryolisse,fluid,12,"1,2-HEXANEDIOL","1,2-hexanediol"
+P00047,lait-crème fluid+,embryolisse,fluid,13,CAPRYLYL GLYCOL,caprylyl glycol
+P00047,lait-crème fluid+,embryolisse,fluid,14,CETEARYL ALCOHOL,cetearyl alcohol
+P00047,lait-crème fluid+,embryolisse,fluid,15,ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER,acrylates/c10-30 alkyl acrylate crosspolymer
+P00047,lait-crème fluid+,embryolisse,fluid,16,SODIUM HYDROXIDE,sodium hydroxide
+P00047,lait-crème fluid+,embryolisse,fluid,17,HYDROLYZED SOY PROTEIN,hydrolyzed soy protein
+P00047,lait-crème fluid+,embryolisse,fluid,18,TOCOPHEROL,tocopherol
+P00047,lait-crème fluid+,embryolisse,fluid,19,TROPOLONE,tropolone
+P00047,lait-crème fluid+,embryolisse,fluid,20,GLYCINE SOJA (SOYBEAN) OIL,glycine soja oil
+P00048,moisture facial milk,curél,milk,1,water/aqua,water
+P00048,moisture facial milk,curél,milk,2,glycerin,glycerin
+P00048,moisture facial milk,curél,milk,3,cetyl-pg hydroxyethyl palmitamide,cetyl-pg hydroxyethyl palmitamide
+P00048,moisture facial milk,curél,milk,4,dimethicone,dimethicone
+P00048,moisture facial milk,curél,milk,5,neopentyl glycol dicaprate,neopentyl glycol dicaprate
+P00048,moisture facial milk,curél,milk,6,squalane,squalane
+P00048,moisture facial milk,curél,milk,7,polysorbate 60,polysorbate 60
+P00048,moisture facial milk,curél,milk,8,butylene glycol,butylene glycol
+P00048,moisture facial milk,curél,milk,9,sorbitan stearate,sorbitan stearate
+P00048,moisture facial milk,curél,milk,10,cholesterol,cholesterol
+P00048,moisture facial milk,curél,milk,11,cholesteryl isostearate,cholesteryl isostearate
+P00048,moisture facial milk,curél,milk,12,allantoin,allantoin
+P00048,moisture facial milk,curél,milk,13,cetyl alcohol,cetyl alcohol
+P00048,moisture facial milk,curél,milk,14,sodium methyl stearoyl taurate,sodium methyl stearoyl taurate
+P00048,moisture facial milk,curél,milk,15,stearyl alcohol,stearyl alcohol
+P00048,moisture facial milk,curél,milk,16,succinic acid,succinic acid
+P00048,moisture facial milk,curél,milk,17,bis-methoxypropylamido isodocosane,bis-methoxypropylamido isodocosane
+P00048,moisture facial milk,curél,milk,18,eucalyptus globulus leaf extract,eucalyptus globulus leaf extract
+P00048,moisture facial milk,curél,milk,19,methylparaben,methylparaben
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,1,Water,water
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,2,Dimethicone,dimethicone
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,3,Glycerin,glycerin
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,4,Dimethicone/Vinyl Dimethicone Crosspolymer,dimethicone/vinyl dimethicone crosspolymer
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,5,Phenoxyethanol,phenoxyethanol
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,6,Polyacrylamide,polyacrylamide
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,7,Cetearyl Olivate,cetearyl olivate
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,8,Sorbitan Olivate,sorbitan olivate
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,9,Dimethiconol,dimethiconol
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,10,C13-14 Isoparaffin,c13-14 isoparaffin
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,11,Dimethicone Crosspolymer,dimethicone crosspolymer
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,12,Chlorphenesin,chlorphenesin
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,13,Carbomer,carbomer
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,14,Laureth-7,laureth-7
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,15,Sodium Hyaluronate,sodium hyaluronate
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,16,Ethylhexylglycerin,ethylhexylglycerin
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,17,Fragrance,fragrance
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,18,C12-14 Pareth-12,c12-14 pareth-12
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,19,Sodium Hydroxide,sodium hydroxide
+P00049,hydro boost hyaluronic acid water gel,neutrogena,gel,20,Blue 1,blue 1
+P00050,the true cream aqua bomb,belif,gel,1,Water/Eau,water
+P00050,the true cream aqua bomb,belif,gel,2,Dipropylene Glycol,dipropylene glycol
+P00050,the true cream aqua bomb,belif,gel,3,Glycerin,glycerin
+P00050,the true cream aqua bomb,belif,gel,4,Methyl Trimethicone,methyl trimethicone
+P00050,the true cream aqua bomb,belif,gel,5,Alcohol Denat,alcohol denat
+P00050,the true cream aqua bomb,belif,gel,6,Dimethicone,dimethicone
+P00050,the true cream aqua bomb,belif,gel,7,Cyclopentasiloxane,cyclopentasiloxane
+P00050,the true cream aqua bomb,belif,gel,8,"1,2-Hexanediol","1,2-hexanediol"
+P00050,the true cream aqua bomb,belif,gel,9,Caprylic/Capric Triglyceride,caprylic/capric triglyceride
+P00050,the true cream aqua bomb,belif,gel,10,Peg/Ppg/Polybutylene Glycol-8/5/3 Glycerin,peg/ppg/polybutylene glycol-8/5/3 glycerin
+P00050,the true cream aqua bomb,belif,gel,11,Pentaerythrityl Tetraethylhexanoate,pentaerythrityl tetraethylhexanoate
+P00050,the true cream aqua bomb,belif,gel,12,Avena Sativa (Oat) Kernel Extract,avena sativa (oat) kernel extract
+P00050,the true cream aqua bomb,belif,gel,13,Calendula Officinalis Flower Extract,calendula officinalis flower extract
+P00050,the true cream aqua bomb,belif,gel,14,Nepeta Cataria Extract,nepeta cataria extract
+P00050,the true cream aqua bomb,belif,gel,15,Rubus Idaeus (Raspberry) Leaf Extract,rubus idaeus (raspberry) leaf extract
+P00050,the true cream aqua bomb,belif,gel,16,Baptisia Tinctoria Root Extract,baptisia tinctoria root extract
+P00050,the true cream aqua bomb,belif,gel,17,Stellaria Media (Chickweed) Extract,stellaria media (chickweed) extract
+P00050,the true cream aqua bomb,belif,gel,18,Alchemilla Vulgaris Leaf Extract,alchemilla vulgaris leaf extract
+P00050,the true cream aqua bomb,belif,gel,19,Equisetum Arvense Leaf Extract,equisetum arvense leaf extract
+P00050,the true cream aqua bomb,belif,gel,20,Urtica Dioica (Nettle) Leaf Extract,urtica dioica (nettle) leaf extract
+P00050,the true cream aqua bomb,belif,gel,21,Sodium Hyaluronate,sodium hyaluronate
+P00050,the true cream aqua bomb,belif,gel,22,Niacinamide,niacinamide
+P00050,the true cream aqua bomb,belif,gel,23,Polymethylsilsesquioxane,polymethylsilsesquioxane
+P00050,the true cream aqua bomb,belif,gel,24,Panthenol,panthenol
+P00050,the true cream aqua bomb,belif,gel,25,Peg-150,peg-150
+P00050,the true cream aqua bomb,belif,gel,26,Pentaerythrityl Tetraisostearate,pentaerythrityl tetraisostearate
+P00050,the true cream aqua bomb,belif,gel,27,Phenyl Trimethicone,phenyl trimethicone
+P00050,the true cream aqua bomb,belif,gel,28,Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer
+P00050,the true cream aqua bomb,belif,gel,29,Carbomer,carbomer
+P00050,the true cream aqua bomb,belif,gel,30,Tromethamine,tromethamine
+P00050,the true cream aqua bomb,belif,gel,31,Squalane,squalane
+P00050,the true cream aqua bomb,belif,gel,32,Peg-40 Hydrogenated Castor Oil,peg-40 hydrogenated castor oil
+P00050,the true cream aqua bomb,belif,gel,33,Dimethiconol,dimethiconol
+P00050,the true cream aqua bomb,belif,gel,34,Acrylates/C10-30 Alkyl Acrylate Crosspolymer,acrylates/c10-30 alkyl acrylate crosspolymer
+P00050,the true cream aqua bomb,belif,gel,35,C14-22 Alcohols,c14-22 alcohols
+P00050,the true cream aqua bomb,belif,gel,36,Polysorbate 60,polysorbate 60
+P00050,the true cream aqua bomb,belif,gel,37,Butylene Glycol,butylene glycol
+P00050,the true cream aqua bomb,belif,gel,38,Macadamia Ternifolia Seed Oil,macadamia ternifolia seed oil
+P00050,the true cream aqua bomb,belif,gel,39,Malachite Extract,malachite extract
+P00050,the true cream aqua bomb,belif,gel,40,Triethylhexanoin,triethylhexanoin
+P00050,the true cream aqua bomb,belif,gel,41,Trisodium Edta,trisodium edta
+P00050,the true cream aqua bomb,belif,gel,42,Arachidyl Glucoside,arachidyl glucoside
+P00050,the true cream aqua bomb,belif,gel,43,Butyrospermum Parkii (Shea) Butter,butyrospermum parkii butter
+P00050,the true cream aqua bomb,belif,gel,44,Hydrogenated Lecithin,hydrogenated lecithin
+P00050,the true cream aqua bomb,belif,gel,45,Sorbitan Isostearate,sorbitan isostearate
+P00050,the true cream aqua bomb,belif,gel,46,Glyceryl Stearate,glyceryl stearate
+P00050,the true cream aqua bomb,belif,gel,47,Stearic Acid,stearic acid
+P00050,the true cream aqua bomb,belif,gel,48,Ceramide Np,ceramide np
+P00050,the true cream aqua bomb,belif,gel,49,Cholesterol,cholesterol
+P00050,the true cream aqua bomb,belif,gel,50,Peg-100 Stearate,peg-100 stearate
+P00050,the true cream aqua bomb,belif,gel,51,Rosmarinus Officinalis (Rosemary) Leaf Oil,rosmarinus officinalis (rosemary) leaf oil
+P00050,the true cream aqua bomb,belif,gel,52,Citrus Aurantifolia (Lime) Oil,citrus aurantifolia (lime) oil
+P00050,the true cream aqua bomb,belif,gel,53,Pelargonium Graveolens Flower Oil,pelargonium graveolens flower oil
+P00050,the true cream aqua bomb,belif,gel,54,Citrus Aurantium Dulcis (Orange) Peel Oil,citrus aurantium dulcis (orange) peel oil
+P00050,the true cream aqua bomb,belif,gel,55,Citral,citral
+P00050,the true cream aqua bomb,belif,gel,56,Citronellol,citronellol
+P00050,the true cream aqua bomb,belif,gel,57,Limonene,limonene
+P00050,the true cream aqua bomb,belif,gel,58,Geraniol,geraniol
+P00050,the true cream aqua bomb,belif,gel,59,Linalool,linalool
