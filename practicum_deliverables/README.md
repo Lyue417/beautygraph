@@ -15,7 +15,7 @@ BeautyGraph is a scoped information management prototype for explainable skincar
 | 5 | Baseline formula similarity module | `05_similarity_module.md` |
 | 6 | Lightweight prototype | `06_prototype.md` |
 | 7 | Short evaluation summary | `07_evaluation_summary.md` |
-| 8 | Final written report and presentation | `08_final_report.pdf`, `09_final_presentation.pdf` |
+| 8 | Final written report and presentation | `08_final_report.pdf` |
 
 ## Project Repository Structure
 
