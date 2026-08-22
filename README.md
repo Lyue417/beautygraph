@@ -127,3 +127,10 @@ Similarity results do **not** establish:
 
 Ingredient-function profiles represent mapped formula signals, not ingredient concentrations or efficacy scores.
 
+## Copyright
+
+Copyright © 2026. All rights reserved.
+
+This repository is available for viewing and educational evaluation
+only. No license is granted for copying, modification, redistribution,
+or commercial use. See [LICENSE.md](LICENSE.md) for details.
